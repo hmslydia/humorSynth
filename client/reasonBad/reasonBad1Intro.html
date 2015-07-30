@@ -1,0 +1,139 @@
+<template name="reasonBadDescription">
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'>  
+        <p>
+          <span class="newTechnique">New Technique!</span> Now we are going to the same thing, but we are going to look at reasons something is bad.
+        </p>
+
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'> 
+        {{#each examples}}
+          <div class="spacer">  
+            {{> UI.dynamic template=exampleTemplate}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+ 
+  
+  
+  
+
+  
+ 
+  
+  
+</template>
+
+
+
+
+<template name="reasonBadExample">
+    <div class="exampleBox">
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="table-label center">
+            Headline
+          </div>
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <div class="table-label center">Joke</div>
+        </div>  
+      </div>
+      
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="headlineSmall">{{{headline}}}</div>
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <span class="jokeText">{{{voice}}}</span>          
+        </div>  
+      </div>     
+      
+      <div class='row'> 
+        <div class='col-md-12'>&nbsp;</div>    
+      </div>
+
+    
+    
+      <div class='row'>  
+        <div class='col-md-0'></div> 
+        
+        <div class='col-md-2'>
+          <div class="table-label">Headline Aspect</div>
+        </div>   
+        <div class='col-md-4'>
+          <span class="focusPoint center annotation">{{annotation1}}</span>
+        </div> 
+        
+        
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Indication it's good:
+          </div>
+        </div>  
+        <div class='col-md-4'>
+          <span class="focusPoint3 center annotation">{{{annotation2}}}</span>
+          
+        </div>  
+      </div> 
+  
+  
+ <br>   
+ 
+ <div class='row'>  
+        <div class='col-md-0'></div> 
+        
+        <div class='col-md-2'>
+          <div class="table-label">POV / Person it's good for</div>
+        </div>   
+        <div class='col-md-4'>
+          <span class="focusPoint center annotation">{{annotation3}}</span>
+        </div> 
+        
+        
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Phrase indicating reason it's good:
+          </div>
+        </div>  
+        <div class='col-md-4'>
+          <span class="focusPoint2 center annotation">{{{annotation4}}}</span>
+          
+        </div>  
+      </div> 
+    
+      <div class='row'> 
+        <div class='col-md-12'> &nbsp;</div>    
+      </div>
+      
+      
+      <div class='row'> 
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Explanation:
+          </div>
+        </div>
+        <div class='col-md-10'>
+          {{{annotation5}}}
+        </div>
+      </div>
+    
+    </div>
+</template>
+
+

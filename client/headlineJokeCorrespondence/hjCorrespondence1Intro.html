@@ -1,0 +1,187 @@
+
+<template name="headlineJokeCorrespondenceIntroDescription">
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <p>
+        Our jokes start with a headline. Our job is to transform that headline into a joke. The first step of this process is to read the headline carefully and decompose it into "<b>aspects."</b>  
+        </p>
+        <p>
+        <b>An aspect is any isolated component of a headline. </b>That definition isn't very clear, but we can show you examples of headline decomposed into aspects to demonstrate what we mean. 
+        </p>
+        <p>
+        Why are we decomposing headlines into aspect? Because many techniques for writing jokes use these aspects. Instead of thinking of the headline holistically as it was intended, we are going to isolate each aspect of the headline and think about each aspect separately, then put it back together in unexpected ways to create humor. 
+        </p>
+        
+        <p>
+        Here is an example of a headline and several aspects we isolated in it. Aspects are highlighted in <span class="focusPoint">blue</span>:
+        </p>
+        <p>
+        
+          
+        {{#each examples}}          
+          <div class="exampleBox">
+            <div class="headlineSmall">
+              {{headline}}
+            </div>
+          <br>
+        
+          {{#with headlineChunks}}
+            {{> chunkExample}}
+          {{/with}} 
+          </div>
+          <br>  
+          <p>
+            If you look at the jokes for this headline, you can see each joke uses many of the aspects of the headline, but it reuses them in a different context than the headline intended. Over the course of these exercises, we will teach you how to make all these transformations.
+          </p>
+          <p>
+            
+            Reused aspects are highlighted in <span class="focusPoint2">red</span>:
+          </p>          
+          
+          {{#with jokeChunkCorrespondence.[0]}}   
+          <div class="exampleBox">
+            {{> UI.dynamic template=exampleTemplate}} 
+          </div>  
+          {{/with}}
+          
+          <br>
+          <p>
+           Here is another joke for the same headline. Notice that some of the same headline aspects are reused in the new joke: 
+          </p>
+          
+          {{#with jokeChunkCorrespondence.[1]}}   
+            <div class="exampleBox">
+              {{> UI.dynamic template=exampleTemplate}} 
+            </div>  
+          {{/with}}
+          
+        {{/each}}
+        
+        
+        <br>  
+        </p>
+
+
+
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+
+    {{#each examples}}
+      <div class="spacer">
+        {{> UI.dynamic template=exampleTemplate}} 
+      </div>  
+    {{/each}}
+
+</template>
+
+
+
+<template name="chunkExample">
+
+  
+
+  <div class='row'> 
+    <div class='col-md-4'>    
+      <div class="table-label ">Aspect</div>
+    </div> 
+    <div class='col-md-8'>    
+      <div class="table-label ">Position in headline</div>
+    </div>
+  </div> 
+
+  {{#each this}}
+    <div class='row'> 
+      <div class='col-md-4'>    
+        <span class="focusPoint">{{{chunk}}}</span>
+      </div> 
+      <div class='col-md-8'>    
+        {{{sentence}}}
+      </div>
+    </div> 
+  {{/each}}
+  
+</template>
+
+
+<template name="hjCorrespondenceExample">
+    <div class='row'>   
+
+      <div class='col-md-9'>
+        <div class="headlineSmall">
+          {{headline}}
+        </div>        
+      </div>
+ 
+    </div>
+
+    <br>
+
+    <div class='row'>   
+
+      <div class='col-md-3'>
+        
+      </div>
+      <div class='col-md-7'>
+        <div class="table-label center">
+          Joke
+        </div>
+      </div> 
+      <div class='col-md-2'>
+        <div class="table-label center">
+        </div>
+      </div>   
+    </div>
+    
+
+    
+    <div class='row'> 
+      <div class='col-md-3'>
+        <img src="./../{{voice_img}}">
+      </div> 
+      
+      <div class='col-md-7'>        
+        <span class="jokeText">"{{{joke}}}"</span>
+      </div>       
+      <div class='col-md-2'></div> 
+    </div> 
+    
+    <br>
+    
+    <div class='row'>   
+      <div class='col-md-0'></div>
+      <div class='col-md-3'>
+        <div class="table-label">
+          Headline aspect
+        </div>
+      </div>  
+      <div class='col-md-9'>
+        <div class="table-label">
+          Joke Fragment and aspect
+        </div>
+      </div> 
+ 
+    </div>
+    
+    {{#each annotations}}
+      {{> hjCorrespondenceAnnotations}}
+    {{/each}}
+
+</template>
+
+<template name="hjCorrespondenceAnnotations">
+<br>
+  <div class='row'>  
+    <div class='col-md-0'></div> 
+ 
+    <div class='col-md-3'>
+      <span class="focusPoint">{{headlineChunk}}</span>
+    </div> 
+    
+    <div class='col-md-9'>     
+     <span class="jokeText">"{{{jokeAnnotated}}}"</span><br>
+     {{{comment}}} 
+    </div>  
+  </div> 
+</template>

@@ -1,0 +1,189 @@
+.title{
+  font-size: xx-large;
+  font-family: "arial black";
+  padding-bottom: 15px;
+}
+
+
+.headline-box{
+  border: 1px solid black;
+  margin: 5px;
+  padding: 0px 10px 10px 10px;
+}
+
+.headline h1{
+  font-size: 24px;
+}
+
+/*
+  
+  Radio Buttons
+  
+  */
+  
+  
+.radio_answer_text{
+  margin-left:  5px;
+}
+
+tr.spaceUnder > td {
+  padding-bottom: .5em;
+} 
+
+.newTechnique {
+  color: red;
+}
+/*
+.answer{
+  width: 300px;
+} 
+*/
+.report{
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #FFFFE5;
+}
+
+.reaction-textarea{
+  height: 100px;
+  width: 400px;
+}
+textarea:disabled {
+  background: #ddd;
+}
+
+.start-button-container{
+  width: 365px;
+}
+
+.timer{
+  font-size: medium;
+  font-weight: bold;
+}
+
+.part-title{
+  font-size:large;
+  font-weight: bold;
+}
+
+.analysis-joke{
+  width: 100%;
+}
+
+.analysis-headline{
+  width: 100%;
+}
+
+.analysis-relationship{
+  width: 100%;
+}
+
+.list-noun{
+  width: 200px;
+  margin-right: 10px;
+}
+
+.list-associated-noun{
+  width: 400px;
+}
+
+.radio-container{
+  height: 27px;
+}
+
+.radio-container .radio_answer_text{
+  margin-left:  2px;
+  margin-right:  5px;
+}
+
+.highlighted-example{
+  background-color: yellow;
+}
+
+.example-box{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
+
+.headlineSmall{
+  font-family: georgia;
+  font-size: x-large;
+}
+
+.table-label{
+  color:grey;
+
+}
+
+.spacer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.focusPoint0{
+  color: black;
+  font-weight: bold;
+}
+
+.focusPoint{
+  color: blue;
+  font-weight: bold;
+}
+
+.focusPoint2{
+  color: red;
+  font-weight: bold;
+}
+
+.focusPoint3{
+  color: green;
+  font-weight: bold;
+}
+
+.plain{
+  color: black;
+  font-weight: normal;
+}
+
+
+.center{
+  text-align: center 
+}
+
+.exerciseContainer{
+  padding: 20px 10px 20px 10px;
+  margin: 20px 0px 20px 0px;
+  border: 1px solid black;
+}
+
+.exampleBox{
+  padding: 20px 10px 20px 10px;
+  margin: 20px 0px 20px 0px;
+  border: 1px solid black;
+}
+
+.jokeText{
+  font-style: italic;
+}
+
+.sample{
+  
+}
+
+.sampleHeadline{
+  font-size: large;
+  font-family: "arial black"; 
+}
+
+.sampleBox{
+  background-color: #ccc;
+  border: 1px solid black;  
+  padding: 20px 10px 20px 10px;
+  
+}
+
+.sampleBoxContainer{
+  padding: 20px 10px 20px 10px;
+  margin: 20px 0px 20px 0px;  
+}

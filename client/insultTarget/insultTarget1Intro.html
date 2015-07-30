@@ -1,0 +1,121 @@
+<template name="insultTargetDescription">
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'>  
+        <p>
+          <span class="newTechnique">New Technique!</span>
+          Now we are going to introduce you to the micro-technique of "Insult Targets" On this page we will define the micro-technique  and show you examples, next you will practice identifying it in real jokes, and lastly you will do exercises using this technique.
+        </p>
+        
+        
+        <p>
+          A headline containing an aspect such "movie sequels", that you have a negative association with such as "all sequels suck". That negative association can be helpful in crafting an insult in a joke.          
+
+        </p>
+        
+        <p>
+          Here are some examples of a headline aspect with a negative association and the part of the joke that expresses the insult or negativity towards that aspect.
+        </p>
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'> 
+        {{#each examples}}
+          <div class="spacer">  
+            {{> UI.dynamic template=exampleTemplate}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+ 
+  
+  
+  
+
+  
+ 
+  
+  
+</template>
+
+
+
+
+<template name="insultTargetExample">
+    <div class="exampleBox">
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="table-label center">
+            Headline
+          </div>
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <div class="table-label center">Joke</div>
+        </div>  
+      </div>
+      
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="headlineSmall">{{{headline}}}</div>
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <span class="jokeText">"{{{voice}}}"</span>          
+        </div>  
+      </div>     
+      
+      <div class='row'> 
+        <div class='col-md-12'>&nbsp;</div>    
+      </div>
+
+    
+    
+      <div class='row'>  
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">Headline Aspect</div>
+        </div>   
+        <div class='col-md-4'>
+          <span class="focusPoint center annotation">{{annotation1}}</span>
+        </div> 
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Negativity Expression
+          </div>
+        </div>  
+        <div class='col-md-4'>
+          <span class="focusPoint2 center annotation">{{annotation2}}</span>
+          
+        </div>  
+      </div> 
+    
+    
+      <div class='row'> 
+        <div class='col-md-12'> &nbsp;</div>    
+      </div>
+      
+      
+      <div class='row'> 
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Explanation:
+          </div>
+        </div>
+        <div class='col-md-10'>
+          {{annotation3}}
+        </div>
+      </div>
+    
+    </div>
+</template>
+
+

@@ -1,0 +1,168 @@
+<template name="inconsistentStoriesDescription">
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'>  
+        <p>
+          So far, we have shown you how one word or phrase can trigger another word or phrase used in a joke. Obviously, a joke needs more than just a word or phrase, it also needs an over-arching structure for the way it's phrased. We are going to introduce you to a few different strategies for phrasing a joke.
+        </p>
+        <p>
+          One way to construct a joke to to tell two inconsistent stories. This is one way of violating people's expectations: you set up one expect with one story, then violate that expectation with a different story that contradicts the first story.
+         </p>
+        <p> 
+          The "stories" we are talking are really simple. For example, one story could be <i>"Customers shouldn't break things in stories"</i>, and an inconsistent story would be <i>"It's okay to break things at a Best Buy, but not an Apple Store.</i>" 
+         </p>
+        <p> 
+          You can tell if there are two stories happening in the same joke if there is one aspect of the joke that is consistent with another aspect of the joke. Let's see some examples. Later you will get a chance to identify         
+          
+        </p> 
+        
+        <!--  SHOULD I INSERT EXMAPLES OF INCONSISTENT STORY TYPES?
+        <p>
+          Here are some examples of jokes that are phrased as a reason the headline (or an aspect of the headline) is good. We decompose the reason it's good into three parts:
+          
+          <ul>
+            <li>An aspect is good (or bad)</li>
+            <li>Reason it's good</li>
+            <li>Who it's good for, or from what person's perspective it is good.</li>
+          </ul>
+        </p>
+        -->
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'> 
+        {{#each examples}}
+          <div class="spacer">  
+            {{> UI.dynamic template=exampleTemplate}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+ 
+  
+  
+  
+
+  
+ 
+  
+  
+</template>
+
+
+
+
+<template name="inconsistentStoriesExample">
+    <div class="exampleBox">
+
+      
+      <div class='row'> 
+        <div class='col-md-2'></div>    
+        <div class='col-md-8'>
+          <div class="headlineSmall">{{{headline}}}</div> 
+        </div> 
+        <div class='col-md-2'></div>   
+      </div> 
+       
+            <div class='row'> 
+        <div class='col-md-2'></div>    
+        <div class='col-md-8'>
+          <div class="">{{{description}}}</div> 
+        </div> 
+        <div class='col-md-2'></div>   
+      </div>  
+          
+      <div class='row'> 
+        <div class='col-md-2'></div> 
+        <div class='col-md-2'>
+          <img src="./../{{voice_img}}"/>
+        </div>    
+        <div class='col-md-6'>
+          <span class="jokeText">{{{voice}}}</span>  
+        </div> 
+        <div class='col-md-2'></div>   
+      </div>  
+           
+      <div class='row'> 
+        <div class='col-md-12'>&nbsp;</div>    
+      </div>
+<!--
+       <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="table-label ">
+            Inconsistent Joke Aspects
+          </div>
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <div class="table-label ">Stories</div>
+        </div>  
+      </div>   
+-->    
+      <div class='row'>  
+  
+        <div class='col-md-4'>
+          <span class="focusPoint">"{{annotation1}}"</span>
+        </div> 
+
+        <div class='col-md-3'>
+          <div class="table-label center">
+          is inconsistent with
+          </div>
+        </div>  
+        <div class='col-md-4'>
+          <span class="focusPoint2">"{{{annotation2}}}"</span>
+          
+        </div>  
+      </div> 
+    
+      <br>
+      <div class='row'> 
+        <div class='col-md-4'>
+          <div class="table-label">
+            Story 1
+          </div>
+        </div>
+        <div class='col-md-3'>
+          <div class="table-label">
+            
+          </div>
+        </div>
+        <div class='col-md-4'>
+          <div class="table-label">
+            Story 2
+          </div>
+        </div>
+      </div>
+
+         
+ 
+      <div class='row'>  
+  
+        <div class='col-md-4'>
+          <span class="">{{{annotation3}}}</span>
+        </div> 
+
+        <div class='col-md-3'>
+          <div class="table-label center">
+          contrasts with
+          </div>
+        </div>  
+        <div class='col-md-5'>
+          <span class="">{{{annotation4}}}</span>
+          
+        </div>  
+      </div> 
+      
+      
+
+    
+    </div>
+</template>
+
+

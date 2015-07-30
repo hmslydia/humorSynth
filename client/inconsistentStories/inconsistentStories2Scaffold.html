@@ -1,0 +1,124 @@
+<template name="inconsistentStoriesScaffoldDescription">
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'>  
+        <p>
+        Now you can practice identifying the detail or example in the joke and the aspect of the headline that inspired it.
+        </p>
+        <p>
+        
+        Once you have entered your answers, you can press "Show Answers" to see our answers.
+               
+        </p>  
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+    
+  <div class="">
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        {{#each examples}}          
+          {{> UI.dynamic template=exampleTemplate}}            
+        {{/each}}
+      </div> 
+      <div class='col-md-2'></div> 
+    </div>
+  </div>
+</template>
+
+
+
+
+
+
+<template name="inconsistentStoriesScaffold">
+    <div class="exampleBox">
+
+      
+      <div class='row'> 
+        <div class='col-md-2'></div>    
+        <div class='col-md-8'>
+          <div class="headlineSmall">{{{headline}}}</div> 
+        </div> 
+        <div class='col-md-2'></div>   
+      </div> 
+       
+            <div class='row'> 
+        <div class='col-md-2'></div>    
+        <div class='col-md-8'>
+          <div class="">{{{description}}}</div> 
+        </div> 
+        <div class='col-md-2'></div>   
+      </div>  
+          
+      <div class='row'> 
+        <div class='col-md-2'></div> 
+        <div class='col-md-2'>
+          <img src="./../{{voice_img}}"/>
+        </div>    
+        <div class='col-md-6'>
+          <span class="jokeText">{{{voice}}}</span>  
+        </div> 
+        <div class='col-md-2'></div>   
+      </div>  
+           
+      <div class='row'> 
+        <div class='col-md-12'>&nbsp;</div>    
+      </div>
+  
+      <div class='row'>  
+  
+        <div class='col-md-4'>
+          <span class="focusPoint">"{{annotation1}}"</span>
+        </div> 
+
+        <div class='col-md-3'>
+          <div class="table-label center">
+          is inconsistent with
+          </div>
+        </div>  
+        <div class='col-md-4'>
+          <span class="focusPoint2">"{{{annotation2}}}"</span>
+          
+        </div>  
+      </div> 
+    
+      <br>
+      <div class='row'> 
+        <div class='col-md-4'>
+          <div class="table-label">
+            Story 1
+          </div>
+        </div>
+        <div class='col-md-3'>
+          <div class="table-label">
+            
+          </div>
+        </div>
+        <div class='col-md-4'>
+          <div class="table-label">
+            Story 2
+          </div>
+        </div>
+      </div>
+
+         
+ 
+      <div class='row'>    
+        <div class='col-md-4'>
+          <span class="">{{{annotation3}}}</span>
+        </div> 
+
+        <div class='col-md-3'>
+          <div class="table-label center">
+          contrasts with
+          </div>
+        </div>  
+        <div class='col-md-5'>
+          <span class="">{{{annotation4}}}</span>
+          
+        </div>  
+      </div>     
+    </div>
+</template>

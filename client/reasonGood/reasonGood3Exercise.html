@@ -1,0 +1,250 @@
+
+<template name="detailsExerciseInstructions">
+  <div class='row'>
+    <div class='col-md-2'></div>
+    <div class='col-md-8'>
+      <p>
+      In this exercise, find an aspect of the headline and a detail or example that you might include in a joke. There are many possible answers. Click "Show Answers" to see ours, but don't worry about matching ours. Just notice the variety of answers possible.
+      </p>
+      
+    </div>
+    <div class='col-md-2'></div>
+  </div> 
+  
+  <!--
+  {{> alternateChunkExampleSample}}
+  -->
+  <div class='row'>
+    <div class='col-md-2'></div>
+    <div class='col-md-8'>
+       Now try these exercises:             
+    </div>
+    <div class='col-md-2'></div>
+  </div> 
+  
+  <div class='row'> 
+    <div class='col-md-2'></div>  
+    <div class='col-md-8'>
+
+      {{#each examples}}
+        <div class="spacer">
+          {{> UI.dynamic template=exampleTemplate}} 
+        </div>  
+      {{/each}}
+    </div>
+    <div class='col-md-2'></div>
+  </div>
+ 
+</template>
+
+<!--
+<template name="alternateChunkExampleSample">
+<div class="sampleBoxContainer">
+
+  <div class='row'> 
+    <div class='col-md-2'>  
+    </div>
+    <div class='col-md-8'>  
+      <div class="sampleHeadline">Sample</div>
+    </div>
+    <div class='col-md-2'>  
+    </div>
+  </div>
+
+
+
+  <div class='row'> 
+    <div class='col-md-2'>  
+    </div>  
+    <div class='col-md-8 sampleBox'>
+      <div class='row'>    
+        <div class='col-md-6'>
+          <div class="center">
+            Headline
+          </div> 
+        </div>   
+        <div class='col-md-6'>
+          <div class="center">
+            Joke
+          </div> 
+        </div>  
+      </div> 
+           
+      <div class='row'> 
+     
+        <div class='col-md-6'>
+          <div class="headlineSmall">
+          Baskin-Robbins To Honor Veterans With ‘First Class Camouflage’ Ice CreamXXXX
+          </div>
+        </div> 
+  
+        <div class='col-md-6'>   
+          <span class="jokeText sampleAnswer sample1" style="display:none;">     
+            This sure makes <b>Ben & Jerry’s</b> look like a bunch of flag-burning ISIS sympathizers.
+          </span>
+        </div>  
+         
+      </div>  
+      <div class='row'>  
+        
+        <div class='col-md-1'>
+          Headline Chunk
+        </div>   
+        <div class='col-md-5'>
+          <span class=" annotation"><input type="text" placeholder="your answer here"/></span>
+        </div> 
+        
+        <div class='col-md-1'>
+          
+          Alternate 
+          
+        </div>  
+        <div class='col-md-5'>
+          <span class=" annotation"><input type="text" placeholder="your answer here"/></span>
+          
+        </div>  
+      </div> 
+       
+      <div class='row'>  
+        <div class='col-md-12'>
+          <div class="center">
+            <button class=" btn btn-success showSampleAnswer" data-headlineid="sample1"> Show Joke</button>       
+          </div>
+        </div>         
+      </div>  
+      
+      <div class="sampleAnswer sample1" style="display:none">
+      <div class='row'>  
+        <div class='col-md-1'>
+          <div class="table-label"></div>
+        </div>   
+        <div class='col-md-5'>
+          <span class="focusPoint  annotation">Baskin-Robbins</span>
+        </div> 
+        <div class='col-md-1'></div>  
+        <div class='col-md-5'>
+          <span class="focusPoint  annotation">Ben & Jerry’s</span>
+          
+        </div>  
+      </div> 
+    
+
+    </div> 
+         
+      
+    </div>  
+    <div class='col-md-2'></div>  
+  </div>  
+
+</div>
+</template>
+
+-->
+
+<template name="detailsExercise">
+  <div class="exerciseContainer">
+    <div class='row'> 
+      <div class='col-md-0'></div>    
+      <div class='col-md-6'>
+        <div class="table-label center">Headline</div>
+      </div> 
+      <div class='col-md-0'></div>  
+      <div class='col-md-6'>
+        <div class="table-label center"> Joke</div>
+      </div>  
+    </div>
+    
+    <div class='row inputs'> 
+      <div class='col-md-0'>
+      </div>    
+      <div class='col-md-6'>
+        <div class="headlineSmall">
+        {{{headline}}}
+        </div>
+      </div> 
+      <div class='col-md-0'>
+        <div class="table-label">
+          
+        </div>
+      </div>  
+      <div class='col-md-6'>   
+        <span class="ourAnswers" style="display:none">     
+          <span class="jokeText">"{{{voice}}}"</span>
+        </span>
+      </div>  
+    </div> 
+    
+    
+    <div class='row'> 
+      <div class='col-md-12'>
+        &nbsp;
+      </div>    
+    </div>
+
+    <div class='row'>  
+      <div class='col-md-0'></div> 
+      <div class='col-md-1'>
+        <div class="table-label">Headline Aspect</div>
+      </div>   
+      <div class='col-md-5'>
+        <span class="focusPoint  annotation"><input type="text" size="35"/></span>
+      </div> 
+      <div class='col-md-0'></div> 
+      <div class='col-md-1'>
+        <div class="table-label">
+        Detail/ Example
+        </div>
+      </div>  
+      <div class='col-md-5'>
+        <span class="focusPoint2  annotation"><input type="text" size="35"/></span>
+        
+      </div>  
+    </div> 
+    <br>
+    <div class='row'>  
+      <div class='col-md-12'>
+        <div class="center">
+          <button class="showAnswers btn btn-success"> Show Joke</button>       
+        </div>
+      </div> 
+      
+    </div> 
+    
+
+    
+    <div class="ourAnswers" style="display:none">
+      <div class='row'>  
+        <div class='col-md-1'></div>   
+        <div class='col-md-5'>
+          <span class="focusPoint annotation">{{annotation1}}</span>
+        </div> 
+        <div class='col-md-1'></div>  
+        <div class='col-md-5'>
+          <span class="focusPoint2 annotation">{{annotation2}}</span>          
+        </div>  
+      </div> 
+    
+    
+      <div class='row'> 
+        <div class='col-md-12'>
+          &nbsp;
+        </div>    
+      </div>
+      
+      <!--
+      <div class='row'> 
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Explanation:
+          </div>
+        </div>
+        <div class='col-md-10'>
+          {{annotation3}}
+        </div>
+      </div>
+      -->
+    </div> 
+  </div>
+</template>
+

@@ -1,0 +1,123 @@
+<template name="povScaffoldDescription">
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'>  
+        <p>
+        Now you can practice identifying point of view (POV) in a joke and the aspect of the headline that inspired it.
+        </p>
+        <p>
+        
+        Once you have entered your answers, you can press "Show Answers" to see our answers.
+               
+        </p>  
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+    
+  <div class="">
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        {{#each examples}}          
+          {{> UI.dynamic template=exampleTemplate}}            
+        {{/each}}
+      </div> 
+      <div class='col-md-2'></div> 
+    </div>
+  </div>
+</template>
+
+
+
+
+
+
+<template name="povScaffold">
+  <div class="exerciseContainer">
+    <div class='row'> 
+      <div class='col-md-0'></div>    
+      <div class='col-md-6'>
+        <div class="table-label center">
+          Headline
+        </div>
+      </div> 
+      <div class='col-md-0'></div>  
+      <div class='col-md-6'>
+        <div class="table-label center">Joke</div>
+      </div>  
+    </div>
+    
+    <div class='row'> 
+      <div class='col-md-0'></div>    
+      <div class='col-md-6'>
+        <div class="headlineSmall">{{{headline}}}</div>
+      </div> 
+      <div class='col-md-0'></div>  
+      <div class='col-md-6'><span class="jokeText">"{{{voice}}}"</span></div>  
+    </div>     
+    
+    <div class='row'> 
+      <div class='col-md-12'>&nbsp;</div>    
+    </div>
+
+    <div class='row'>  
+      <div class='col-md-0'></div> 
+      <div class='col-md-1'>
+        <div class="table-label">Headline Aspect</div>
+      </div>   
+      <div class='col-md-5'>
+        <span class="focusPoint center annotation"><input type="text" size="35"/></span>
+      </div> 
+      <div class='col-md-0'></div> 
+      <div class='col-md-1'>
+        <div class="table-label">
+        POV
+        </div>
+      </div>  
+      <div class='col-md-5'>
+        <span class="focusPoint2 center annotation"><input type="text" size="35"/></span>  
+      </div>  
+    </div> 
+    <br>
+    <div class='row'>  
+      <div class='col-md-12'>
+        <div class="center">
+          <button class="showAnswers btn btn-success"> Show Answers</button>       
+        </div>
+      </div>       
+    </div> 
+    
+    <div class="ourAnswers" style="display:none">
+      <div class='row'>  
+        <div class='col-md-1'></div>   
+        <div class='col-md-5'>
+          <span class="focusPoint annotation">{{annotation1}}</span>
+        </div> 
+        
+        <div class='col-md-1'></div>  
+        <div class='col-md-5'>
+          <span class="focusPoint2 annotation">{{annotation2}}</span>          
+        </div> 
+      </div>
+      
+      <!--
+      <div class='row'> 
+        <div class='col-md-12'> &nbsp;</div>    
+      </div>
+      
+      
+      <div class='row'> 
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Explanation:
+          </div>
+        </div>
+        <div class='col-md-10'>
+          {{annotation3}}
+        </div>
+      </div> 
+      -->
+    </div>
+  </div> 
+</template>

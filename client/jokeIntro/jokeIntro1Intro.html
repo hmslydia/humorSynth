@@ -1,0 +1,124 @@
+<template name="jokeFormatIntroDescription">
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+  <p>
+  Although there are many kinds of jokes  - slapstick, insults, observational humor, absurdism, fart jokes - we are going to focus on only one type of joke for this process.  
+  </p>
+  
+  <p>
+  The jokes we are focusing on are all "man on the street" style reactions to <b>real news headlines</b>. Many comedians have used this form of news satire. The examples we are showing you are from a section of The Onion called American Voice. Most sections of The Onion invent fake headlines. This section is different. It is their chance to make fun of the appalling, ridiculous, weird, and unnecessary headlines that really happened. 
+  </p>
+  
+  <p>
+  Below is an example of a <b>real news headline</b> and three "man on the street" style responses from The Onion.
+  </p>
+
+  <p>
+    You may or may not find all of these funny. That's perfectly okay. They may not be your taste, they may not be that funny. Hopefully you can recognize that they are jokes and that somebody might find funny. Sometimes the jokes that are not that funny are the best to learn from because you can more easily see how they are constructed. 
+  </p>
+
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+    <br>
+
+  
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        {{#each examples}}
+        <span class="sampleHeadline">Example</span>
+          <div class="exampleBox">
+            {{> UI.dynamic template=exampleTemplate}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+  
+
+</template>
+
+
+<template name="fullJokeExample">
+  <div class='row'> 
+      <div class='col-md-2'>
+        <div class="table-label center">
+          Headline
+        </div>        
+      </div>    
+      <div class='col-md-10'>
+        <div class="headlineSmall">
+        {{{headline}}}
+        </div>
+      </div> 
+
+  </div>
+  
+  
+  <div class='row'> 
+      <div class='col-md-2'>
+        <div class="table-label center">
+          
+        </div>        
+      </div>    
+      <div class='col-md-10'>
+        {{description}}<br><br>
+      </div> 
+
+  </div>
+  
+  <div class='row'> 
+    <div class='col-md-2'>
+      <div class="table-label center">
+        Joke 1
+      </div>        
+    </div>    
+
+    <div class='col-md-3'>
+      <img src="./../{{voice1_img}}"/>
+    </div>
+    
+    <div class='col-md-7'>
+      <br>
+      <i>"{{{voice1}}}"</i>
+    </div> 
+  </div>
+
+  <div class='row'> 
+    <div class='col-md-2'>
+      <div class="table-label center">
+        Joke 2
+      </div>        
+    </div>    
+
+    <div class='col-md-3'>
+      <img src="./../{{voice2_img}}"/>
+    </div>
+    
+    <div class='col-md-7'>
+      <br>
+      <i>"{{{voice2}}}"</i>
+    </div> 
+  </div>
+  
+  <div class='row'> 
+    <div class='col-md-2'>
+      <div class="table-label center">
+        Joke 3
+      </div>        
+    </div>    
+
+    <div class='col-md-3'>
+      <img src="./../{{voice3_img}}"/>
+    </div>
+    
+    <div class='col-md-7'>
+      <br>
+      <i>"{{{voice3}}}"</i>
+    </div> 
+  </div>    
+
+</template>
+

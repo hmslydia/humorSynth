@@ -1,0 +1,107 @@
+<template name="hjCorrespondenceScaffoldDescription">
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'>  
+        <p>
+        Now it's your turn to practice identifing the aspects of a headline.
+        </p>
+        <ul>
+          <li>Read the headline</li>
+          <li>List aspects in the boxes below.</li>
+          <li>Click "Show Answers" when you are done to compare your answers to ours.</li>
+          <li>You aren't being graded, this is just practice.</li>
+        </ul>
+        <p>
+        Don't worry about getting the "right" answer. There is lots of room for interpretation, and we will be going into this topic in more depth later.
+        
+        </p>  
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+    
+  <div class='row'> 
+    <div class='col-md-2'></div>
+    <div class='col-md-8'>   
+      {{#each examples}}          
+        <div class="exampleBox">
+        
+          <div class='row'> 
+            <div class='col-md-2'>
+              <div class="table-label">
+                Headline
+              </div>
+            </div>
+            <div class='col-md-8'> 
+              <div class="headlineSmall">
+                {{headline}}
+              </div>
+            </div>
+          </div>
+          
+          <br>
+          
+          <div class='row'> 
+            <div class='col-md-2'>
+              <div class="table-label">
+                Enter your headline chunks here:
+              </div>
+              
+            </div>
+            <div class='col-md-8'> {{> inputHeadlineChunks}} </div>
+          </div>
+          
+          <div class='row'> 
+            <div class='col-md-12 center'> 
+              <button class="btn btn-success" id="submitHeadlineChunks" data-headlineid="{{headlineId}}">See Answers</button>
+            </div>
+          </div> 
+          
+          <div class="headlineChunksAnswers {{headlineId}}" style="display: none;">
+              <div class='row'> 
+                <div class='col-md-2'></div>
+                <div class='col-md-10'>
+                  {{#with headlineChunks}}
+                    {{> chunkExample}}  
+                  {{/with}} 
+                  
+                </div>
+              </div>
+            
+            
+            <!--
+            Here are how three different jokes use these headline chunks:
+            <br>
+            {{#each jokeChunkCorrespondence}}   
+              <div class="exampleBox">
+                {{> UI.dynamic template=exampleTemplate}} 
+              </div>  
+            {{/each}}
+            
+            -->
+          </div>                         
+        </div>       
+      {{/each}}      
+      
+      
+    </div>
+    <div class='col-md-2'></div>
+  </div> 
+  
+
+
+</template>
+
+<template name="inputHeadlineChunks">
+  <div class='row'> 
+    <div class='col-md-6'><input class="focusPoint" type="text" size="50" style="margin-bottom:5px;"></div>
+  </div>
+  <div class='row'> 
+    <div class='col-md-6'><input class="focusPoint" type="text" size="50" style="margin-bottom:5px;"></div>
+  </div>
+  <div class='row'> 
+    <div class='col-md-6'><input class="focusPoint" type="text" size="50" style="margin-bottom:5px;"></div>
+  </div>
+  <div class='row'> 
+    <div class='col-md-6'><input class="focusPoint" type="text" size="50" style="margin-bottom:5px;"></div> 
+  </div>
+</template>

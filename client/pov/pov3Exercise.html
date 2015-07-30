@@ -1,0 +1,150 @@
+
+<template name="povExerciseInstructions">
+  <div class='row'>
+    <div class='col-md-2'></div>
+    <div class='col-md-8'>
+      <p>
+      In this exercise, we have selected an aspect of the headline. We want you to write down one possible point of view <b>related</b> to that aspect.</p> This builds on the "related noun" technique. Obviously the headline contains an aspect such as "Dad", then one Point of view could be "Dad." But we want you to list related points of view such as "daughter" or "son."
+      <p>
+      
+       Click "Show Answers" to see ours, but don't worry about matching ours. Just notice the variety of answers possible.
+      </p>
+      
+    </div>
+    <div class='col-md-2'></div>
+  </div> 
+  
+  <!--
+  {{> alternateChunkExampleSample}}
+  -->
+  <div class='row'>
+    <div class='col-md-2'></div>
+    <div class='col-md-8'>
+       Now try these exercises:             
+    </div>
+    <div class='col-md-2'></div>
+  </div> 
+  
+  <div class='row'> 
+    <div class='col-md-2'></div>  
+    <div class='col-md-8'>
+
+      {{#each examples}}
+        <div class="spacer">
+          {{> UI.dynamic template=exampleTemplate}} 
+        </div>  
+      {{/each}}
+    </div>
+    <div class='col-md-2'></div>
+  </div>
+ 
+</template>
+
+
+<template name="povExercise">
+  <div class="exerciseContainer">
+    <div class='row'> 
+      <div class='col-md-0'></div>    
+      <div class='col-md-6'>
+        <div class="table-label center">Headline</div>
+      </div> 
+      <div class='col-md-0'></div>  
+      <div class='col-md-6'>
+        <div class="table-label center"> Joke</div>
+      </div>  
+    </div>
+    
+    <div class='row inputs'> 
+      <div class='col-md-0'>
+      </div>    
+      <div class='col-md-6'>
+        <div class="headlineSmall">
+        {{{headline}}}
+        </div>
+      </div> 
+      <div class='col-md-0'>
+        <div class="table-label">
+          
+        </div>
+      </div>  
+      <div class='col-md-6'>   
+        <span class="ourAnswers" style="display:none">     
+          <span class="jokeText">"{{{voice}}}"</span>
+        </span>
+      </div>  
+    </div> 
+    
+    
+    <div class='row'> 
+      <div class='col-md-12'>
+        &nbsp;
+      </div>    
+    </div>
+
+    <div class='row'>  
+      <div class='col-md-0'></div> 
+      <div class='col-md-1'>
+        <div class="table-label">Headline Chunk</div>
+      </div>   
+      <div class='col-md-5'>
+        <span class="focusPoint  annotation">{{annotation1}}</span>
+      </div> 
+      <div class='col-md-0'></div> 
+      <div class='col-md-1'>
+        <div class="table-label">
+        Related POV
+        </div>
+      </div>  
+      <div class='col-md-5'>
+        <span class="focusPoint2  annotation"><input type="text" size="35"/></span>
+        
+      </div>  
+    </div> 
+    <br>
+    <div class='row'>  
+      <div class='col-md-12'>
+        <div class="center">
+          <button class="showAnswers btn btn-success"> Show Joke</button>       
+        </div>
+      </div> 
+      
+    </div> 
+    
+
+    
+    <div class="ourAnswers" style="display:none">
+      <div class='row'>  
+        <div class='col-md-1'></div>   
+        <div class='col-md-5'>
+          <span class="focusPoint annotation"></span>
+        </div> 
+        <div class='col-md-1'></div>  
+        <div class='col-md-5'>
+          <span class="focusPoint2 annotation">{{annotation2}}</span>          
+        </div>  
+      </div> 
+    
+    
+      <div class='row'> 
+        <div class='col-md-12'>
+          &nbsp;
+        </div>    
+      </div>
+      
+      <!--
+      <div class='row'> 
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Explanation:
+          </div>
+        </div>
+        <div class='col-md-10'>
+          {{annotation3}}
+        </div>
+      </div>
+      -->
+    </div> 
+  </div>
+</template>
+

@@ -1,0 +1,150 @@
+<template name="reasonGoodDescription">
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'>  
+        <p>
+          <span class="newTechnique">New Technique!</span> So far, we have shown you how one word or phrase can trigger another word or phrase used in a joke. Obviously, a joke needs more than just a word or phrase, it also needs an over-arching structure for the way it's phrased. We are going to introduce you to a few different strategies for phrasing a joke.
+        </p>
+        <p>
+          The simplest way to phrase a joke is to have the speaker express a reason that a headline is good or bad. To simplify things we are going to start by focusing only on jokes that express why the headline is good. Sometimes the reason a headline is good is a response to the headline as a whole, and sometimes it is in response to as aspect of the headline, and it ignores or deemphasizes the other aspects of the headline.          
+          
+        </p>  
+        <p>
+          Here are some examples of jokes that are phrased as a reason the headline (or an aspect of the headline) is good. We decompose the reason it's good into three parts:
+          
+          <ul>
+            <li>Aspect of the headline being considered (or the entire headline) </li>
+            <li>Reason it's good</li>
+          </ul>
+        </p>
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'> 
+        {{#each examples}}
+          <div class="spacer">  
+            {{> UI.dynamic template=exampleTemplate}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+ 
+  
+  
+  
+
+  
+ 
+  
+  
+</template>
+
+
+
+
+<template name="reasonGoodExample">
+    <div class="exampleBox">
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="table-label center">
+            Headline
+          </div>
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <div class="table-label center">Joke</div>
+        </div>  
+      </div>
+      
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="headlineSmall">{{{headline}}}</div>
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <span class="jokeText">{{{voice}}}</span>          
+        </div>  
+      </div>     
+      
+      <div class='row'> 
+        <div class='col-md-12'>&nbsp;</div>    
+      </div>
+
+    
+    
+      <div class='row'>  
+        <div class='col-md-0'></div> 
+        
+        <div class='col-md-2'>
+          <div class="table-label">Headline Aspect</div>
+        </div>   
+        <div class='col-md-4'>
+          <span class="focusPoint center annotation">{{annotation1}}</span>
+        </div> 
+        
+        
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Indication it's good:
+          </div>
+        </div>  
+        <div class='col-md-4'>
+          <span class="focusPoint3 center annotation">{{{annotation2}}}</span>
+          
+        </div>  
+      </div> 
+  
+  
+ <br>   
+ 
+ <div class='row'>  
+        <div class='col-md-0'></div> 
+        
+        <div class='col-md-2'>
+          <div class="table-label">POV / Person it's good for</div>
+        </div>   
+        <div class='col-md-4'>
+          <span class="focusPoint center annotation">{{annotation3}}</span>
+        </div> 
+        
+        
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Phrase indicating reason it's good:
+          </div>
+        </div>  
+        <div class='col-md-4'>
+          <span class="focusPoint2 center annotation">{{{annotation4}}}</span>
+          
+        </div>  
+      </div> 
+    
+      <div class='row'> 
+        <div class='col-md-12'> &nbsp;</div>    
+      </div>
+      
+      
+      <div class='row'> 
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Explanation:
+          </div>
+        </div>
+        <div class='col-md-10'>
+          {{{annotation5}}}
+        </div>
+      </div>
+    
+    </div>
+</template>
+
+

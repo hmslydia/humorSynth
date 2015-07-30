@@ -1,0 +1,129 @@
+<template name="alternateChunksDescription">
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'>  
+        <p>
+          <span class="newTechnique">New Technique!</span>
+          Now we are going to introduce you to the micro-technique of "Related Nouns." On this page we will define the micro-technique  and show you examples, next you will practice identifying it in real jokes, and lastly you will do exercises using this technique.
+        </p>
+        <p>
+          In one of the previous joke examples, the headline had the aspect Apple Store and the joke made a reference to Best Buy. This is a joke writing technique called "<b>related nouns</b>." You pick as aspect of the headline (such as "Apple Store") and think of something that is in the same general category. Here, Apple Stores are an electronics retailer and Best Buy is another example of an Apple Store. Later, more techniques are applied to make a joke out of insulting Best Buy, but we'll get to that later.            
+          
+        </p>  
+        <p>
+          Brainstorming related noun is a good technique for making jokes. It is a very general concept, here are a list of types of related nouns:
+        <ul>
+          <li> BurgerKing / McDonald's</li>
+          <li> parent / child </li> 
+          <li> America / Canada (or Uzbekistan, or China) </li>
+          <li> Coke / Pepsi (or 7up, or Snapple, or Evian)</li>
+        </ul>
+
+        </p>
+        
+        <p>
+          Now, let's see some examples, practice and exercises to build your intuition for how to use the "related noun" technique.
+        </p>
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'> 
+        {{#each examples}}
+          <div class="spacer">  
+            {{> UI.dynamic template=exampleTemplate}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+ 
+  
+  
+  
+
+  
+ 
+  
+  
+</template>
+
+
+
+
+<template name="alternativeChunkExample">
+    <div class="exampleBox">
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="table-label center">
+            Headline
+          </div>
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <div class="table-label center">Joke</div>
+        </div>  
+      </div>
+      
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="headlineSmall">{{{headline}}}</div>
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <span class="jokeText">{{{voice}}}</span>          
+        </div>  
+      </div>     
+      
+      <div class='row'> 
+        <div class='col-md-12'>&nbsp;</div>    
+      </div>
+
+    
+    
+      <div class='row'>  
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">Headline Chunk</div>
+        </div>   
+        <div class='col-md-4'>
+          <span class="focusPoint center annotation">{{annotation1}}</span>
+        </div> 
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Related Noun
+          </div>
+        </div>  
+        <div class='col-md-4'>
+          <span class="focusPoint2 center annotation">{{annotation2}}</span>
+          
+        </div>  
+      </div> 
+    
+    
+      <div class='row'> 
+        <div class='col-md-12'> &nbsp;</div>    
+      </div>
+      
+      
+      <div class='row'> 
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Explanation:
+          </div>
+        </div>
+        <div class='col-md-10'>
+          {{annotation3}}
+        </div>
+      </div>
+    
+    </div>
+</template>
+
+
