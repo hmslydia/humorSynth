@@ -1,4 +1,4 @@
-Template.inconsistentStoriesScaffold.events({
+Template.sarcasmPart1Scaffold.events({
   'click .showAnswers ': function(event){
     //show the answer
     var f = $(event.currentTarget).closest(".row").siblings(".inputs").find(".ourAnswers").first().css("display", "inline") 
@@ -9,7 +9,9 @@ Template.inconsistentStoriesScaffold.events({
   },
 })
 
-Template.inconsistentStoriesExercise.events({
+
+
+Template.sarcasmPart2Scaffold.events({
   'click .showAnswers ': function(event){
     //show the answer
     var f = $(event.currentTarget).closest(".row").siblings(".inputs").find(".ourAnswers").first().css("display", "inline") 
@@ -19,4 +21,3 @@ Template.inconsistentStoriesExercise.events({
     $(event.currentTarget).css("display","none")
   },
 })
-

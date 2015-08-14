@@ -1,0 +1,112 @@
+<template name="sarcasmPart2ExampleDescription">
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'>  
+        <p>
+          <span class="newTechnique">New Technique!</span> 
+          Sarcasm is defined as an effect on the listener, when you know the opposite of what was said is what is really meant.<br>
+          sarcasmPart2ExampleDescription
+        </p>
+
+          <p>
+            Let's start with some examples of sarcastic statements and an analysis of what is really meant.
+          </p>
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'> 
+        {{#each e.examples}}
+          {{#with part2}}
+            <div class="spacer">  
+              {{> UI.dynamic template=exampleTemplate}} 
+            </div>  
+            {{/with}}
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+  </div>  
+</template>
+
+
+
+<template name="sarcasmPart2Example">
+    <div class="exampleBox">
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="table-label center">
+            Headline
+          </div>
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <div class="table-label center">Joke</div>
+        </div>  
+      </div>
+      
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="headlineSmall">{{{headlineAnnotated}}}</div><br>
+          {{{descriptionAnnotated}}}
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <span class="jokeText">{{{voice}}}</span>          
+        </div>  
+      </div>     
+      
+      <div class='row'> 
+        <div class='col-md-12'>&nbsp;</div>    
+      </div>
+
+
+
+      <div class='row'>          
+        <div class='col-md-3'></div> 
+        <div class='col-md-3'>
+          <div class="table-label">
+          Sarcastic message
+          </div>
+        </div>  
+        <div class='col-md-6'>
+          <span class="  annotation">{{{annotation1}}}</span>          
+        </div>  
+      </div> 
+      
+      <div class='row'>          
+        <div class='col-md-3'></div> 
+        <div class='col-md-3'>
+          <div class="table-label">
+          Intended message
+          </div>
+        </div>  
+        <div class='col-md-6'>
+          <span class="  annotation">{{{annotation2}}}</span>          
+        </div>  
+      </div> 
+      
+       <br>
+        
+      <div class='row'>          
+        <div class='col-md-3'></div> 
+        <div class='col-md-3'>
+          <div class="table-label">
+          Exaggeration
+          </div>
+        </div>  
+        <div class='col-md-6'>
+          <span class="  annotation">{{{annotation3}}}</span>          
+        </div>  
+      </div>      
+
+      
+    </div>
+
+</template>
+
+
+

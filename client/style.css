@@ -4,6 +4,9 @@
   padding-bottom: 15px;
 }
 
+.indirect{
+  font-style: italic;
+}
 
 .headline-box{
   border: 1px solid black;

@@ -1,0 +1,150 @@
+<template name="differentReasonDescription">
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'>  
+        <p>
+          <span class="newTechnique">New Technique!</span> Now that you've seen reaction reversals, we can show you another way to violate expectations. Instead of changing the reaction from positive to negative, or vice versa, you keep the same reaction as the expected reaction, but for a different reason.
+        </p>
+        <!--
+        <p>
+          The basis of a reaction reversal is when the headline is <span class="focusPoint0">positive</span>, the joke is <span class="focusPoint0">negative</span>. (or vice versa)
+          <ul>
+          <li>The headline is assumed to be a good (bad) thing, the joke finds something about it that is bad (good). </li>
+          <li>The headline is assumed to be a good (bad) thing, the joke finds a point of view from which it is bad (good).</li>
+          <li>The headline is assumed to be a good (bad) thing, the joke finds an aspect of it that is bad (good).</li>
+          <li>The headline is assumed to be a good (bad) thing, the joke finds a way for it to be neutral.</li>
+          </ul>
+        </p>  
+          <p>
+          Often, when finding the reversal of expectations, we have to ask why we expect the headline to be good (bad) to find something about. The process of reversing expectations will require us to ask why, to ask what the effects might be in the future, what the causes might have been in the past, what the solution to the problem might be, who is to blame, what people's intentions were, etc.. We will get into all that later.
+          </p>
+          -->
+          <p>
+            Let's start with some examples of "different reasons" that violate our expectations.
+          </p>
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'> 
+        {{#each examples}}
+          <div class="spacer">  
+            {{> UI.dynamic template=exampleTemplate}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+ 
+  
+  
+  
+
+  
+ 
+  
+  
+</template>
+
+
+
+
+<template name="differentReasonExample">
+    <div class="exampleBox">
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="table-label center">
+            Headline
+          </div>
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <div class="table-label center">Joke</div>
+        </div>  
+      </div>
+      
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="headlineSmall">{{{headlineAnnotated}}}</div><br>
+          {{{descriptionAnnotated}}}
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <span class="jokeText">{{{voice}}}</span>          
+        </div>  
+      </div>     
+      
+      <div class='row'> 
+        <div class='col-md-12'>&nbsp;</div>    
+      </div>
+
+      <br>
+    
+      <div class='row'>  
+        <div class='col-md-0'></div> 
+        
+        <div class='col-md-2'>
+          <div class="table-label">Exp. Reaction:</div>
+        </div>   
+        <div class='col-md-4'>
+          <span class="  annotation"><b>{{{annotation1}}}</b></span>
+        </div> 
+        
+        
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Reaction:
+          </div>
+        </div>  
+        <div class='col-md-4'>
+          <span class="  annotation"><b>{{{annotation2}}}</b></span>
+          
+        </div>  
+      </div> 
+
+      <div class='row'>  
+        <div class='col-md-0'></div> 
+        
+        <div class='col-md-2'>
+          <div class="table-label">Reason:</div>
+        </div>   
+        <div class='col-md-4'>
+          <span class="  annotation">{{{annotation3}}}</span>
+        </div> 
+        
+        
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Reason:
+          </div>
+        </div>  
+        <div class='col-md-4'>
+          <span class="  annotation">{{{annotation4}}}</span>
+          
+        </div>  
+      </div> 
+  
+       <br>   
+       {{#each connections}}
+          <div class='row'>  
+            
+            <div class='col-md-2'><div class="table-label">{{{label}}}</div></div> 
+            <div class='col-md-4'>{{{headlineAspect}}}</div> 
+            <div class='col-md-6'>{{{jokeAspect}}}</div> 
+            <div class='col-md-0'></div> 
+          </div>
+          <br>
+          
+       {{/each}}
+
+    </div>
+    
+</template>
+
+

@@ -1,0 +1,141 @@
+<template name="sarcasmPart1ScaffoldDescription">
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'>  
+        <p>
+          <span class="newTechnique">New Technique!</span> 
+          SARCASM SCAFFOLD
+        </p>
+
+          <p>
+            Let's start with some examples of sarcastic statements and an analysis of what is really meant.
+          </p>
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'> 
+        {{#each e.examples}}
+          {{#with part1}}
+            <div class="spacer">  
+              {{> UI.dynamic template=scaffoldTemplate}} 
+            </div>  
+            {{/with}}
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+  </div>  
+</template>
+
+
+
+
+<template name="sarcasmPart1Scaffold">
+    <div class="exampleBox">
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="table-label center">
+            Headline
+          </div>
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <div class="table-label center">Joke</div>
+        </div>  
+      </div>
+      
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="headlineSmall">{{{headlineAnnotated}}}</div><br>
+          {{{descriptionAnnotated}}}
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <span class="jokeText">{{{voice}}}</span>          
+        </div>  
+      </div>     
+      
+      <div class='row'> 
+        <div class='col-md-12'>&nbsp;</div>    
+      </div>
+
+
+
+    <div class='row'>  
+      <div class='row'>          
+        <div class='col-md-3'></div> 
+        <div class='col-md-3'>
+          <div class="table-label">
+          Sarcastic message
+          </div>
+        </div>  
+        <div class='col-md-6'>
+          <span class="focusPoint center annotation"><input type="text" size="35"/></span>         
+        </div>  
+      </div> 
+      
+      <div class='row'>          
+        <div class='col-md-3'></div> 
+        <div class='col-md-3'>
+          <div class="table-label">
+          Intended message
+          </div>
+        </div>  
+        <div class='col-md-6'>
+          <span class="focusPoint center annotation"><input type="text" size="35"/></span>         
+        </div>  
+      </div>       
+      
+
+    </div> 
+    
+    <br>
+    
+    <div class='row'>  
+      <div class='col-md-12'>
+        <div class="center">
+          <button class="showAnswers btn btn-success"> Show Answers</button>       
+        </div>
+      </div>       
+    </div> 
+    
+    <div class="ourAnswers" style="display:none">
+      <div class='row'>          
+        <div class='col-md-3'></div> 
+        <div class='col-md-3'>
+          <div class="table-label">
+          Sarcastic message
+          </div>
+        </div>  
+        <div class='col-md-6'>
+          <span class="  annotation">{{{annotation1}}}</span>          
+        </div>  
+      </div> 
+      
+      <div class='row'>          
+        <div class='col-md-3'></div> 
+        <div class='col-md-3'>
+          <div class="table-label">
+          Intended message
+          </div>
+        </div>  
+        <div class='col-md-6'>
+          <span class="  annotation">{{{annotation2}}}</span>          
+        </div>  
+      </div> 
+      
+    </div>
+    
+    
+      
+      
+    </div>
+
+</template>
+
+
+

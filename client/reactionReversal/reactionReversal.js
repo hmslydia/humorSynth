@@ -1,4 +1,4 @@
-Template.inconsistentStoriesScaffold.events({
+Template.reactionReversalScaffold.events({
   'click .showAnswers ': function(event){
     //show the answer
     var f = $(event.currentTarget).closest(".row").siblings(".inputs").find(".ourAnswers").first().css("display", "inline") 
@@ -9,7 +9,7 @@ Template.inconsistentStoriesScaffold.events({
   },
 })
 
-Template.inconsistentStoriesExercise.events({
+Template.reactionReversalExercise.events({
   'click .showAnswers ': function(event){
     //show the answer
     var f = $(event.currentTarget).closest(".row").siblings(".inputs").find(".ourAnswers").first().css("display", "inline") 

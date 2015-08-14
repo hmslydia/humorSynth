@@ -5,6 +5,23 @@ dataX["reasonBadIntro"] = {
   nextType: "reasonBadScaffold",
        
   examples: [
+  
+  {
+    "exampleTemplate": "reasonBadExample",
+    "headline": "People Bending iPhones At Apple Stores",
+    "headlineAnnotated": "People Bending iPhones At Apple Stores",
+    "headlineId": "37064",
+    "description": "Videos are surfacing online of people going into Apple stores and trying to bend the new iPhone 6 Plus to prove that it\u2019s possible, drawing criticism from internet commenters accusing them of being idiots. What do <i>you<\/i>think?",
+    "descriptionAnnotated": "Videos are surfacing online of people going into Apple stores and trying to bend the new iPhone 6 Plus to prove that it\u2019s possible, drawing criticism from internet commenters accusing them of being idiots. What do <i>you<\/i>think?",
+    "voice": "\u201cI just hope Apple can bounce back from this.\u201d",
+    "voice_img": "voice3md2.jpg",
+    "annotation1": "",
+    "annotation2": "",
+    "annotation3": "",
+    "annotation4": "",
+    "annotation5": ""
+  },
+    
     {
       exampleTemplate: "reasonBadExample",
       headline: "Nintendo Game Boy Turns 25",

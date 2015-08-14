@@ -1,0 +1,125 @@
+<template name="reactionReversalDescription">
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'>  
+        <p>
+          <span class="newTechnique">New Technique!</span> So far, we have shown you how one word or phrase can trigger another word or phrase used in a joke. Next, we are going to show you how a headline, or as aspect of a headline can trigger a <b>reaction</b> and how find a reverse of that reaction. This is a way of violating expectations, which is something people generally find funny.
+        </p>
+        <p>
+          The basis of a reaction reversal is when the headline is <span class="focusPoint0">positive</span>, the joke is <span class="focusPoint0">negative</span>. (or vice versa)
+          <ul>
+          <li>The headline is assumed to be a good (bad) thing, the joke finds something about it that is bad (good). </li>
+          <li>The headline is assumed to be a good (bad) thing, the joke finds a point of view from which it is bad (good).</li>
+          <li>The headline is assumed to be a good (bad) thing, the joke finds an aspect of it that is bad (good).</li>
+          <li>The headline is assumed to be a good (bad) thing, the joke finds a way for it to be neutral.</li>
+          </ul>
+        </p>  
+          <p>
+          Often, when finding the reversal of expectations, we have to ask why we expect the headline to be good (bad) to find something about. The process of reversing expectations will require us to ask why, to ask what the effects might be in the future, what the causes might have been in the past, what the solution to the problem might be, who is to blame, what people's intentions were, etc.. We will get into all that later.
+          </p>
+          <p>
+            Let's start with some examples of reaction reversals that violate our expectations.
+          </p>
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+
+  <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'> 
+        {{#each examples}}
+          <div class="spacer">  
+            {{> UI.dynamic template=exampleTemplate}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+  </div>
+ 
+  
+  
+  
+
+  
+ 
+  
+  
+</template>
+
+
+
+
+<template name="reactionReversalExample">
+    <div class="exampleBox">
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="table-label center">
+            Headline
+          </div>
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <div class="table-label center">Joke</div>
+        </div>  
+      </div>
+      
+      <div class='row'> 
+        <div class='col-md-0'></div>    
+        <div class='col-md-6'>
+          <div class="headlineSmall">{{{headlineAnnotated}}}</div><br>
+          {{{descriptionAnnotated}}}
+        </div> 
+        <div class='col-md-0'></div>  
+        <div class='col-md-6'>
+          <span class="jokeText">{{{voice}}}</span>          
+        </div>  
+      </div>     
+      
+      <div class='row'> 
+        <div class='col-md-12'>&nbsp;</div>    
+      </div>
+
+    
+    
+      <div class='row'>  
+        <div class='col-md-0'></div> 
+        
+        <div class='col-md-2'>
+          <div class="table-label">Expected Reaction</div>
+        </div>   
+        <div class='col-md-4'>
+          <span class="  annotation"><b>{{{annotation1}}}</b></span>
+        </div> 
+        
+        
+        <div class='col-md-0'></div> 
+        <div class='col-md-2'>
+          <div class="table-label">
+          Reaction:
+          </div>
+        </div>  
+        <div class='col-md-4'>
+          <span class="  annotation"><b>{{{annotation2}}}</b></span>
+          
+        </div>  
+      </div> 
+  
+       <br>   
+       {{#each connections}}
+          <div class='row'>  
+            
+            <div class='col-md-2'><div class="table-label">{{{label}}}</div></div> 
+            <div class='col-md-4'>{{{headlineAspect}}}</div> 
+            <div class='col-md-6'>{{{jokeAspect}}}</div> 
+            <div class='col-md-0'></div> 
+          </div>
+          <br>
+          
+       {{/each}}
+
+    </div>
+    
+</template>
+
+
