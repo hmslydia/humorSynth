@@ -1,0 +1,58 @@
+<template name="negativeSentimentExamples">
+
+
+  {{#each negativeSentimentExamples}}
+  <div class="exampleBox">
+    <div class='row'> 
+      <div class='col-md-2'>
+            
+      </div> 
+      <div class='col-md-3'>
+        <b>Headline </b>     
+      </div>    
+      <div class='col-md-4'>
+        <b>Joke </b>     
+      </div> 
+      <div class='col-md-3'>
+        <b>Sentiment <br>Indication</b>
+      </div> 
+  
+    </div>
+    
+    <div class="rowspacer">
+      <div class='row'> 
+        <div class='col-md-2'>
+             <div class="table-label center">Texts </div>
+        </div> 
+        <div class='col-md-3'>
+          {{headline}}      
+        </div>    
+        <div class='col-md-4'>
+          {{joke}}     
+        </div> 
+        <div class='col-md-3'>
+          
+        </div> 
+    
+      </div>
+    </div>
+    
+    <div class='row'> 
+      <div class='col-md-2'>
+          <div class="table-label center">Sentiments</div>
+      </div> 
+      <div class='col-md-3'>
+        {{headlineSentiment}}     
+      </div>    
+      <div class='col-md-4'>
+        <span class="writeExample">{{jokeSentiment}}</span>     
+      </div> 
+      <div class='col-md-3'>
+        <span class="writeExample">{{{jokeSnippet}}}</span>
+      </div> 
+  
+    </div>     
+      
+  </div>
+  {{/each}}
+</template>

@@ -18,6 +18,49 @@
   font-size: 24px;
 }
 
+.go {
+  height: 50px;
+  width: 180px;
+}
+
+.cell{
+  padding: 5px;
+}
+
+.tightUL{
+  padding-left: 10px;
+}
+
+.description{
+  font-size: small;
+}
+
+.rowspacer{
+  padding-bottom: 5px;
+}
+
+.rowspacer2{
+  padding-bottom: 10px;
+}
+
+.header1{
+  font-size: large;
+  font-family: "arial black";   
+}
+
+.header2{
+  font-size: medium;
+  font-family: "arial";   
+}
+
+.header3{
+  font-weight: bold;
+}
+
+.writeExample{
+  color: red;
+}
+
 /*
   
   Radio Buttons

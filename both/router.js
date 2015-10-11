@@ -22,7 +22,7 @@ Router.map(function(){
   })
 
   this.route('introduction', { 
-    path: '/introduction/:type',
+    path: '/:type',
     layoutTemplate: 'standardLayout',
     yieldTemplates: {
       'header': {to: 'header'}
@@ -42,7 +42,7 @@ Router.map(function(){
       }
     }     
   })  
-
+  /*
   this.route('template2', { 
     path: '/template2/:exampleSet/:type/',
     layoutTemplate: 'standardLayout',
@@ -67,6 +67,7 @@ Router.map(function(){
       }
     }     
   })
+  */
 
 
 })

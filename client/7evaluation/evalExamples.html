@@ -1,0 +1,238 @@
+
+<template name="evaluationExamples">
+
+
+  {{#each evaluationExamples}}
+  <div class="exampleBox">
+    <div class='row'> 
+      <div class='col-md-0'>          
+      </div> 
+      <div class='col-md-6'>
+        <div class="table-label center"><b>Headline </b>     </div>
+      </div>    
+      <div class='col-md-6'>
+        <div class="table-label center"><b>Joke </b>     </div>
+      </div> 
+      <div class='col-md-0'>          
+      </div>  
+  
+    </div>    
+    <div class='row'> 
+      <div class='col-md-0'>
+           
+      </div> 
+      <div class='col-md-6'>
+        {{{headline}}}      
+      </div>    
+      <div class='col-md-6'>
+        {{{joke}}}     
+      </div> 
+      <div class='col-md-0'>
+        
+      </div> 
+  
+    </div>
+    <br>
+    <div class='row'> 
+      <div class='col-md-4'></div> 
+      <div class='col-md-2'>
+        <div class="table-label">Connections    </div>
+      </div>    
+      <div class='col-md-6'>
+        <div class="rowspacer">
+          <span class="writeExample">
+        {{#each connections}}
+          
+          {{headlineAspect}} / {{jokeAspect}}<br>
+        {{/each}}
+          </span>
+        </div>
+      </div>  
+    </div>     
+
+    <div class='row'> 
+      <div class='col-md-4'></div> 
+      <div class='col-md-2'>
+        <div class="table-label">Violation</div>  
+      </div>    
+      <div class='col-md-6'>
+        <div class="rowspacer">
+          <span class="writeExample">
+        {{{violation}}}
+          </span>
+        </div>
+      </div>  
+    </div> 
+
+    <div class='row'> 
+      <div class='col-md-4'></div> 
+      <div class='col-md-2'>
+        <div class="table-label">Belief    </div>
+      </div>    
+      <div class='col-md-6'>
+        <div class="rowspacer">
+          <span class="writeExample">
+        {{{belief}}}
+          </span>
+        </div>
+      </div>  
+    </div>
+    
+         
+  </div>
+  {{/each}}
+</template>
+
+
+
+
+
+
+
+
+
+
+
+<template name="evaluationExercises">
+
+
+  {{#each evaluationExercises}}
+  <div class="exampleBox">
+    <span id="{{displayId}}" class="exerciseSpan">
+  <div class='row'> 
+    <div class='col-md-0'>          
+    </div> 
+    <div class='col-md-6'>
+      <div class="table-label center"><b>Headline </b>     </div>
+    </div>    
+    <div class='col-md-6'>
+      <div class="table-label center"><b>Joke </b>     </div>
+    </div> 
+    <div class='col-md-0'>          
+    </div>  
+
+  </div>
+
+    <div class='row'> 
+      <div class='col-md-0'>
+           
+      </div> 
+      <div class='col-md-6'>
+        {{{headline}}}      
+      </div>    
+      <div class='col-md-6'>
+        {{{joke}}}     
+      </div> 
+      <div class='col-md-0'>
+        
+      </div> 
+  
+    </div>
+    <br>
+    <div class='row'> 
+      <div class='col-md-4'></div> 
+      <div class='col-md-8'>
+        
+        <div class='row'> 
+          <div class='col-md-3'>
+            <div class="table-label ">Connections</div>    
+          </div>    
+          <div class='col-md-9'>
+             <div class="rowspacer"> 
+<textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="connections" rows="2" cols="45"></textarea>
+             </div>
+          </div>         
+        </div>
+        
+        <div class='row'> 
+          <div class='col-md-3'>
+            <div class="table-label ">Violation</div>  
+          </div>    
+          <div class='col-md-9'>
+            <div class="rowspacer">
+<input class="answer" data-exerciseId="{{displayId}}" data-exercisetype="violation" type="text" size="35"/>
+            </div>
+          </div>   
+        </div> 
+        
+        <div class='row'> 
+          <div class='col-md-3'>
+            <div class="table-label ">Belief    </div>
+          </div>    
+          <div class='col-md-9'>
+            <div class="rowspacer">
+<textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="belief" rows="2" cols="45"></textarea>
+            </div>
+          </div>  
+        </div>
+      </div> 
+    </div>  
+
+
+ 
+ 
+ 
+ 
+    <div class='row'> 
+      <div class='col-md-4'></div>
+      <div class='col-md-2'>
+        <button class="showAnswers btn btn-success"> Show </button> 
+      </div>
+      <div class='col-md-6'></div>
+        
+    </div>
+ 
+     <br>
+      
+      <div class='row'> 
+        <div class='col-md-3'>
+        </div>
+        <div class='col-md-1'>
+          
+        </div> 
+        <div class='col-md-8'>
+          <span class="ourAnswers" style="display:none">  
+            <div class='row'> 
+              <div class='col-md-3'>
+                <div class="table-label">Connections</div>    
+              </div>    
+              <div class='col-md-9'>
+                <div class="rowspacer">
+                {{#each connections}}
+                  {{headlineAspect}} / {{jokeAspect}}<br>
+                {{/each}}
+                </div>
+              </div>         
+            </div>
+            
+            <div class='row'> 
+              <div class='col-md-3'>
+                <div class="table-label ">Violation</div>  
+              </div>    
+              <div class='col-md-9'>
+                <div class="rowspacer">
+                {{{violation}}}
+                </div>
+              </div>   
+            </div> 
+            
+            <div class='row'> 
+              <div class='col-md-3'>
+                <div class="table-label ">Belief    </div>
+              </div>    
+              <div class='col-md-9'>
+                <div class="rowspacer">
+                {{{belief}}}
+                </div>
+              </div>  
+            </div>
+          </span>
+        </div> 
+      </div>    
+         
+
+    </span>
+  </div>
+  {{/each}}
+</template>
+

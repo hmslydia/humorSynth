@@ -4,12 +4,14 @@ Template.home.events({
       var type =$(event.currentTarget).data().type      
       Router.go(template, {type: type})      
   },
+  /*
   'click .go2 ': function(event){      
       var template = $(event.currentTarget).data().template
       var exampleSet = $(event.currentTarget).data().exampleset
       var type = $(event.currentTarget).data().type      
       Router.go(template, {exampleSet:exampleSet, type: type})      
   },
+  */
 })
 
 Deps.autorun(function () {

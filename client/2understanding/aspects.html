@@ -1,0 +1,166 @@
+
+
+<template name="aspectExample">
+  <div class='row'> 
+      <div class='col-md-2'>
+        <div class="table-label center">
+          Headline
+        </div>        
+      </div>    
+      <div class='col-md-10'>
+        <div class="headlineSmall">
+        {{{headline}}}
+        </div>
+      </div> 
+
+  </div>
+  
+  
+  <div class='row'> 
+      <div class='col-md-2'>
+        <div class="table-label center">
+          
+        </div>        
+      </div>    
+      <div class='col-md-10'>
+        {{description}}<br><br>
+      </div> 
+
+  </div>
+  
+
+  <div class='row'> 
+    <div class='col-md-2'>
+      <div class="table-label center">
+        Aspects
+      </div>        
+    </div>    
+    
+    <div class='col-md-7'>
+      <table border="1px solid black">
+        
+{{#each aspects}}
+<tr>
+  <td width="200px">
+    <div class="cell">
+  {{aspect}}
+    </div>
+  </td>
+  <td width="100px">
+    <div class="cell">  
+      <i>{{type}}</i>
+    </div>
+  </td>
+</tr>  
+{{/each}}  
+      </table>
+    </div> 
+  </div>
+</template>
+
+
+
+
+
+
+
+
+
+
+
+<template name="aspectExercise">
+  <span id="{{displayId}}" class="exerciseSpan">
+  <div class='row'> 
+      <div class='col-md-2'>
+        <div class="table-label center">
+          Headline
+        </div>        
+      </div>    
+      <div class='col-md-10'>
+        <div class="headlineSmall">
+        {{{headline}}}
+        </div>
+      </div> 
+
+  </div>
+  
+  
+  <div class='row'> 
+      <div class='col-md-2'>
+        <div class="table-label center">
+          
+        </div>        
+      </div>    
+      <div class='col-md-10'>
+        {{description}}<br><br>
+      </div> 
+  </div>
+  
+
+  <div class='row'> 
+    <div class='col-md-4'>
+      <div class="table-label center">
+        List your Aspects:
+      </div>        
+    </div>    
+  </div>
+  
+   <div class='row'>  
+    <div class='col-md-6'>
+      <table border="1px solid black">
+        
+        {{#each aspects}}
+        <tr>
+          <td width="200px">
+            <div class="cell">
+              <span class="annotation">
+                <input class="answer" data-exerciseid="{{displayId}}" data-exercisetype="aspect" type="text" size="30"/>
+              </span>
+            </div>
+          </td>
+          <td width="100px">
+            <div class="cell">  
+              <i>
+                <span class="annotation">
+                  <input class="answer" data-exerciseid="{{displayId}}" data-exercisetype="aspectType" type="text" size="15"/>
+                </span>
+              </i>
+            </div>
+          </td>
+        </tr>  
+        {{/each}}  
+      </table>
+    </div> 
+    
+    <div class='col-md-6'>
+      <span class="ourAnswers" style="display:none">    
+        <table border="1px solid black">          
+          {{#each aspects}}
+            <tr>
+              <td width="200px">
+                <div class="cell">
+              {{aspect}}
+                </div>
+              </td>
+              <td width="100px">
+                <div class="cell">  
+                  <i>{{type}}</i>
+                </div>
+              </td>
+            </tr>  
+          {{/each}}  
+        </table>
+      </span>
+    </div>
+  </div>
+ 
+ <br>
+   <div class='row'>  
+    <div class='col-md-12'>
+      <div class="center">
+        <button class="showAnswers btn btn-success"> Show Sample Answers</button>       
+      </div>
+    </div>     
+  </div>
+</span>   
+</template>

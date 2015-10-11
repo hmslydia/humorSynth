@@ -107,7 +107,7 @@ dataX["povExercise"] = {
     name: "Exercise: Finding Points of View",
     descriptionTemplate: "povExerciseInstructions",
     nextTemplate: "introduction",
-    nextType: "detailsIntro",
+    nextType: "insultTargetIntro",
     examples: [
       
       {

@@ -1,0 +1,165 @@
+<template name="understanding">
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <p>
+          <span class="header1">Headline Aspects</span><br>
+          When you read a headline, you naturally interpret its meaning holistically. However, headlines have many aspects and you should be able to identify them and think about each aspect in and out of the context of the headline.
+        </p>
+        
+        <p>
+          Headlines have four types of aspects:
+          <ul>
+            <li>Thing</li>
+            <li>Person</li>
+            <li>Action</li>
+            <li>Reason / Belief</li>
+          </ul>
+        </p>
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+  
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        {{#each aspectExamples}}
+        <span class="header2">Example</span>
+          <div class="exampleBox">
+            {{> UI.dynamic template=exampleTemplate}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+    
+    
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <p>
+          Now, you try an example of identifying aspects and their types from a headline. 
+        </p>
+      
+        <p>
+          <b>Remember:</b> There are many possible answers. We have provided you with some sample answers. You don't have to match those answers, but they should be representative of the type of answers you come up with.
+        </p>
+      </div>
+      <div class='col-md-2'></div>
+    </div>  
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        {{#each aspectExercises}}
+        <span class="header2">Exercise</span>
+          <div class="exampleBox">
+            {{> UI.dynamic template=exerciseTemplate}} 
+          </div> 
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+
+    <br>
+    <br>
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <p>
+         <span class="header1">Expected Reactions to Aspects</span><br>
+      For the headline as a whole, an for individual aspects of the headline, you can have many possible emotional reactions. We call these the 'Expected Reactions.'
+        </p>
+        
+        <p>
+      Here are the most common reactions, separated into positive reactions and negative reactions
+        </p>
+        <p>
+    <table border="1px solid black">
+      <tr>
+        <th><div class="cell"> Positive</div></th> 
+        <th><div class="cell"> Negative</div></th>  
+      </tr>
+      <tr>
+          <td><div class="cell"> good </div></td> 
+          <td><div class="cell"> bad </div></td> 
+      </tr>
+      <tr>
+          <td><div class="cell"> true </div></td> 
+          <td><div class="cell"> false </div></td> 
+      </tr>  
+      <tr>
+          <td><div class="cell"> normal </div></td> 
+          <td><div class="cell"> weird </div></td> 
+      </tr>  
+      <tr>
+          <td><div class="cell"> serious </div></td> 
+          <td><div class="cell"> trivial </div></td> 
+      </tr>  
+      <tr>
+          <td><div class="cell"> solution </div></td> 
+          <td><div class="cell"> problem </div></td> 
+      </tr>  
+      <tr>
+          <td><div class="cell"> succeed </div></td> 
+          <td><div class="cell"> fail </div></td> 
+      </tr>  
+      <tr>
+          <td><div class="cell"> praise </div></td> 
+          <td><div class="cell"> blame </div></td> 
+      </tr>  
+      
+    </table>
+  </p>
+  
+  <p>
+  Here are some examples of aspects and their expected reactions and beliefs supporting those reactions.   
+    </p>
+    
+      </div>  
+    </div>
+
+  <div class="row">
+    <div class='col-md-2'></div>
+    <div class='col-md-8'>     
+      <span class="header2">Examples</span>
+      <div class="exampleBox">
+        {{> UI.dynamic template="reactionExample"}} 
+      </div> 
+    </div>
+    <div class='col-md-2'></div>
+  </div>    
+    
+       
+  <div class="row">      
+    <div class='col-md-2'></div>
+    <div class='col-md-8'>    
+      
+  
+      <p>
+        Now do this examples for yourself. You can see sample answers by clicking the green button.
+      </p>
+      <p>      
+      <b>Remember:</b> There are many possible answers. We have provided you with some sample answers. You don't have to match those answers, but they should be representative of the type of answers you come up with.
+      </p>
+      <span class="header2">Exercises</span>
+      <div class="exampleBox">  
+            {{> UI.dynamic template="reactionExercise"}}  
+      </div>        
+    </div>
+    
+    <div class='col-md-2'></div>
+  </div> 
+  <br>
+
+
+
+</template>
+
+
+
+
+
+
+
+

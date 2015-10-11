@@ -1,0 +1,74 @@
+<template name="write">
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+  <p>
+Now that you have read and practiced joke writing techniques, we want you to write jokes for the same headlines you saw before.
+  </p>
+  
+  <p>
+Again, you will have 10 minutes, which will be plenty of time. Try to use the methods if they help you. 
+<ul>
+  <li>read the headline closely</li>
+  <li>write one idea per line for the expected reactions, beliefs, associations, as well as unexpected angles, sarcasm or beliefs</li>
+  <li>enter jokes on the opposite side and do a lightweight evaluation of them</li>
+</ul>
+  </p>
+  
+  <p>
+ On the left is a cheatsheet for all the techniques we've taught you.
+  </p>
+
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+    <br>
+
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+  
+        <span class="sampleHeadline">Exercise</span><br>  
+         
+      </div>
+      <div class='col-md-2'></div>
+    </div>     
+    <br>
+
+{{#each writingExercises}}
+{{> jokeUI}} 
+{{/each}} 
+
+</template>
+
+<template name="jokeUI">
+  
+    <div class='row'> 
+      <div class='col-md-2'>CHEAT SHEET </div> 
+      <div class='col-md-5'>  
+        {{headline}}<br>
+        {{description}}<br>
+        (write one idea per line)
+        <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="ideas" rows="15" cols="60"></textarea>
+         
+      </div>
+      <div class='col-md-5'>
+        Joke: <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="joke" rows="2" cols="50"></textarea><br>
+        Connections:<textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="joke" rows="2" cols="50"></textarea><br>
+        violation: <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="joke" rows="2" cols="50"></textarea><br>
+        beliefs: <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="joke" rows="2" cols="50"></textarea><br>
+
+      </div>
+    </div> 
+
+
+</template>
+
+
+
+
+
+
+
+

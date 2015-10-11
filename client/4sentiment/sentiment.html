@@ -1,0 +1,85 @@
+<template name="sentiment">
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+  <p>
+Underlying every joke is either a positive or negative sentiment.
+  </p>
+  
+  <p>
+Below are examples and exercises of headlines and jokes. The major sentiment in headline and joke are identified. Sometimes the headline and the joke have different sentiments, sometimes they have the same sentiment but for a different reason.
+  </p>
+  
+  <p>
+For each joke, we all highlight the language used to indicate whether it is good or bad. For example, “I look forward to…” is language that indicates a positive sentiment. 
+  </p>
+  
+
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+    <br>
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+  
+        <span class="sampleHeadline">Positive Sentiment</span><br>  
+
+        <p>        
+          <div class="">
+            {{> UI.dynamic template="positiveSentimentExamples"}} 
+          </div>         
+        </p>
+         
+      </div>
+      <div class='col-md-2'></div>
+    </div>     
+    <br>
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+  
+        <span class="sampleHeadline">Negative Sentiment</span><br>  
+
+        <p>        
+          <div class="">
+            {{> UI.dynamic template="negativeSentimentExamples"}} 
+          </div>         
+        </p>
+         
+      </div>
+      <div class='col-md-2'></div>
+    </div>     
+    <br>
+
+
+
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+  
+        <span class="sampleHeadline">Sentiment Exercises</span><br>  
+
+        <p>        
+          <div class="exampleBox">
+            {{> UI.dynamic template="sentimentExercises"}} 
+          </div>         
+        </p>
+         
+      </div>
+      <div class='col-md-2'></div>
+    </div>     
+    <br>    
+
+</template>
+
+
+
+
+
+
+
+

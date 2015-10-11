@@ -1,0 +1,108 @@
+
+<template name="insultExamples">
+  <div class='row'> 
+    <div class='col-md-3'>
+      <b>Headline </b>     
+    </div>    
+    <div class='col-md-2'>
+      <b>Aspect </b>     
+    </div> 
+    <div class='col-md-2'>
+      <b>Association</b>
+    </div> 
+    <div class='col-md-3'>
+      <b>Joke</b>
+    </div> 
+  </div>
+
+  {{#each insultExamples}}
+    
+      <div class='row'> 
+        <div class='col-md-3'>
+          {{headline}}      
+        </div>    
+        <div class='col-md-2'>
+          {{aspect}}      
+        </div> 
+        <div class='col-md-6'>
+          <div class='row'> 
+              {{#each associations}}
+                <div class="rowspacer">
+                  <div class='col-md-4'>
+                    {{{association}}}
+                  </div> 
+                  <div class='col-md-8'>
+                    {{{joke}}}
+                  </div> 
+                </div>
+              {{/each}} 
+          </div>
+        </div>
+      </div>
+      <br>
+  {{/each}}
+</template>
+
+
+
+
+<template name="insultExercises">
+  <div class='row'> 
+    <div class='col-md-3'>
+      <b>Headline </b>     
+    </div>    
+    <div class='col-md-2'>
+      <b>Aspect </b>     
+    </div> 
+    <div class='col-md-4'>
+      <b>Association</b>
+    </div> 
+    <div class='col-md-3'>
+      <b>Joke</b>
+    </div> 
+  </div>
+
+  {{#each insultExercises}}
+    <span id="{{displayId}}" class="exerciseSpan">
+      <div class='row'> 
+        <div class='col-md-3'>
+          {{headline}}      
+        </div>    
+        <div class='col-md-2'>
+          {{aspect}}      
+        </div> 
+        <div class='col-md-3'>
+          <span class="annotation">
+            <input class="answer" data-exerciseid="{{displayId}}" data-exercisetype="association" type="text" size="25"/>
+          </span>
+        </div> 
+        <div class='col-md-4'>
+          
+        </div> 
+      </div>
+      <div class='row'> 
+        <div class='col-md-3'>
+               
+        </div>    
+        <div class='col-md-2'>
+              <button class="showAnswers btn btn-success"> Show </button>   
+        </div> 
+        <div class='col-md-7'>
+          <span class="ourAnswers" style="display:none"> 
+              {{#each associations}}
+                <div class="rowspacer">
+                  <div class='col-md-6'>
+                    {{{association}}}
+                  </div> 
+                  <div class='col-md-6'>
+                    {{{joke}}}
+                  </div>
+                </div> 
+              {{/each}} 
+          </span>
+        </div>
+      </div>
+      <br>
+    </span>
+  {{/each}}
+</template>

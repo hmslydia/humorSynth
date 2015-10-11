@@ -93,6 +93,8 @@ dataX["insultTargetScaffold"] = {
 dataX["insultTargetExercise"] = {
     name: "Exercise: Writing Insult Targets",
     descriptionTemplate: "insultTargetExerciseInstructions",
+        nextTemplate: "introduction",
+    nextType: "detailsIntro",
     examples: [
       
       {

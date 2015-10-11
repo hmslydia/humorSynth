@@ -1,0 +1,128 @@
+<template name="reactionExampleX">
+  <table>
+    <col width="300">
+    <col width="80">
+    <col width="80">
+    <col width="300">
+    <tr>
+      <th>Headline</th>
+      <th>Aspect</th>
+      <th>Expected<br>Reaction</th>
+      <th>Expected<br>Reason/Belief</th>
+    </tr>
+    {{#each reactionExamples}}
+      <tr>
+        <td><div class="cell">{{headline}}</div></td>
+        <td><div class="cell">{{aspect}}</div></td>
+        <td><div class="cell">{{expectedReaction}}</div></td>
+        <td><div class="cell">{{expectedBelief}} </div></td>
+      </tr>
+    {{/each}}
+  </table>
+</template>
+
+<template name="reactionExample">
+  <div class="row">
+    <div class='col-md-4'>
+      <span class="header3">Headline</span>
+    </div>
+    <div class='col-md-2'>
+      <span class="header3">Aspect</span>
+    </div>
+        <div class='col-md-2'>
+      <span class="header3">Expected<br>Reaction</span>
+    </div>
+    <div class='col-md-4'>
+      <span class="header3">Expected<br>Reason / Belief</span>
+    </div>
+  </div>
+
+  {{#each reactionExamples}}
+    <div class="rowspacer2">
+    <div class="row">
+      <div class='col-md-4'>
+        <span class="">{{{headline}}}</span>
+      </div>
+      <div class='col-md-2'>
+        <span class="">{{{aspect}}}</span>
+      </div>
+          <div class='col-md-2'>
+        <span class="">{{{expectedReaction}}}</span>
+      </div>
+      <div class='col-md-4'>
+        <span class="">{{{expectedBelief}}}</span>
+      </div>
+    </div>
+    </div>  
+  {{/each}}
+</template>
+
+
+
+
+<template name="reactionExercise">
+  <div class='row'> 
+    <div class='col-md-3'>
+      <b>Headline </b>     
+    </div>    
+    <div class='col-md-2'>
+      <b>Aspect </b>     
+    </div> 
+    <div class='col-md-2'>
+      <b>Expected Reaction</b>
+    </div> 
+    <div class='col-md-3'>
+      <b>Expected Belief/Reason</b>
+    </div> 
+  </div>
+
+  {{#each reactionExercises}}
+  <div class="exampleBox1">
+    <span id="{{displayId}}" class="exerciseSpan">
+      <div class='row'> 
+        <div class='col-md-3'>
+          {{headline}}      
+        </div>    
+        <div class='col-md-2'>
+          {{aspect}}      
+        </div> 
+        <div class='col-md-2'>
+          <span class="annotation">
+            <input class="answer" data-exerciseid="{{displayId}}" data-exercisetype="reaction" type="text" size="15"/>
+          </span>
+        </div> 
+        <div class='col-md-5'>
+          <span class="annotation">
+            <input class="answer" data-exerciseid="{{displayId}}" data-exercisetype="belief" type="text" size="30"/>
+          </span>
+        </div> 
+      </div>
+      <div class='row'> 
+        <div class='col-md-3'></div>    
+        <div class='col-md-2'>
+          <button class="showAnswers btn btn-success"> Show </button>   
+        </div> 
+        <div class='col-md-7'>
+          <span class="ourAnswers" style="display:none"> 
+            {{#each expectedReactions}}
+              <div class="rowspacer">
+              <div class='row'>
+                <div class='col-md-4'>
+                  {{expectedReaction}}
+                </div> 
+                <div class='col-md-8'>
+                  {{expectedBelief}}
+                </div> 
+              </div>
+              </div>
+            {{/each}}
+          </span>
+        </div>
+      </div>
+      <br>
+      <br>
+    </span>
+  </div>
+  {{/each}}
+
+</template>

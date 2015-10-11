@@ -94,6 +94,9 @@ dataX["detailsScaffold"] = {
 dataX["detailsExercise"] = {
     name: "Exercise: Writing Specific Details",
     descriptionTemplate: "detailsExerciseInstructions",
+    nextTemplate: "introduction",
+    nextType: "associationIntro",
+    
     examples: [
       
       {
