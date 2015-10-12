@@ -1,6 +1,7 @@
   dataX["violation"] = {
     name: "Expectation Violation Mechanisms",
     descriptionTemplate: "violation",
+    nextTemplate: "introduction",
     nextType: "evaluation",
     
     
@@ -179,7 +180,7 @@
           {expectation: "Sharks are in the ocean"},
           {expectation: "Oceans are in danger from global warming"},
         ],
-        angle: "Global Warming is a solution",
+        angle: "Global Warming",
         beliefType: "Solution",
         belief: "Global warming will kill the sharks."
 

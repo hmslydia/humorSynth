@@ -3,34 +3,21 @@
 
   {{#each angleExamples}}
    <div class="exampleBox">
-    <div class='row'> 
-      <div class='col-md-0'>
-            
-      </div> 
+    <div class='row'>  
       <div class='col-md-6'>
         <b>Headline </b>     
-      </div> 
-      <div class='col-md-0'>
-            
       </div>   
       <div class='col-md-6'>
         <b>Joke </b>     
-      </div> 
-  
-  
+      </div>   
     </div> 
        
     <div class='row'> 
-      <div class='col-md-0'>
-           <div class="table-label center"> </div>
-      </div> 
+
       <div class='col-md-6'>
         {{headline}} <br>
         <span class="description">{{description}}</span>     
       </div>    
-      <div class='col-md-0'>
-           
-      </div> 
       <div class='col-md-6'>
         {{joke}}     
       </div> 
@@ -39,9 +26,6 @@
     </div>
     <br>
     <div class='row'> 
-      <div class='col-md-0'>
-          <div class="table-label center"></div>
-      </div> 
       <div class='col-md-6'>
         <div class="table-label ">Expectations</div> 
         <ul class="">
@@ -52,39 +36,51 @@
       </div> 
       
       <div class='col-md-6'>
-        <div class='row'> 
-          <div class='col-md-12'>
-            <div class="table-label ">Angle (Unexpected)</div> 
+        
+        <div class="rowspacer">
+          <div class='row'> 
+            <div class='col-md-4'>
+               <div class="table-label ">Violation</div> 
+            </div>
+            <div class='col-md-8'>
+              <span class="">Angle</span>
+            </div> 
           </div>
         </div>
-        <div class='row'> 
-
-          <div class='col-md-4'>
-            Angle
-
+      
+        <div class="rowspacer">
+          <div class='row'> 
+            <div class='col-md-4'>
+               <div class="table-label ">Angle</div> 
+            </div>
+            <div class='col-md-8'>
+              <span class="writeExample">{{angle}}</span>
+            </div> 
           </div>
-          <div class='col-md-8'>
-            <span class="writeExample">{{angle}}</span>
-          </div> 
-        </div>
-        <div class='row'> 
-
-          <div class='col-md-4'>
-            Belief Type
-
-          </div>
-          <div class='col-md-8'>
-            <span class="writeExample">{{beliefType}}</span>
-          </div> 
         </div>
         
-        <div class='row'>
-          <div class='col-md-4'>
-            Belief
+        <div class="rowspacer">
+          <div class='row'> 
+  
+            <div class='col-md-4'>
+               <div class="table-label ">Belief Type</div> 
+  
+            </div>
+            <div class='col-md-8'>
+              <span class="writeExample">{{beliefType}}</span>
+            </div> 
           </div>
-          <div class='col-md-8'>
-            <span class="writeExample">{{belief}}</span>
-          </div>            
+        </div>
+        
+        <div class="rowspacer">
+          <div class='row'>
+            <div class='col-md-4'>
+               <div class="table-label ">Belief</div> 
+            </div>
+            <div class='col-md-8'>
+              <span class="writeExample">{{belief}}</span>
+            </div>            
+          </div>
         </div>
       </div>   
 
@@ -100,9 +96,6 @@
 
 
 <template name="angleExercises">
-
-
-
   {{#each angleExercises}}
   <span id="{{displayId}}" class="exerciseSpan">
    <div class="exampleBox">
@@ -124,16 +117,10 @@
     </div> 
        
     <div class='row'> 
-      <div class='col-md-0'>
-           <div class="table-label center"> </div>
-      </div> 
       <div class='col-md-6'>
         {{headline}} <br>
         <span class="description">{{description}}</span>     
-      </div>    
-      <div class='col-md-0'>
-           
-      </div> 
+      </div>     
       <div class='col-md-6'>
         {{joke}}     
       </div> 
@@ -155,46 +142,58 @@
       </div> 
       
       <div class='col-md-6'>
-        <div class='row'> 
-          <div class='col-md-12'>
-            <div class="table-label ">Angle (Unexpected)</div> 
+        <div class="rowspacer">
+          <div class='row'> 
+            <div class='col-md-4'>
+               <div class="table-label ">Violation</div> 
+            </div>
+            <div class='col-md-8'>
+              <span class="">Angle</span>
+            </div> 
           </div>
         </div>
-        <div class='row'> 
-
-          <div class='col-md-4'>
-            <div class="table-label ">Angle</div> 
-
+      
+        <div class="rowspacer">
+          <div class='row'> 
+            <div class='col-md-4'>
+               <div class="table-label ">Angle</div> 
+            </div>
+            <div class='col-md-8'>
+              <input class="answer" data-exerciseId="{{displayId}}" data-exercisetype="angle" type="text" size="15">
+            </div> 
           </div>
-          <div class='col-md-8'>
-            <input class="answer" data-exerciseId="{{displayId}}" data-exercisetype="angle" type="text" size="15">
-          </div> 
         </div>
-                
         
-        <div class='row'> 
-          <div class='col-md-4'>
-            <div class="table-label ">Belief Type</div> 
-
+        <div class="rowspacer">
+          <div class='row'> 
+  
+            <div class='col-md-4'>
+               <div class="table-label ">Belief Type</div> 
+  
+            </div>
+            <div class='col-md-8'>
+              <input class="answer" data-exerciseId="{{displayId}}" data-exercisetype="belieftype" type="text" size="15">
+            </div> 
           </div>
-          <div class='col-md-8'>
-            <input class="answer" data-exerciseId="{{displayId}}" data-exercisetype="belieftype" type="text" size="15">
-          </div> 
         </div>
-        <div class='row'>
-          <div class='col-md-4'>
-            <div class="table-label ">Belief</div> 
+        
+        <div class="rowspacer">
+          <div class='row'>
+            <div class='col-md-4'>
+               <div class="table-label ">Belief</div> 
+            </div>
+            <div class='col-md-8'>
+              <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="belief" rows="2" cols="25"></textarea>
+            </div>            
           </div>
-          <div class='col-md-8'>
-            <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="belief" rows="2" cols="25"></textarea>
-          </div>            
         </div>
       </div>   
+       
     </div>
     
     
     
-<br>
+    <br>
     <div class='row'> 
       <div class='col-md-4'>
           <div class="table-label center"></div>
@@ -205,45 +204,45 @@
       
       <div class='col-md-6'>
         <span class="ourAnswers" style="display:none"> 
-          <div class='row'> 
-            <div class='col-md-12'>
-              <div class="table-label "></div> 
-            </div>
-          </div>
           
-          <div class='row'> 
-            <div class='col-md-4'>
-              <div class="table-label ">Angle</div> 
-  
+          <div class='rowspacer'>
+            <div class='row'> 
+              <div class='col-md-4'>
+                <div class="table-label ">Angle</div> 
+    
+              </div>
+              <div class='col-md-8'>
+                <span class="">{{angle}}</span>
+              </div> 
             </div>
-            <div class='col-md-8'>
-              <span class="writeExample">{{angle}}</span>
-            </div> 
           </div>
-          
-          <div class='row'> 
-            <div class='col-md-4'>
-              <div class="table-label ">Belief Type</div> 
-  
+          <div class='rowspacer'>  
+            <div class='row'> 
+              <div class='col-md-4'>
+                <div class="table-label ">Belief Type</div> 
+    
+              </div>
+              <div class='col-md-8'>
+                {{beliefType}}
+              </div> 
             </div>
-            <div class='col-md-8'>
-              {{beliefType}}
-            </div> 
-          </div>
-          <div class='row'>
-            <div class='col-md-4'>
-              <div class="table-label ">Belief</div> 
+          </div>  
+          <div class='rowspacer'>  
+            <div class='row'>
+              <div class='col-md-4'>
+                <div class="table-label ">Belief</div> 
+              </div>
+              <div class='col-md-8'>
+                {{belief}}
+              </div>            
             </div>
-            <div class='col-md-8'>
-              {{belief}}
-            </div>            
           </div>
         </span>  
       </div>   
     </div>
              
-   </div>
- 
+   
+ </div>  
       <br>
   </span>
   {{/each}}

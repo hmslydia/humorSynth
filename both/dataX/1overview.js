@@ -1,6 +1,7 @@
   dataX["overview"] = {
     name: "Overview",
     descriptionTemplate: "overview",
+    nextTemplate: "introduction",
     nextType: "understanding",
     
     examples: [

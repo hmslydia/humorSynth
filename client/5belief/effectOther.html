@@ -1,174 +1,156 @@
 
 <template name="effectOtherExamples">
-
-
   {{#each effectOtherExamples}}
-  <div class="exampleBox">
-  <div class='row'> 
-    <div class='col-md-2'>
-          
-    </div> 
-    <div class='col-md-3'>
-      <b>Headline </b>     
-    </div>    
-    <div class='col-md-4'>
-      <b>Joke </b>     
-    </div> 
-    <div class='col-md-3'>
-      <b>Sentiment <br>Indication</b>
-    </div> 
-
-  </div>    
-    <div class='row'> 
-      <div class='col-md-2'>
-           <div class="table-label center">Texts </div>
-      </div> 
-      <div class='col-md-3'>
-        {{headline}}      
-      </div>    
-      <div class='col-md-4'>
-        {{joke}}     
-      </div> 
-      <div class='col-md-3'>
+    <div class="exampleBox">
+      <div class='row'> 
+        <div class='col-md-6'>
+          <b>Headline </b>     
+        </div>    
+        <div class='col-md-6'>
+          <b>Joke </b>     
+        </div>   
+      </div>
         
-      </div> 
-  
+        
+      <div class='row'> 
+        <div class='col-md-6'>
+          {{headline}}      
+        </div>    
+        <div class='col-md-6'>
+          {{joke}}     
+        </div> 
+      </div>
+      <br>
+      
+      <div class="rowspacer">
+        <div class='row'> 
+          <div class='col-md-4'>
+              <div class="table-label center"></div>
+          </div> 
+          <div class='col-md-2'>
+               <span class="table-label">Sentiment</span> 
+          </div>    
+          <div class='col-md-6'>
+               <span class="">{{{jokeSentiment}}}, (<i>{{{jokeSnippet}}}</i>)</span>  
+          </div>   
+        </div> 
+      </div>
+      <div class="rowspacer">
+        <div class='row'> 
+          <div class='col-md-4'>
+              <div class="table-label center"></div>
+          </div> 
+          <div class='col-md-2'>
+               <span class="table-label">Belief Type</span> 
+          </div>    
+          <div class='col-md-6'>
+               <span class="">{{{beliefType}}}</span>  
+          </div> 
+        </div> 
+      </div>
+      <div class="rowspacer">
+        <div class='row'> 
+          <div class='col-md-4'>
+              <div class="table-label center"></div>
+          </div> 
+          <div class='col-md-2'>
+               <span class="table-label">Belief </span> 
+          </div>    
+          <div class='col-md-6'>
+               <span class="writeExample">{{{belief}}}</span>  
+          </div> 
+        </div> 
+      </div>         
     </div>
-    <br>
-    <div class='row'> 
-      <div class='col-md-2'>
-          <div class="table-label center">Sentiments</div>
-      </div> 
-      <div class='col-md-3'>
-        {{headlineSentiment}}     
-      </div>    
-      <div class='col-md-4'>
-        {{jokeSentiment}}     
-      </div> 
-      <div class='col-md-3'>
-        {{{jokeSnippet}}}
-      </div> 
-  
-    </div>     
-     <br>
-    <div class='row'> 
-      <div class='col-md-2'>
-          <div class="table-label center"></div>
-      </div> 
-      <div class='col-md-3'>
-           {{{beliefType}}} 
-      </div>    
-      <div class='col-md-4'>
-           <span class="writeExample">{{{belief}}}  </span>
-      </div> 
-      <div class='col-md-3'>
-        
-      </div> 
-  
-    </div> 
- 
-  </div>
   {{/each}}
 </template>
 
 
 
 <template name="effectOtherExercises">
-
-
   {{#each effectOtherExercises}}
     <div class="exampleBox">
-    <span id="{{displayId}}" class="exerciseSpan">
-      <div class='row'> 
-      <div class='col-md-2'>
-            
-      </div> 
-      <div class='col-md-3'>
-        <b>Headline </b>     
-      </div>    
-      <div class='col-md-4'>
-        <b>Joke </b>     
-      </div> 
-      <div class='col-md-3'>
-        <b>Sentiment <br>Indication</b>
-      </div> 
-  
-    </div>
-    
-    <div class='row'> 
-      <div class='col-md-2'>
-           <div class="table-label center">Texts </div>
-      </div> 
-      <div class='col-md-3'>
-        {{headline}}      
-      </div>    
-      <div class='col-md-4'>
-        {{joke}}     
-      </div> 
-      <div class='col-md-3'>
+      <span id="{{displayId}}" class="exerciseSpan">
+        <div class='row'> 
+          <div class='col-md-6'>
+            <b>Headline </b>     
+          </div>    
+          <div class='col-md-6'>
+            <b>Joke </b>     
+          </div>   
+        </div>    
         
-      </div> 
-  
-    </div>
-
-    <br>
-    <div class='row'> 
-      <div class='col-md-2'>
-          <div class="table-label center">Sentiments</div>
-      </div> 
-      <div class='col-md-3'>
-        {{headlineSentiment}}     
-      </div>    
-      <div class='col-md-4'>
-        {{jokeSentiment}}     
-      </div> 
-      <div class='col-md-3'>
-        {{{jokeSnippet}}}
-      </div> 
-  
-    </div>     
+        <div class='row'>  
+          <div class='col-md-6'>
+            {{headline}}      
+          </div>    
+          <div class='col-md-6'>
+            {{joke}}     
+          </div>   
+        </div>
     
-    
-    <br>
-    <div class='row'> 
-      <div class='col-md-2'>
-          <div class="table-label center"></div>
-      </div> 
-      <div class='col-md-3'>
-        {{{beliefType}}}     
-      </div>    
-      <div class='col-md-3'>
-        <span class="annotation">
-          <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="belief" rows="2" cols="25"></textarea>
+        <br>
+        <div class="rowspacer">
+          <div class='row'> 
+            <div class='col-md-4'>
+                <div class="table-label center"></div>
+            </div> 
+            <div class='col-md-2'>
+                 <span class="table-label">Sentiment</span> 
+            </div>    
+            <div class='col-md-6'>
+                 <span class="">{{{jokeSentiment}}}, (<i>{{{jokeSnippet}}}</i>)</span>  
+            </div> 
+        
+          </div> 
+        </div>
+        <div class="rowspacer">
+          <div class='row'> 
+            <div class='col-md-4'>
+                <div class="table-label center"></div>
+            </div> 
+            <div class='col-md-2'>
+                 <span class="table-label">Belief Type</span> 
+            </div>    
+            <div class='col-md-6'>
+                 <span class="">{{{beliefType}}}</span>  
+            </div>   
+          </div> 
+        </div>
+        
+        <div class="rowspacer">
+          <div class='row'> 
+            <div class='col-md-4'>
+                <div class="table-label center"></div>
+            </div> 
+            <div class='col-md-2'>
+                 <span class="table-label">Belief </span> 
+            </div>    
+            <div class='col-md-6'>
+                 <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="belief" rows="2" cols="25"></textarea>
+            </div> 
+        
+          </div>             
+        </div>
+        <br>
+        
+        <div class='row'> 
+          <div class='col-md-2'></div> 
+          <div class='col-md-2'>
+                <button class="showAnswers btn btn-success"> Show </button> 
+          </div> 
+          <span class="ourAnswers" style="display:none">    
+              <div class='col-md-2'>
+                   <span class="table-label">Belief </span> 
+              </div>    
+              <div class='col-md-6'>
+                   <span class="writeExample">{{{belief}}}</span>  
+              </div> 
           </span>
-      </div> 
-      <div class='col-md-4'>
-        
-      </div> 
-  
-    </div>  
-    
-    
-    
-    <br>
-    <div class='row'> 
-      <div class='col-md-3'>
-                </div> 
-      <div class='col-md-2'>
-            <button class="showAnswers btn btn-success"> Show </button> 
-      </div> 
-      <span class="ourAnswers" style="display:none">    
-        <div class='col-md-4'>
-          {{{belief}}}    
-        </div> 
-        <div class='col-md-3'>
-          
-        </div> 
-      </span>
-    </div>     
+        </div>     
       
-      <br>
-    </span>
+        <br>
+      </span>
     </div>
   {{/each}}
 </template>

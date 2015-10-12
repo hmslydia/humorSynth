@@ -1,6 +1,7 @@
   dataX["belief"] = {
     name: "Beliefs behind Sentiments",
     descriptionTemplate: "belief",
+    nextTemplate: "introduction",
     nextType: "violation",
     
     
@@ -62,7 +63,7 @@
         headlineSentiment: "bad",
         jokeSentiment: "bad",
         jokeSnippet: "This is especially disappointing given...",
-        beliefType: "reason bad: (sarcastic)",
+        beliefType: "reason bad (sarcastic)",
         belief: "because I expected it to succeed based on other information (sarcastically)",
       },              
     ],

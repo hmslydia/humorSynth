@@ -1,14 +1,14 @@
-Template.write.helpers({
+Template.prewrite.helpers({
   'time': function(e){
     return Session.get("time");
   }
 })
   
 
-Template.write.events({
+Template.prewrite.events({
   'click .start ': function(event){
     $(event.currentTarget).closest("span.exerciseSpan").find(".ourAnswers").first().css("display", "inline") 
-    setTimer2()
+    setTimer()
 
     //hide the joke button
     $(event.currentTarget).prop("disabled",true)
@@ -49,17 +49,17 @@ Template.write.events({
       answer
       */
       
-           
+      /*     
       var template = "introduction" //this.nextTemplate 
       var type = this.nextType 
       console.log("type: "+type)
       Router.go(template, {type: type})
-      
+      */
   },
   
 })
 
-function setTimer2(){
+function setTimer(){
   var clock = 5; //5;
   var min = Math.floor(clock/60.0)
   var sec = clock % 60

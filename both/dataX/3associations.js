@@ -1,6 +1,7 @@
   dataX["associations"] = {
     name: "Associations",
     descriptionTemplate: "associations",
+    nextTemplate: "introduction",
     nextType: "sentiment",
     
     

@@ -31,8 +31,16 @@
   padding-left: 10px;
 }
 
+.headline{
+  font-family: georgia;
+  font-size: 24px;
+}
 .description{
   font-size: small;
+}
+
+.aside{
+  font-style: italic;
 }
 
 .rowspacer{

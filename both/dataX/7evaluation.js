@@ -1,7 +1,8 @@
   dataX["evaluation"] = {
     name: "Joke Evaluation",
     descriptionTemplate: "evaluation",
-    nextType: "home",
+    nextTemplate: "writeWrapper",
+    nextType: "writeWrapper",
     
     
     evaluationExamples: [

@@ -1,6 +1,7 @@
   dataX["sentiment"] = {
     name: "Joke Sentiments",
     descriptionTemplate: "sentiment",
+    nextTemplate: "introduction",
     nextType: "belief",
     
     
