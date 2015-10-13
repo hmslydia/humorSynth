@@ -63,6 +63,28 @@ Router.map(function(){
     }     
   })
 
+  this.route('thanksWrapper', { 
+    path: '/thanks',
+    layoutTemplate: 'standardLayout',
+    yieldTemplates: {
+      'header': {to: 'header'}
+    },
+    waitOn: function(){  
+            
+      return []
+    },
+    data: function(){
+      var type = "thanks"//this.params.type  
+      var d = dataX[type]
+      return d
+    },
+    action: function(){
+      if(this.ready()){
+        this.render()
+      }
+    }     
+  }) 
+
   this.route('introduction', { 
     path: '/:type',
     layoutTemplate: 'standardLayout',

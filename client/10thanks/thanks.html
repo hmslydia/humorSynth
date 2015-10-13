@@ -1,10 +1,29 @@
+<template name="thanksWrapper">
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-2'></div>
+      <div class='col-md-8'>
+        <div class='title' align="center">{{name}}</div>   
+          
+        </div>
+      <div class='col-md-2'></div>
+    </div> 
+    {{> UI.dynamic template=descriptionTemplate}}
+      
+  </div> 
+</template>
+
 <template name="thanks">
     <div class='row'> 
       <div class='col-md-2'></div> 
       <div class='col-md-8'>
   <p>
-That's it! Thanks for helping. Find or email Lydia (hmslydia@gmail.com) to get paid for the study.
+That's it! Thanks for helping. Please close this browser tab so you don't accidentally submit any more information.
   </p>
+  
+  <p>
+Email Lydia (hmslydia@gmail.com) to and say "I'm done!" Your payment will be processed shortly.
+  </p>  
 
       </div>
       <div class='col-md-2'></div>

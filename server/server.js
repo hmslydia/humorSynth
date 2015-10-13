@@ -20,7 +20,7 @@ Meteor.methods({
     pageLogParams.user_id = Meteor.userId()
     pageLogParams.submit_time = submit_time
   
-    console.log(pageLogParams)
+    //console.log(pageLogParams)
     PageLog.insert(pageLogParams)  
     
     
