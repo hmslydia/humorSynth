@@ -23,16 +23,62 @@
         <img src=""/>
         
         <p>
-          Hi! We're going to introduce you to a process for writing jokes that make fun of real news headlines. This process takes some of the difficult and mystery out of joke writing, but still takes creativity on your part. 
+          Hi! Thanks for taking part in the humor writing study. It should last between 60-80 minutes and pays $20.
         </p>
-        <p>          
-          Our process involves breaking jokes down into their parts, and then showing you how those parts are combined in a way that creates humor by being surprising and resonating for people. Follow the steps below and over time you will start to realize why jokes are funny and how they are made.
+        <p>
+          Please use the <b>Chrome Browser</b> (if you have it) and make the <b>webpage full screen</b>. This is so you get the best experience possible.
+        </p>
+        <p>   
+          Here is the general overview of the study:<br>   
+          <ul>    
+            <li>You will first <b>rate jokes</b> for 5 minutes, </li>
+            <li>Then you get to try to <b>write jokes yourself</b>. It's okay if this is a little unfamiliar to you, just try your best to write something down.</li>
+            <li>Next you will be given <b>6 activities</b> that will give you practice on the fundamentals of humor. Each activity takes about 10 minutes</li>
+            <li>Lastly, you will get <b>another opportunity to write jokes</b> using the methods you learned, if they help you.</li>
+            <li>Then I'll want to ask you a <b>few questions</b> about your experience, and it's over!</li>
+          </ul>
         </p>
         <br>
       </div>      
       <div class='col-md-2'></div>
     </div>
 
+    {{#if currentUser}}
+   <div class='row'>
+      <div class='col-md-5'></div>
+
+
+      <div class='col-md-2'>
+        <button class="go btn btn-success"  data-type="consent"> Let's get started!    </button> 
+         
+      </div>      
+
+      <div class='col-md-5'>
+         
+      </div>  
+
+    </div>
+    <br>
+    <br>
+    {{else}}
+   <div class='row'>
+      <div class='col-md-2'></div>
+
+
+      <div class='col-md-8'>
+        <b>Please log in with the credentials we gave you in the upper right of this webpage  </b>
+         
+      </div>      
+
+      <div class='col-md-2'>
+         
+      </div>  
+
+    </div>
+    <br>
+    <br>      
+    {{/if}}
+    <!--
     <div class='row'>
       <div class='col-md-2'></div>
       <div class='col-md-2'>
@@ -110,21 +156,7 @@
     </div>    
     <br>
     <br>
-   <div class='row'>
-      <div class='col-md-2'></div>
-
-
-      <div class='col-md-2'>
-         Let's get started!
-      </div>      
-
-      <div class='col-md-2'>
-         
-      </div>  
-
-    </div>
-
-      
+    -->      
   </div><!-- close container -->
 </template>
 

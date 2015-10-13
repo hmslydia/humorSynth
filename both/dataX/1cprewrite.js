@@ -2,7 +2,7 @@
     name: "Joke Writing",
     descriptionTemplate: "prewrite",
     nextTemplate: "introduction",
-    nextType: "overview",
+    nextType: "consent",
     
     
     prewritingExercises: [

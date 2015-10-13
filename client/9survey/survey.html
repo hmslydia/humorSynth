@@ -1,0 +1,66 @@
+<template name="survey">
+    <div class='row'> 
+      <div class='col-md-2'>
+        {{> cheatSheet}}
+        
+      </div> 
+      <div class='col-md-1'></div>
+      <div class='col-md-7'>
+  <p>
+Please take a few minutes to fill out this survey, and then you are done!
+  </p>
+  
+  <p>
+    1. How did your process for writing jokes differ before and after the HumorTools tutorial?<br>
+    <textarea class="answer" data-exerciseId="survey-1" data-exercisetype="process" rows="5" cols="70"></textarea>  
+  </p>
+
+  <p>
+    2. Did you use any of the techniques we taught you? If so, which ones? Why or why not? (see sidebar for reference)<br>
+    <textarea class="answer" data-exerciseId="survey-2" data-exercisetype="useTechniques" rows="5" cols="70"></textarea>  
+  </p>
+
+  <p>
+    3. What was most useful about this process to you?<br>
+    <textarea class="answer" data-exerciseId="survey-3" data-exercisetype="useful" rows="5" cols="70"></textarea>  
+  </p>
+  
+  <p>
+    4. What *wasn't* useful about this process to you?<br>
+    <textarea class="answer" data-exerciseId="survey-4" data-exercisetype="notuseful" rows="5" cols="70"></textarea>  
+  </p>  
+  
+  <p>
+    5. Would you recommend HumorTools to a friend?<br>
+    <textarea class="answer" data-exerciseId="survey-5" data-exercisetype="recomment" rows="5" cols="70"></textarea>  
+  </p> 
+  
+    <p>
+    6. Demographic Information<br>
+    <div class="rowspacer">
+      Gender: <br>
+      <input type='radio' value="male" name='gender' data-exerciseid="survey-6" data-exercisetype="gender"> Male<br>
+      <input type='radio' value="female" name='gender' data-exerciseid="survey-6" data-exercisetype="gender"> Female<br>
+      <input type='radio' value="preferNotToSay" name='gender' data-exerciseid="survey-6" data-exercisetype="gender"> Prefer not to say<br>
+           
+    </div>
+    <div class="rowspacer">
+      Age: <input class="answer" data-exerciseid="survey-6" data-exercisetype="age" type="text" size="5"/>
+    </div>  
+    <div class="rowspacer">
+      Field of work or study (ex. sales, writing, arts, engineering, medicine):
+      <input class="answer" data-exerciseid="survey-6" data-exercisetype="field" type="text" size="30"/>
+    </div>
+     
+  </p>   
+  
+  
+  
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+    <br>
+
+ 
+
+</template>

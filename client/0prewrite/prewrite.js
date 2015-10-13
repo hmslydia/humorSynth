@@ -16,51 +16,51 @@ Template.prewrite.events({
   
 
   'click #nextButton ': function(event){
-    console.log("asdf")
-    //show the answer
-    //var exerciseId = $(event.currentTarget).closest("span.exerciseContainer").first().prop("id")
-        
-    //$(event.currentTarget).closest("span.exerciseSpan").find(".ourAnswers").first().css("display", "inline") 
-
-    //hide the joke button
-    //$(event.currentTarget).prop("disabled",true)
     
+      var template = this.nextTemplate 
+      var type = this.nextType 
+      var thisTemplate = this.descriptionTemplate
       var answers = $(".answer")
+      
+      var submissionData = []
+      
+      
+      
       _.each(answers, function(answer){
         console.log($(answer))
         var exerciseId = $(answer).data("exerciseid")
-        console.log(exerciseId)
+        //console.log(exerciseId)
         
         
         var exerciseType = $(answer).data("exercisetype")
-        console.log(exerciseType)
+        //console.log(exerciseType)
         
         var value = $(answer).val()
-        console.log(value)
+        console.log("template: "+this.descriptionTemplate)
+        console.log(this.nextType)
+        submissionData.push({
+          template: thisTemplate,
+          exerciseId: exerciseId,
+          exerciseType: exerciseType,
+          value: value
+        })
       })
       
-      /*
-      Meteor.call
-      //submit data
-      id
-      exercise id
-      time
-      exerise type
-      answer
-      */
+      Meteor.call('insertData', submissionData, function(){
+        console.log("successfully submitted data")
+      })
       
-      /*     
-      var template = "introduction" //this.nextTemplate 
+           
+      var template = this.nextTemplate 
       var type = this.nextType 
-      console.log("type: "+type)
       Router.go(template, {type: type})
-      */
+
   },
   
 })
 
 function setTimer(){
-  var clock = 5; //5;
+  var clock = 300; //5;
   var min = Math.floor(clock/60.0)
   var sec = clock % 60
   

@@ -1,0 +1,94 @@
+<template name="rate">
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <p>
+      Below are 30 jokes for you to rate. This style of humor is called <i>American Voices</i>. It takes a real news headline and three humorous responses to it. The headline may or may not be funny. You don't need to rate that. 
+        </p>
+        <p>
+        For each of the humorous responses, give it a quick rating - whatever your first impression is:
+        
+        <ul>
+          <li>Yes, it's pretty funny.</li>
+          <li>Meh, maybe it's amusing.</li>
+          <li>No, it's not funny to me.</li>
+        </ul>
+        
+        </p>
+  
+
+  
+
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+    <br>
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+
+        <p>        
+          <div class="">
+            {{> UI.dynamic template="ratingExercises"}} 
+          </div>         
+        </p>
+         
+      </div>
+      <div class='col-md-2'></div>
+    </div>     
+    <br>    
+
+</template>
+
+
+
+<template name="ratingExercises">
+  {{#each ratingExercises}}
+    <div class="exampleBox">
+      <div class='row'> 
+        <div class='col-md-12'>
+          <div class="headline">{{headline}}</div>
+          <div class="description">{{description}}</div>
+        </div>
+      </div>
+      <div class='row'> 
+        <div class='col-md-1'> </div>
+        <div class='col-md-11'>
+          
+          <div class="rateResponseContainer">
+            1. <span class="response">"{{response1}}"</span><br>
+           <input type='radio' value="yes" name='{{displayId}}-response1' data-exerciseid="{{displayId}}" data-exercisetype="response1"> Yes<br>
+           <input type='radio' value="meh" name='{{displayId}}-response1' data-exerciseid="{{displayId}}" data-exercisetype="response1"> Meh<br>
+           <input type='radio' value="no" name='{{displayId}}-response1' data-exerciseid="{{displayId}}" data-exercisetype="response1"> No<br>
+          </div>
+          
+          <div class="rateResponseContainer">
+            2. <span class="response">"{{response2}}"</span><br>
+           <input type='radio' value="yes" name='{{displayId}}-response2' data-exerciseid="{{displayId}}" data-exercisetype="response2"> Yes<br>
+           <input type='radio' value="meh" name='{{displayId}}-response2' data-exerciseid="{{displayId}}" data-exercisetype="response2"> Meh<br>
+           <input type='radio' value="no" name='{{displayId}}-response2' data-exerciseid="{{displayId}}" data-exercisetype="response2"> No<br>          
+          </div>
+          
+          <div class="rateResponseContainer">
+            3. <span class="response">"{{response3}}"</span><br>
+           <input type='radio' value="yes" name='{{displayId}}-response3' data-exerciseid="{{displayId}}" data-exercisetype="response3"> Yes<br>
+           <input type='radio' value="meh" name='{{displayId}}-response3' data-exerciseid="{{displayId}}" data-exercisetype="response3"> Meh<br>
+           <input type='radio' value="no" name='{{displayId}}-response3' data-exerciseid="{{displayId}}" data-exercisetype="response3"> No<br>
+          </div>
+          
+          
+
+    
+          
+        </div>
+      </div>
+    </div> 
+    {{/each}}
+
+</template>
+
+
+
+
+

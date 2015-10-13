@@ -1,7 +1,8 @@
   dataX["write"] = {
     name: "Joke Writing",
     descriptionTemplate: "write",
-    nextType: "thanks",
+    nextTemplate: "introduction",
+    nextType: "survey",
     
     
     writingExercises: [

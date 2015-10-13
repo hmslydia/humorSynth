@@ -9,13 +9,11 @@
       <div class='col-md-2'></div>
     </div> 
     {{> UI.dynamic template=descriptionTemplate}}
-    
-
- 
-
-        
+      
   </div> 
 </template>
+
+
 
 <template name="write">
     <div class='row'> 
@@ -27,11 +25,24 @@ Now that you have read and practiced joke writing techniques, we want you to wri
   </p>
   
   <p>
-Again, you will have 10 minutes, which will be plenty of time. Try to use the methods if they help you. 
+You will have 10 minutes, which will be plenty of time. Try to use the methods if they help you. 
 <ul>
   <li>read the headline closely</li>
-  <li>write one idea per line for the expected reactions, beliefs, associations, as well as unexpected angles, sarcasm or beliefs</li>
-  <li>enter jokes on the opposite side and do a lightweight evaluation of them by filling out the empty boxes</li>
+  <li>use the large box on the left for brainstorming. Write down
+    <ul>
+      <li>aspects</li> 
+      <li>expected reactions</li>
+      <li>associations</li>
+      <li>beliefs</li>
+      <li>opportunities for sarcasm and </li>
+      <li>jokes or partial jokes</li>
+    </ul>
+  </li>
+    
+  
+  
+  <li>write one brainstorming idea per line</li>
+  <li>enter selected jokes on the right side and do a lightweight evaluation of them by filling out the empty boxes</li>
 </ul>
   </p>
   
@@ -56,7 +67,7 @@ Again, you will have 10 minutes, which will be plenty of time. Try to use the me
       <br>
 
     
-      <span class="ourAnswers" style="display:inline"> 
+      <span class="ourAnswers" style="display:none"> 
         <div class='row'> 
           <div class='col-md-5'></div>
           <div class='col-md-2'>
@@ -97,71 +108,144 @@ Again, you will have 10 minutes, which will be plenty of time. Try to use the me
 </template>
 
 <template name="jokeUI">
-  
-    <div class='row'> 
-      <div class='col-md-0'><!-- CHEAT SHEET --></div>
-      <div class='col-md-5'>  
-        <div class="rowspacer">
-          <div class="headline">{{headline}}</div>
-          <div class="description"> {{description}}</div>
-        </div>
-        <div class="aside">(write one <b>idea</b> per line)</div>
-        <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="ideas" rows="15" cols="50"></textarea>
-         
+  <div class='row'> 
+    <div class='col-md-5'>  
+      <div class="rowspacer">
+        <div class="headline">{{headline}}</div>
+        <div class="description"> {{description}}</div>
       </div>
-      <div class='col-md-5'>
-        <div class="row">
-          <div class='col-md-3'>
-            <span class="table-label">
-              Joke
-            </span>
-          </div> 
-          <div class='col-md-8'>
-            <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="joke" rows="2" cols="50"></textarea>
-          </div> 
-        </div>
-        <div class="row">  
-          <div class='col-md-3'>
-            <span class="table-label">
-              Connections
-            </span>
-          </div> 
-          <div class='col-md-8'>
-            <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="connections" rows="2" cols="50"></textarea>
-          </div> 
-        </div> 
-        <div class="row">         
-          <div class='col-md-3'>
-            <span class="table-label">
-              Violation
-            </span>
-          </div> 
-          <div class='col-md-8'>
-            <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="violation" rows="1" cols="50"></textarea>
-          </div> 
-        </div>          
-         <div class="row">         
-          <div class='col-md-3'>
-            <span class="table-label">
-              Belief(s)
-            </span>
-          </div> 
-          <div class='col-md-8'>
-            <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="belief" rows="2" cols="50"></textarea>
-          </div> 
-        </div>         
-        
-      </div>
-    </div> 
-    <br>
-    <br>
+    </div>
+    <div class='col-md-5'>  
+    </div>
+  </div>  
 
+  <div class='row'> 
+    <div class='col-md-5'>          
+      <div class="aside">(write one <b>idea</b> per line)</div>
+      <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="ideas" rows="15" cols="50"></textarea>
+       
+    </div>
+    <div class='col-md-5'>
+      <span class="jokeContainer">
+        <br>
+         {{> jokeUI1}} 
+             
+        <div class='row'>
+          <div class='col-md-3'></div>
+          <div class='col-md-2'>
+            <button class="addJoke btn btn-success" >  + </button>
+          </div>
+          
+        </div>
+        <span class="joke2" style="display:none;"> 
+        {{> jokeUI2}} 
+        </span>
+      </span>
+    </div>
+  </div>
+  <br>
+  <br>
+
+</template>
+
+
+<template name="jokeUI1">
+      
+      <div class="row">
+        <div class='col-md-3'>
+          <span class="table-label">
+            Joke
+          </span>
+        </div> 
+        <div class='col-md-8'>
+          <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="joke" rows="2" cols="50"></textarea>
+        </div> 
+      </div>
+      
+      <div class="row">  
+        <div class='col-md-3'>
+          <span class="table-label">
+            Connections
+          </span>
+        </div> 
+        <div class='col-md-8'>
+          <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="connections" rows="2" cols="50"></textarea>
+        </div> 
+      </div> 
+      
+      <div class="row">         
+        <div class='col-md-3'>
+          <span class="table-label">
+            Violation
+          </span>
+        </div> 
+        <div class='col-md-8'>
+          <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="violation" rows="1" cols="50"></textarea>
+        </div> 
+      </div>  
+              
+       <div class="row">         
+        <div class='col-md-3'>
+          <span class="table-label">
+            Belief(s)
+          </span>
+        </div> 
+        <div class='col-md-8'>
+          <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="belief" rows="2" cols="50"></textarea>
+        </div> 
+      </div> 
 </template>
 
 
 
 
-
+<template name="jokeUI2">
+    
+    <div class="row">
+      <div class='col-md-3'>
+        <span class="table-label">
+          Joke
+        </span>
+      </div> 
+      <div class='col-md-8'>
+        <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="joke2" rows="2" cols="50"></textarea>
+      </div> 
+    </div>
+    
+    <div class="row">  
+      <div class='col-md-3'>
+        <span class="table-label">
+          Connections
+        </span>
+      </div> 
+      <div class='col-md-8'>
+        <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="connections2" rows="2" cols="50"></textarea>
+      </div> 
+    </div> 
+    
+    <div class="row">         
+      <div class='col-md-3'>
+        <span class="table-label">
+          Violation
+        </span>
+      </div> 
+      <div class='col-md-8'>
+        <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="violation2" rows="1" cols="50"></textarea>
+      </div> 
+    </div>  
+            
+     <div class="row">         
+      <div class='col-md-3'>
+        <span class="table-label">
+          Belief(s)
+        </span>
+      </div> 
+      <div class='col-md-8'>
+        <textarea class="answer" data-exerciseId="{{displayId}}" data-exercisetype="belief2" rows="2" cols="50"></textarea>
+      </div> 
+    </div>         
+ 
+</template>
 
 
 
