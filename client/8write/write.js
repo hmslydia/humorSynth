@@ -70,7 +70,7 @@ Template.jokeUI.events({
 })
 
 function setTimer2(){
-  var clock = 600; //5;
+  var clock = 900; //5;
   var min = Math.floor(clock/60.0)
   var sec = clock % 60
   
