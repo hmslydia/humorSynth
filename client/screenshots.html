@@ -1,0 +1,766 @@
+<template name="screenshots">
+  <div class='container'>
+    <!--
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        {{#each aspectExamples}}
+        <span class="header2">Aspect Examples</span>
+          <div class="exampleBox">
+            {{> aspectExampleScreenshots}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+    
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <span class="header2">Reaction Examples</span>
+        {{#each reactionExamples}}  
+               
+          <div class="exampleBox">
+            {{> reactionExampleScreenshots}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <span class="header2">Association Example: Alt Thing</span>
+        {{#each altThingExamples}}        
+          <div class="exampleBox">
+            {{> altThingExampleScreenshots}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <span class="header2">Association Example: Details</span>
+        {{#each detailsExamples}}        
+          <div class="exampleBox">
+            {{> detailsExampleScreenshots}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <span class="header2">Association Examples: Insult</span>
+        {{#each insultExamples}}        
+          <div class="exampleBox">
+            {{> insultExampleScreenshots}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <span class="header2">Sentiment: Positive </span>
+        {{#each positiveSentimentExamples}}        
+          <div class="">
+            {{> positiveSentimentExamplesScreenshots}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <span class="header2">Belief: Reason Good </span>
+        {{#each reasonGoodExamples}}        
+          <div class="">
+            {{> reasonGoodExamplesScreenshots}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <span class="header2">Belief: Reason Bad </span>
+        {{#each reasonBadExamples}}        
+          <div class="">
+            {{> reasonBadExamplesScreenshots}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+-->
+
+
+    <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <span class="header2">Violation: Sarcasm </span>
+        {{#each sarcasmExamples}}        
+          <div class="">
+            {{> sarcasmExamplesScreenshots}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+    </div>
+    
+     <div class='row'> 
+      <div class='col-md-2'></div> 
+      <div class='col-md-8'>
+        <span class="header2">Violation: angle </span>
+        {{#each angleExamples}}        
+          <div class="">
+            {{> angleExamplesScreenshots}} 
+          </div>  
+        {{/each}}
+      </div>
+      <div class='col-md-2'></div>
+    </div>   
+    
+  </div>
+</template>
+
+
+
+<template name="angleExamplesScreenshots">
+
+   <div class="exampleBox">
+    <div class='row'>  
+      <div class='col-md-6'>
+        <b>Headline </b>     
+      </div>   
+      <div class='col-md-6'>
+        <b>Joke </b>     
+      </div>   
+    </div> 
+       
+    <div class='row'> 
+
+      <div class='col-md-6'>
+        {{headline}} <br>
+        <span class="description">{{description}}</span>     
+      </div>    
+      <div class='col-md-6'>
+        {{joke}}     
+      </div> 
+
+  
+    </div>
+    <br>
+    <div class='row'> 
+      <div class='col-md-6'>
+        <div class="table-label ">Expectations</div> 
+        <ul class="">
+        {{#each expectations}}
+          <li>{{expectation}}</li>
+        {{/each}}     
+        </ul>
+      </div> 
+      
+      <div class='col-md-6'>
+        
+        <div class="rowspacer">
+          <div class='row'> 
+            <div class='col-md-4'>
+               <div class="table-label ">Violation</div> 
+            </div>
+            <div class='col-md-8'>
+              <span class="">Angle</span>
+            </div> 
+          </div>
+        </div>
+      
+        <div class="rowspacer">
+          <div class='row'> 
+            <div class='col-md-4'>
+               <div class="table-label ">Angle</div> 
+            </div>
+            <div class='col-md-8'>
+              <input type="text" size="15" class="highlighted-example" value="{{angle}}" > 
+            </div> 
+          </div>
+        </div>
+        
+        <div class="rowspacer">
+          <div class='row'> 
+  
+            <div class='col-md-4'>
+               <div class="table-label ">Belief Type</div> 
+  
+            </div>
+            <div class='col-md-8'>
+              <input type="text" size="15" class="highlighted-example" value="{{beliefType}}" >  
+                          </div> 
+          </div>
+        </div>
+        
+        <div class="rowspacer">
+          <div class='row'>
+            <div class='col-md-4'>
+               <div class="table-label ">Belief</div> 
+            </div>
+            <div class='col-md-8'>
+              <textarea class="highlighted-example" style="height:46px; width: 180px;">{{{belief}}}</textarea>
+  
+            </div>            
+          </div>
+        </div>
+      </div>   
+
+
+  
+    </div>     
+   </div>
+ 
+      <br>
+
+</template>
+
+
+<template name="sarcasmExamplesScreenshots">
+   <div class="exampleBox">
+    <div class='row'> 
+      <div class='col-md-6'>
+        <b>Headline </b>     
+      </div>   
+      <div class='col-md-6'>
+        <b>Joke </b>     
+      </div> 
+  
+  
+    </div> 
+       
+    <div class='row'> 
+      <div class='col-md-6'>
+        {{headline}} <br>
+        <span class="description">{{description}}</span>     
+      </div>    
+      <div class='col-md-6'>
+        {{joke}}     
+      </div> 
+
+  
+    </div>
+    <br>
+    <div class='row'> 
+      <div class='col-md-6'>
+        <div class="table-label ">Expectations</div> 
+        <ul class="">
+        {{#each expectations}}
+          <li>{{expectation}}</li>
+        {{/each}}     
+        </ul>
+      </div> 
+      
+      <div class='col-md-6'>
+        <div class='rowspacer'>  
+          <div class='row'> 
+            <div class='col-md-4'>
+              <div class="table-label ">Violation</div>
+            </div>
+            <div class='col-md-8'>
+              <span class="">Sarcasm</span>
+            </div>           
+          </div>
+        </div>
+        <div class='rowspacer'>          
+          <div class='row'> 
+            <div class='col-md-4'>
+             <div class="table-label "> Belief Type</div>
+            </div>
+            <div class='col-md-8'>
+              <input type="text" size="15" class="highlighted-example" value="{{beliefType}}" >  
+            </div> 
+          </div>
+        </div>
+        <div class='rowspacer'>          
+          <div class='row'>
+            <div class='col-md-4'>
+              <div class="table-label ">Belief</div>
+            </div>
+            <div class='col-md-8'>
+                      <textarea class="highlighted-example" style="height:46px; width: 180px;">{{{belief}}}</textarea>
+
+            </div>            
+          </div>
+        </div>   
+      </div>
+
+  
+    </div>     
+   </div>
+ 
+      <br>
+
+</template>
+
+
+
+
+<template name="reasonGoodExamplesScreenshots">
+
+    <div class="exampleBox">
+      <div class='rowspacer'> 
+      <div class='row'> 
+        <div class='col-md-6'>
+          <span class="header3 screenshot">Headline</span> <b> </b>     
+        </div>    
+        <div class='col-md-6'>
+          <span class="header3 screenshot">Joke</span> <b> </b>     
+        </div>   
+      </div>
+      </div> 
+        
+      <div class='row'> 
+        <div class='col-md-6'>
+          {{headline}}      
+        </div>    
+        <div class='col-md-6'>
+          {{joke}}     
+        </div> 
+      </div>
+      <br>
+      
+      <div class="rowspacer">
+        <div class='row'> 
+          <div class='col-md-4'>
+              <div class="table-label center"></div>
+          </div> 
+          <div class='col-md-2'>
+               <span class="table-label">Sentiment</span> 
+          </div>    
+          <div class='col-md-6'>
+               <span class="">{{{jokeSentiment}}}, (<i>{{{jokeSnippet}}}</i>)</span>  
+          </div>   
+        </div> 
+      </div>
+      <div class="rowspacer">
+        <div class='row'> 
+          <div class='col-md-4'>
+              <div class="table-label center"></div>
+          </div> 
+          <div class='col-md-2'>
+               <span class="table-label">Belief Type</span> 
+          </div>    
+          <div class='col-md-6'>
+               <span class="">{{{beliefType}}}</span>  
+          </div> 
+        </div> 
+      </div>
+      <div class="rowspacer">
+        <div class='row'> 
+          <div class='col-md-4'>
+              <div class="table-label center"></div>
+          </div> 
+          <div class='col-md-2'>
+               <span class="table-label">Belief </span> 
+          </div>    
+          <div class='col-md-6'>
+            <input type="text" size="30" class="highlighted-example" value="{{belief}}" >   
+          </div> 
+        </div> 
+      </div>         
+    </div>
+
+</template>
+
+<template name="reasonBadExamplesScreenshots">
+
+    <div class="exampleBox">
+      <div class='rowspacer'>
+      <div class='row'> 
+        <div class='col-md-6'>
+          <span class="header3 screenshot">Headline</span> <b> </b>     
+        </div>    
+        <div class='col-md-6'>
+          <span class="header3 screenshot">Joke</span> <b> </b>     
+        </div>   
+      </div>
+      </div> 
+        
+      <div class='row'> 
+        <div class='col-md-6'>
+          {{headline}}      
+        </div>    
+        <div class='col-md-6'>
+          {{joke}}     
+        </div> 
+      </div>
+      <br>
+      
+      <div class="rowspacer">
+        <div class='row'> 
+          <div class='col-md-4'>
+              <div class="table-label center"></div>
+          </div> 
+          <div class='col-md-2'>
+               <span class="table-label">Sentiment</span> 
+          </div>    
+          <div class='col-md-6'>
+               <span class="">{{{jokeSentiment}}}, (<i>{{{jokeSnippet}}}</i>)</span>  
+          </div>   
+        </div> 
+      </div>
+      <div class="rowspacer">
+        <div class='row'> 
+          <div class='col-md-4'>
+              <div class="table-label center"></div>
+          </div> 
+          <div class='col-md-2'>
+               <span class="table-label">Belief Type</span> 
+          </div>    
+          <div class='col-md-6'>
+               <span class="">{{{beliefType}}}</span>  
+          </div> 
+        </div> 
+      </div>
+      <div class="rowspacer">
+        <div class='row'> 
+          <div class='col-md-4'>
+              <div class="table-label center"></div>
+          </div> 
+          <div class='col-md-2'>
+               <span class="table-label">Belief </span> 
+          </div>    
+          <div class='col-md-6'>
+            <input type="text" size="30" class="highlighted-example" value="{{belief}}" >   
+          </div> 
+        </div> 
+      </div>         
+    </div>
+
+</template>
+
+
+<template name="positiveSentimentExamplesScreenshots">
+
+   <div class="exampleBox"> 
+    <div class='row'> 
+      <div class='col-md-2'>
+            
+      </div> 
+      <div class='col-md-3'>
+        <span class="header3 screenshot">Headline</span>    
+      </div>    
+      <div class='col-md-4'>
+        <span class="header3 screenshot">Joke</span><b> </b>     
+      </div> 
+      <div class='col-md-3'>
+        <span class="header3 screenshot">Sentiment <br>Indication</span><b></b>
+      </div> 
+  
+    </div>
+     
+     
+     
+    <div class="rowspacer">
+      <div class='row'> 
+        <div class='col-md-2'>
+             <div class="table-label center">Texts </div>
+        </div> 
+        <div class='col-md-3'>
+          {{headline}}      
+        </div>    
+        <div class='col-md-4'>
+          {{joke}}     
+        </div> 
+        <div class='col-md-3'>
+          
+        </div> 
+    
+      </div>
+    </div>
+    <div class='row'> 
+      <div class='col-md-2'>
+          <div class="table-label center">Sentiments</div>
+      </div> 
+      <div class='col-md-3'>
+        {{headlineSentiment}}     
+      </div>    
+      <div class='col-md-4'>
+        <input type="text" size="10" class="highlighted-example" value="{{jokeSentiment}}" >   
+      </div> 
+      <div class='col-md-3'>
+        <textarea class="highlighted-example" value="{{jokeSnippet}}" style="height:46px; width: 120px;">{{{jokeSnippet}}}</textarea>
+        
+      </div> 
+  
+    </div>     
+   </div>    
+
+</template>
+
+
+
+
+
+<template name="aspectExampleScreenshots">
+  <div class='row'> 
+      <div class='col-md-2'>
+        <div class="table-label center">
+          Headline
+        </div>        
+      </div>    
+      <div class='col-md-10'>
+        <div class="headlineSmall">
+        {{{headline}}}
+        </div>
+      </div> 
+
+  </div>
+  
+  
+  <div class='row'> 
+      <div class='col-md-2'>
+        <div class="table-label center">
+          
+        </div>        
+      </div>    
+      <div class='col-md-10'>
+        {{description}}<br><br>
+      </div> 
+
+  </div>
+  
+
+  <div class='row'> 
+    <div class='col-md-2'>
+      <div class="table-label center">
+        Aspects
+      </div>        
+    </div>    
+    
+    <div class='col-md-7'>
+      <table border="0px solid black">
+              
+      {{#each aspects}}
+      <tr>
+        <td width="300px">
+          <div class="cell">
+          <input type="text" size="40" class="highlighted-example" value="{{aspect}}" >
+          </div>
+        </td>
+        <td width="100px">
+          <div class="cell">  
+            <input type="text" class="highlighted-example" value="{{type}}">
+          </div>
+        </td>
+      </tr>  
+      {{/each}}  
+      </table>
+    </div> 
+  </div>
+</template>
+
+
+
+<template name="reactionExampleScreenshots">
+  <div class="rowspacer2">
+    <div class="row">
+      <div class='col-md-4'>
+        <span class="header3 screenshot">Headline</span>
+      </div>
+      <div class='col-md-2'>
+        <span class="header3 screenshot">Aspect</span>
+      </div>
+          <div class='col-md-2'>
+        <span class="header3 screenshot">Expected<br>Reaction</span>
+      </div>
+      <div class='col-md-4'>
+        <span class="header3 screenshot">Expected<br>Reason / Belief</span>
+      </div>
+    </div>
+  </div>
+
+    <div class="row">
+      <div class='col-md-4'>
+        
+        <span class="">{{{headline}}}</span>
+      </div>
+      <div class='col-md-2'>
+        <span class=""><span class="screenshot-attn">{{{aspect}}}</span></span>
+      </div>
+      <div class='col-md-2'>
+        <input type="text" class="highlighted-example" size="10" value="{{expectedReaction}}">
+      </div>
+      <div class='col-md-4'>
+        <textarea class="highlighted-example" style="height:66px">{{{expectedBelief}}}</textarea>
+      </div>
+    </div>
+
+</template>
+
+
+
+<template name="altThingExampleScreenshots">
+  <div class="rowspacer">
+  <div class='row'> 
+    <div class='col-md-3'>
+      <span class="header3 screenshot">Headline</span>    
+    </div>    
+    <div class='col-md-2'>
+      <span class="header3 screenshot">Aspect</span><b> </b>     
+    </div> 
+    <div class='col-md-2'>
+      <span class="header3 screenshot">Alt Thing</span><b></b>
+    </div> 
+    <div class='col-md-3'>
+      <span class="header3 screenshot">Joke</span><b></b>
+    </div> 
+  </div>
+  </div>
+
+    
+      <div class='row'> 
+        <div class='col-md-3'>
+          {{{headline}}}     
+        </div>    
+        <div class='col-md-2'>
+          <span class="screenshot-attn">{{{aspect}}}</span>     
+        </div> 
+        <div class='col-md-6'>
+          <div class='row'> 
+              {{#each associations}}
+                <div class="rowspacer">
+                  <div class='col-md-4'>
+                    <input type="text" size="10" class="highlighted-example" value="{{association}}" >
+                    
+                  </div> 
+                  <div class='col-md-8'>
+                    {{{joke}}}
+                  </div>
+                </div> 
+              {{/each}} 
+          </div>
+        </div>
+      </div>
+      <br>
+
+</template>
+
+
+
+<template name="insultExampleScreenshots">
+  <div class="rowspacer">
+  <div class='row'> 
+    <div class='col-md-3'>
+      <span class="header3 screenshot">Headline</span>    
+    </div>    
+    <div class='col-md-2'>
+      <span class="header3 screenshot">Aspect</span><b> </b>     
+    </div> 
+    <div class='col-md-3'>
+      <span class="header3 screenshot">Insult</span><b></b>
+    </div> 
+    <!--
+    <div class='col-md-3'>
+      <span class="header3 screenshot">Joke</span><b></b>
+    </div> 
+    -->
+  </div>
+  </div>
+
+    
+      <div class='row'> 
+        <div class='col-md-3'>
+          {{{headline}}}      
+        </div>    
+        <div class='col-md-2'>
+          <span class="screenshot-attn">{{{aspect}}}</span>      
+        </div> 
+        <div class='col-md-6'>
+          <div class='row'> 
+              {{#each associations}}
+                <div class="">
+                  <div class='col-md-4'>
+                    <!-- <input type="text" size="25" class="highlighted-example" value="{{association}}" > -->
+                    <textarea type="text" size="25" class="highlighted-example" style="height: 66px; width: 200px;">{{association}}</textarea>
+                  </div> 
+                  <!--
+                  <div class='col-md-8'>
+                    {{{joke}}}
+                  </div> 
+                  -->
+                </div>
+              {{/each}} 
+          </div>
+        </div>
+      </div>
+      <br>
+
+</template>
+
+
+
+<template name="detailsExampleScreenshots">
+  <div class="rowspacer">
+  <div class='row'> 
+    <div class='col-md-3'>
+      <span class="header3 screenshot">Headline</span>    
+    </div>    
+    <div class='col-md-2'>
+      <span class="header3 screenshot">Aspect</span><b> </b>     
+    </div> 
+    <div class='col-md-2'>
+      <span class="header3 screenshot">Detail</span><b></b>
+    </div> 
+    <!--
+    <div class='col-md-3'>
+      <span class="header3 screenshot">Joke</span><b></b>
+    </div> 
+    -->
+  </div>
+  </div>
+      
+      <div class='row'> 
+        <div class='col-md-3'>
+          {{{headline}}}     
+        </div>    
+        <div class='col-md-2'>
+          <span class="screenshot-attn">{{{aspect}}}</span>     
+        </div> 
+        <div class='col-md-6'>
+          <div class='row'> 
+              {{#each associations}}
+                <div class="">
+                  <div class='col-md-4'>
+                    <!-- <input type="text" size="25" class="highlighted-example" value="{{association}}" > -->
+                    <textarea type="text" size="25" class="highlighted-example" style="height: 66px; width: 200px;" >{{association}}</textarea>
+                  </div> 
+                  <!--
+                  <div class='col-md-8'>
+                    {{{joke}}}
+                  </div> 
+                  -->
+                </div>
+              {{/each}} 
+          </div>
+        </div>
+      </div>
+      <br>
+
+</template>
+

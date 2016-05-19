@@ -164,6 +164,16 @@ textarea:disabled {
   background-color: yellow;
 }
 
+.screenshot-attn{
+  /*color: red;*/
+  font-weight: bold;
+}
+
+.header3.screenshot{
+  color:grey;
+  font-weight: normal;
+}
+
 .example-box{
   padding-top: 10px;
   padding-bottom: 10px;

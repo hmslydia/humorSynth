@@ -1,0 +1,605 @@
+{ "exerciseId" : "reactionExercises-8", "exerciseType" : "reaction", "value" : "bad", "template" : "understanding", "_id" : "29P8mgvJ4T9EZZgrc" }
+{ "exerciseId" : "reactionExercises-6", "exerciseType" : "reaction", "value" : "", "template" : "understanding", "_id" : "29kXEqSjiMf69Kwgd" }
+{ "exerciseId" : "aspectExercises-5", "exerciseType" : "aspect", "value" : "", "template" : "understanding", "_id" : "2JcGWmLD97dBFia9Y" }
+{ "exerciseId" : "reactionExercises-2", "exerciseType" : "belief", "value" : "nobody likes tests", "template" : "understanding", "_id" : "2NdY93vWPobodhDnj" }
+{ "exerciseId" : "reactionExercises-5", "exerciseType" : "belief", "value" : "being healthier helps you to live a happy life", "template" : "understanding", "_id" : "2fjsSqrmTmAJPYZRt" }
+{ "exerciseId" : "reactionExercises-8", "exerciseType" : "belief", "value" : "teachers need to be present to teach and guide learners!", "template" : "understanding", "_id" : "2p3sZNsnjnuMaTkBf" }
+{ "exerciseId" : "aspectExercises-6", "exerciseType" : "aspect", "value" : "", "template" : "understanding", "_id" : "2sZ3fSo9hs6e2Gfpb" }
+{ "exerciseId" : "angleExercises-2", "exerciseType" : "belief", "value" : "", "template" : "violation", "_id" : "2sbWhng4FPdWZpX89" }
+{ "exerciseId" : "reactionExercises-7", "exerciseType" : "belief", "value" : "", "template" : "understanding", "_id" : "2t8EW43eWpKFBR44m" }
+{ "exerciseId" : "sarcasmExercises-3", "exerciseType" : "belief", "value" : "People need to feel safe making terrible life choices", "template" : "violation", "_id" : "2vKfaCFsfETEZKKW2" }
+{ "exerciseId" : "reactionExercises-5", "exerciseType" : "reaction", "value" : "good", "template" : "understanding", "_id" : "2veSiPEx2gM3Bu9o4" }
+{ "exerciseId" : "ratingExercises-7", "exerciseType" : "response3", "value" : "yes", "template" : "rate", "_id" : "2ywRAfqTNzkJTMjzu" }
+{ "exerciseId" : "effectOtherExercises-2", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "33boor3o3PJ3aPjLA" }
+{ "exerciseId" : null, "exerciseType" : "jokeSnippet", "value" : "more power", "template" : "sentiment", "_id" : "35Dfq32wab26cyLPW" }
+{ "exerciseId" : "prewritingExercises-1", "exerciseType" : "jokes", "value" : "Breaking: California moved to Mars", "template" : "prewrite", "_id" : "3FwpFZGWKr22cDwAu" }
+{ "exerciseId" : "insultExercises-2", "exerciseType" : "association", "value" : "disgusting", "template" : "associations", "_id" : "3HySqyutXbB5D36RJ" }
+{ "exerciseId" : "prewritingExercises-2", "exerciseType" : "jokes", "value" : "PETA Argues for Monkey's Selfie Profits to go Towards Charity; Monkey Wants Profits to go Towards Bananas", "template" : "prewrite", "_id" : "3JzkB7SB37hjqMJYf" }
+{ "exerciseId" : "ratingExercises-8", "exerciseType" : "response2", "value" : "yes", "template" : "rate", "_id" : "3KPrb69EK9rgq6gzR" }
+{ "exerciseId" : "angleExercises-1", "exerciseType" : "belief", "value" : "", "template" : "violation", "_id" : "3Pmtzcp42ccz9u2mv" }
+{ "exerciseId" : "ratingExercises-2", "exerciseType" : "response1", "value" : "meh", "template" : "rate", "_id" : "3hGyHuTmh9oqHB7ij" }
+{ "exerciseId" : "detailsExercises-2", "exerciseType" : "association", "value" : "Snuggie", "template" : "associations", "_id" : "3zuJJfXXQP9xHXb7y" }
+{ "exerciseId" : "ratingExercises-1", "exerciseType" : "response1", "value" : "yes", "template" : "rate", "_id" : "45eKkwkPwJBcw4pM3" }
+{ "exerciseId" : "reactionExercises-3", "exerciseType" : "belief", "value" : "Tastses good", "template" : "understanding", "_id" : "4FAGNuy2wAz5mebjK" }
+{ "exerciseId" : "aspectExercises-1", "exerciseType" : "aspectType", "value" : "thing", "template" : "understanding", "_id" : "4PnL4TBDoYohSFuK3" }
+{ "exerciseId" : "angleExercises-3", "exerciseType" : "angle", "value" : "George Clooney as competition", "template" : "violation", "_id" : "4W3XC9CdSjzhg53bd" }
+{ "exerciseId" : "ratingExercises-5", "exerciseType" : "response1", "value" : "no", "template" : "rate", "_id" : "4X9X5rYJ2mXxAhSn2" }
+{ "exerciseId" : "insultExercises-1", "exerciseType" : "association", "value" : "prima donnas", "template" : "associations", "_id" : "4Y2xhGKNEoqJ6sLXC" }
+{ "exerciseId" : "evaluationExercises-3", "exerciseType" : "belief", "value" : "", "template" : "evaluation", "_id" : "4sHRhqzcLHNz9NxMu" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "violation", "value" : "", "template" : "write", "_id" : "4sPkZmpeGJvwEMTyf" }
+{ "exerciseId" : "survey-3", "exerciseType" : "useful", "value" : "Objectively pointing out violations was intriguing and helpful", "template" : "survey", "_id" : "4visfGdADH5bpYf3a" }
+{ "exerciseId" : "reactionExercises-7", "exerciseType" : "belief", "value" : "privacy online is super important and Facebook should be helping us protect our privacy", "template" : "understanding", "_id" : "5B6kxEBRBh5isCJxE" }
+{ "exerciseId" : "survey-1", "exerciseType" : "process", "value" : "Not very much.", "template" : "survey", "_id" : "5BqCqqDdjPD6r5MKZ" }
+{ "exerciseId" : "ratingExercises-6", "exerciseType" : "response1", "value" : "no", "template" : "rate", "_id" : "5NPfSdEDWDmizCRx4" }
+{ "exerciseId" : "reactionExercises-9", "exerciseType" : "reaction", "value" : "", "template" : "understanding", "_id" : "5PiGvq6SLCsMZ4YE5" }
+{ "exerciseId" : "aspectExercises-4", "exerciseType" : "aspectType", "value" : "Thing", "template" : "understanding", "_id" : "5PktCN9ii98PurZfp" }
+{ "exerciseId" : "aspectExercises-6", "exerciseType" : "aspect", "value" : "", "template" : "understanding", "_id" : "5S9b6ggcTWgoFpFxB" }
+{ "exerciseId" : "ratingExercises-4", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "5gZargzotZ4QWMvSP" }
+{ "exerciseId" : "evaluationExercises-3", "exerciseType" : "violation", "value" : "sarcasm", "template" : "evaluation", "_id" : "5rzyokY3kSeo8XEj5" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "joke", "value" : "Snapchat is the first announce that they will be releasing a new version on Monday targeting this new market, but others will surely follow.", "template" : "write", "_id" : "5s84jtGfAp9x3jCHs" }
+{ "exerciseId" : "aspectExercises-1", "exerciseType" : "aspect", "value" : "UConn", "template" : "understanding", "_id" : "5wWitbzG7tg8nW2G6" }
+{ "exerciseId" : "aspectExercises-6", "exerciseType" : "aspectType", "value" : "", "template" : "understanding", "_id" : "62eR26uapCSY84jgC" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "violation2", "value" : "", "template" : "write", "_id" : "66S9uJW26aXovMZRh" }
+{ "exerciseId" : "survey-3", "exerciseType" : "useful", "value" : "Breaking down jokes into logical steps. I think it was helpful to see actual jokes being broken down. It was also helpful to have a chance to provide an answer during the exercises before revealing possible solutions.", "template" : "survey", "_id" : "6Am2gW9n9sMQoLmwA" }
+{ "exerciseId" : "personalityFlawExercises-2", "exerciseType" : "association", "value" : "love doing them", "template" : "associations", "_id" : "6DoKeHNgYSs69Ltuy" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "violation", "value" : "Mars is an uninhibited planet", "template" : "write", "_id" : "6LiWpCzW6oxhPcXeo" }
+{ "exerciseId" : "detailsExercises-1", "exerciseType" : "association", "value" : "Indiana Jones", "template" : "associations", "_id" : "6R7sEk6AbCq4q5nfv" }
+{ "exerciseId" : "reasonBadExercises-1", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "6XbhJXGvqeWQCM2nH" }
+{ "exerciseId" : "blameExercises-2", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "75cKpXcdbFWSdYD34" }
+{ "exerciseId" : "ratingExercises-2", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "7DoWmwfo9y8z2DtPJ" }
+{ "exerciseId" : "insultExercises-1", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "7EW5ouYbSwejQuwf8" }
+{ "exerciseId" : "prewritingExercises-2", "exerciseType" : "jokes", "value" : "PETA really knows how to use that extra 1% of brainpower.", "template" : "prewrite", "_id" : "7SF3STk8v3DFxNJfn" }
+{ "exerciseId" : "aspectExercises-1", "exerciseType" : "aspect", "value" : "UConn", "template" : "understanding", "_id" : "7WsFhwg6kSuAbPhZk" }
+{ "exerciseId" : null, "exerciseType" : "jokeSentiment", "value" : "good", "template" : "sentiment", "_id" : "7ccc6KN2ZANfAY5Kk" }
+{ "exerciseId" : "aspectExercises-5", "exerciseType" : "aspectType", "value" : "Reason", "template" : "understanding", "_id" : "7gJ8vnJCFjtq5r2iY" }
+{ "exerciseId" : "ratingExercises-6", "exerciseType" : "response2", "value" : "meh", "template" : "rate", "_id" : "7iSmzyRX9xccDFRn7" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "connections2", "value" : "", "template" : "write", "_id" : "7sQ3M4sDyJ4eR4JiR" }
+{ "exerciseId" : "detailsExercises-2", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "7tSSnFrAxo9pSaZA6" }
+{ "exerciseId" : "reactionExercises-10", "exerciseType" : "belief", "value" : "", "template" : "understanding", "_id" : "7uMdBEdXT9ctiMwjz" }
+{ "exerciseId" : "ratingExercises-6", "exerciseType" : "response1", "value" : "no", "template" : "rate", "_id" : "7vX7Zv4Rk8fnejfy8" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "belief2", "value" : "", "template" : "write", "_id" : "826QpQ4dMK8jaCNz6" }
+{ "exerciseId" : "angleExercises-1", "exerciseType" : "belief", "value" : "Global warming will help control shark populations", "template" : "violation", "_id" : "869XiLYemk7WGLLeu" }
+{ "exerciseId" : "reactionExercises-1", "exerciseType" : "belief", "value" : "Mt Dew is gross and bad for you.", "template" : "understanding", "_id" : "8LHntLgxweuHefMyt" }
+{ "exerciseId" : "ratingExercises-5", "exerciseType" : "response3", "value" : "meh", "template" : "rate", "_id" : "8bXqjiqCTBunT4irM" }
+{ "exerciseId" : "ratingExercises-6", "exerciseType" : "response1", "value" : "no", "template" : "rate", "_id" : "8csqQHRYefisCXJ8A" }
+{ "exerciseId" : "ratingExercises-3", "exerciseType" : "response2", "value" : "yes", "template" : "rate", "_id" : "8kZTghnEzD3tJj5uk" }
+{ "exerciseId" : "angleExercises-1", "exerciseType" : "angle", "value" : "sharks", "template" : "violation", "_id" : "8n58KWams9o73aYDN" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "violation", "value" : "sarcasm", "template" : "write", "_id" : "8r35B3J6HviDn8YJT" }
+{ "exerciseId" : "evaluationExercises-2", "exerciseType" : "connections", "value" : "shark, surging/excitement", "template" : "evaluation", "_id" : "8vibPH6TwAxGrPC5D" }
+{ "exerciseId" : "reactionExercises-3", "exerciseType" : "reaction", "value" : "good", "template" : "understanding", "_id" : "8z6te2udehsedFmeG" }
+{ "exerciseId" : "angleExercises-2", "exerciseType" : "angle", "value" : "fun with lip balm", "template" : "violation", "_id" : "95i23HthQcsp6kwWK" }
+{ "exerciseId" : "sympathizeExercises-1", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "98BriepPABRWjkfGH" }
+{ "exerciseId" : null, "exerciseType" : "jokeSnippet", "value" : "", "template" : "sentiment", "_id" : "9AHWnLMisEmLLSjoT" }
+{ "exerciseId" : "ratingExercises-2", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "9AQcGPmhGrE9C6iX4" }
+{ "exerciseId" : "reactionExercises-7", "exerciseType" : "reaction", "value" : "good", "template" : "understanding", "_id" : "9G4hWraFaWSLv328k" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "violation2", "value" : "", "template" : "write", "_id" : "9XdunfSMtcuRZzSFH" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "belief", "value" : "365 is a poor brand name", "template" : "write", "_id" : "9covAptEH48yL2qeZ" }
+{ "exerciseId" : "prewritingExercises-1", "exerciseType" : "jokes", "value" : "", "template" : "prewrite", "_id" : "9iHPkJh4ubbibDkFW" }
+{ "exerciseId" : "detailsExercises-1", "exerciseType" : "association", "value" : "Indiana Jones", "template" : "associations", "_id" : "9j2YJ3Yc2C9of4PWQ" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "belief2", "value" : "", "template" : "write", "_id" : "9jmhXjquQJ3NEHQ84" }
+{ "exerciseId" : "angleExercises-3", "exerciseType" : "angle", "value" : "", "template" : "violation", "_id" : "9msfLeNA8ZMT2muZH" }
+{ "exerciseId" : "evaluationExercises-2", "exerciseType" : "violation", "value" : "", "template" : "evaluation", "_id" : "9pWZ7z5Wy9pQuW8LN" }
+{ "exerciseId" : "sarcasmExercises-2", "exerciseType" : "belieftype", "value" : "This is bad", "template" : "violation", "_id" : "9r8zptv8sEqscZ2PE" }
+{ "exerciseId" : "ratingExercises-2", "exerciseType" : "response2", "value" : "meh", "template" : "rate", "_id" : "9rqNMsCQ3JZpteMFw" }
+{ "exerciseId" : "ratingExercises-5", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "9s5FkW6vJjSekzbqK" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "belief", "value" : "Mars has some water", "template" : "write", "_id" : "9xXo9JqGucFJz4GRM" }
+{ "exerciseId" : null, "exerciseType" : "jokeSnippet", "value" : "I have to remember", "template" : "sentiment", "_id" : "9y5FLeZhM2woY7tZY" }
+{ "exerciseId" : "evaluationExercises-2", "exerciseType" : "belief", "value" : "this is good for sharks", "template" : "evaluation", "_id" : "9yz3rJNGSH8r4FLpd" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "connections", "value" : "water -> beer\n", "template" : "write", "_id" : "A5Hdwz5LQKY9MPBr3" }
+{ "exerciseId" : "ratingExercises-3", "exerciseType" : "response1", "value" : "yes", "template" : "rate", "_id" : "ALbAS4HwQGFnzYAWq" }
+{ "exerciseId" : "personalityFlawExercises-2", "exerciseType" : "association", "value" : "never turns in taxes", "template" : "associations", "_id" : "AMwzDaZsri3GMMKiT" }
+{ "exerciseId" : "prewritingExercises-1", "exerciseType" : "jokes", "value" : "When can we start moving in?", "template" : "prewrite", "_id" : "APxDprvZvEdKxYTkt" }
+{ "exerciseId" : "effectSpeakerExercises-1", "exerciseType" : "belief", "value" : "it's annoying to be bugged about soccer", "template" : "belief", "_id" : "ATvXsbf9dtJjThD8R" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "ideas", "value" : "mars -- coneheads, ET, mars attacks, scifi, saturn, uranis, pluto...red planet\n\nliquid water found -- good, we need more sources of water\n\nsolution\n\n\n", "template" : "write", "_id" : "AXAHb2teEQmbf8Pt9" }
+{ "exerciseId" : "ratingExercises-5", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "AaaMHXx6NjvDap96u" }
+{ "exerciseId" : "angleExercises-1", "exerciseType" : "angle", "value" : "people", "template" : "violation", "_id" : "AtioExZ6pTJyht3G4" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "joke", "value" : "Great, now let me know when they've found liquid beer.", "template" : "write", "_id" : "B2DSHPQv6ZikqqCYD" }
+{ "exerciseId" : "evaluationExercises-2", "exerciseType" : "connections", "value" : "Shark\nShark's Feelings", "template" : "evaluation", "_id" : "BD9d4u4FjKofBbPMd" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "joke2", "value" : "", "template" : "write", "_id" : "BDsXYEqLa7Yz3YthD" }
+{ "exerciseId" : "solutionExercises-3", "exerciseType" : "belief", "value" : "I can totally salvage SkyMall", "template" : "belief", "_id" : "BHYyq6TbW4rZCjCYn" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "joke2", "value" : "", "template" : "write", "_id" : "BM3mae3dzcZrDYXDq" }
+{ "exerciseId" : "survey-1", "exerciseType" : "process", "value" : "Using the process taught in the tutorial caused me to take longer to write jokes, but the ways in which I approached the process which far more systematic.", "template" : "survey", "_id" : "BbLJSTKRNuKRnyuP8" }
+{ "exerciseId" : "aspectExercises-7", "exerciseType" : "aspectType", "value" : "Action", "template" : "understanding", "_id" : "BgJ8579KxRQZGiMpQ" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "violation", "value" : "My wife is a monkey", "template" : "write", "_id" : "BhZe38iTboN28wrEq" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "joke2", "value" : "", "template" : "write", "_id" : "BiZqkzcitQzSCszpY" }
+{ "exerciseId" : "effectOtherExercises-2", "exerciseType" : "belief", "value" : "Michael Jackson lives on", "template" : "belief", "_id" : "BnDT4kGnB4RSmN6S4" }
+{ "exerciseId" : "reactionExercises-10", "exerciseType" : "reaction", "value" : "weird", "template" : "understanding", "_id" : "BnsSAXR9i5HmL8kM4" }
+{ "exerciseId" : null, "exerciseType" : "jokeSnippet", "value" : "whatever happened", "template" : "sentiment", "_id" : "BqCDXYJGRwNsr7FBR" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "ideas", "value" : "Layoff\nemployees\ncutting costs\n365 -> Days in a year\nWhole Foods -> Great Value\nSelf-service", "template" : "write", "_id" : "C9JpMoTX4At7zpNnv" }
+{ "exerciseId" : "ratingExercises-8", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "CJBipBSqCQikpCvTz" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "joke2", "value" : "", "template" : "write", "_id" : "CQ9yT5uEFa2RuYEfs" }
+{ "exerciseId" : "evaluationExercises-3", "exerciseType" : "connections", "value" : "", "template" : "evaluation", "_id" : "CQExrXyo4YsTXpCo2" }
+{ "exerciseId" : "personalityFlawExercises-1", "exerciseType" : "association", "value" : "can't leave their basements", "template" : "associations", "_id" : "CcZXtCg3dEDLyG7z4" }
+{ "exerciseId" : "reactionExercises-3", "exerciseType" : "belief", "value" : "gross and full of sugar", "template" : "understanding", "_id" : "CdfCwvaB4D634tTxa" }
+{ "exerciseId" : "aspectExercises-1", "exerciseType" : "aspectType", "value" : "Person", "template" : "understanding", "_id" : "CiFwkAY8oqueuAFgR" }
+{ "exerciseId" : "aspectExercises-4", "exerciseType" : "aspectType", "value" : "action", "template" : "understanding", "_id" : "D3QySaMXNj6vZvsq5" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "violation2", "value" : "", "template" : "write", "_id" : "DAgHj8vo8kNfmMPeR" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "belief2", "value" : "The youth don't know how to talk in person with people", "template" : "write", "_id" : "DDRLg6tHuKj8n9MdN" }
+{ "exerciseId" : "ratingExercises-5", "exerciseType" : "response1", "value" : "yes", "template" : "rate", "_id" : "DGjMbGJEcMXZfGCXR" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "connections", "value" : "Selfies", "template" : "write", "_id" : "DJbNzfFMYEuYZbeAo" }
+{ "exerciseId" : "angleExercises-2", "exerciseType" : "belief", "value" : "", "template" : "violation", "_id" : "DXZCJkQGdfAn9tvQa" }
+{ "exerciseId" : "reactionExercises-4", "exerciseType" : "belief", "value" : "", "template" : "understanding", "_id" : "DeBQBWfhpMimQT8FB" }
+{ "exerciseId" : "reactionExercises-4", "exerciseType" : "reaction", "value" : "", "template" : "understanding", "_id" : "DoHYCtnPry9eMWFJi" }
+{ "exerciseId" : "aspectExercises-6", "exerciseType" : "aspect", "value" : "Assumption that women do not know the basics of football", "template" : "understanding", "_id" : "DsJPsHWDatQfXjEX2" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "joke", "value" : "I don't know what all this fuss is about; I shopped at Whole Foods for groceries and my last meal cost $68.", "template" : "write", "_id" : "E2ixd4qXTjsjpF3Wt" }
+{ "exerciseId" : "angleExercises-1", "exerciseType" : "belieftype", "value" : "global warming is a solution", "template" : "violation", "_id" : "E3EdhCu8DZHYXBq3p" }
+{ "exerciseId" : "altThingExercises-1", "exerciseType" : "association", "value" : "Titanic", "template" : "associations", "_id" : "E8hpkK8yWzRa3s2hs" }
+{ "exerciseId" : "failExercises-1", "exerciseType" : "belief", "value" : "food snobs want \"quesaritos\"", "template" : "belief", "_id" : "EA2J7j2GJHZNCovQk" }
+{ "exerciseId" : "ratingExercises-5", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "EEMZXHdgzs2btgABs" }
+{ "exerciseId" : "evaluationExercises-2", "exerciseType" : "belief", "value" : "", "template" : "evaluation", "_id" : "EHfM6vrWda6c2KdXQ" }
+{ "exerciseId" : "ratingExercises-5", "exerciseType" : "response3", "value" : "meh", "template" : "rate", "_id" : "EMRifStohXJCcfWcz" }
+{ "exerciseId" : "ratingExercises-3", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "Ehb9Yud7YzsjJ3gKq" }
+{ "exerciseId" : "aspectExercises-5", "exerciseType" : "aspect", "value" : "", "template" : "understanding", "_id" : "EjBRbFzkGEToXbR9s" }
+{ "exerciseId" : "ratingExercises-2", "exerciseType" : "response3", "value" : "yes", "template" : "rate", "_id" : "Ek42PkA2nELv69Tnq" }
+{ "exerciseId" : "sympathizeExercises-1", "exerciseType" : "belief", "value" : "Elite College Graduates\nhopes they find happiness", "template" : "belief", "_id" : "EnXWRBsxREMvZkcoi" }
+{ "exerciseId" : "blameExercises-1", "exerciseType" : "belief", "value" : "Visine\nfor not making eye drops which can get you high", "template" : "belief", "_id" : "EsgsvBx2YEZzr6Evc" }
+{ "exerciseId" : "reactionExercises-4", "exerciseType" : "belief", "value" : "Throwing away lunch is a waste of food, and healthy food is good for kids", "template" : "understanding", "_id" : "EwLxpNrmqRJuveATg" }
+{ "exerciseId" : "evaluationExercises-2", "exerciseType" : "belief", "value" : "", "template" : "evaluation", "_id" : "EzBNthqrPyES4Lqi3" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "ideas", "value" : "", "template" : "write", "_id" : "EzdMcmMwEaLHHrE8M" }
+{ "exerciseId" : "altReactionExercises-1", "exerciseType" : "association", "value" : "recovering alcoholic", "template" : "associations", "_id" : "F5G6n8fR8Q8A5LqN8" }
+{ "exerciseId" : "sarcasmExercises-1", "exerciseType" : "belieftype", "value" : "This is bad", "template" : "violation", "_id" : "FDq75T3crPnobPpRM" }
+{ "exerciseId" : "prewritingExercises-3", "exerciseType" : "jokes", "value" : "Whole Foods Lays off 1,500 and Opens \"365\" Stores, Changing Name to \"Approximately 1/5-Foods\"", "template" : "prewrite", "_id" : "FEmn7jvfE9ZgnYPiM" }
+{ "exerciseId" : null, "exerciseType" : "jokeSnippet", "value" : "Whatever happened...", "template" : "sentiment", "_id" : "FJc2iRY9oryce8gYg" }
+{ "exerciseId" : "ratingExercises-8", "exerciseType" : "response2", "value" : "meh", "template" : "rate", "_id" : "FLxG5yPrcTGNntD89" }
+{ "exerciseId" : "evaluationExercises-3", "exerciseType" : "violation", "value" : "", "template" : "evaluation", "_id" : "FX3qY2PdxvAqXwF8u" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "joke2", "value" : "", "template" : "write", "_id" : "FXQ2ypJrRx4CCA5Pk" }
+{ "exerciseId" : "sarcasmExercises-3", "exerciseType" : "belief", "value" : "You should have a backup when you marry people you don't trust", "template" : "violation", "_id" : "FbcDDhHqiqR29txGL" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "connections2", "value" : "", "template" : "write", "_id" : "Ffo88DpPQCyXLxcuK" }
+{ "exerciseId" : "reactionExercises-1", "exerciseType" : "reaction", "value" : "good", "template" : "understanding", "_id" : "FgxYzGR2cbS97woKX" }
+{ "exerciseId" : null, "exerciseType" : "jokeSentiment", "value" : "", "template" : "sentiment", "_id" : "FiG4KGar5LJyPeaGe" }
+{ "exerciseId" : "personalityFlawExercises-1", "exerciseType" : "association", "value" : "nerds ", "template" : "associations", "_id" : "Fkh3cnCwaS7Mz36J3" }
+{ "exerciseId" : "ratingExercises-4", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "FudLkiFJCyYAWRwuh" }
+{ "exerciseId" : "ratingExercises-2", "exerciseType" : "response1", "value" : "meh", "template" : "rate", "_id" : "Fv7p3yPcvAriMF7FR" }
+{ "exerciseId" : "survey-5", "exerciseType" : "recomment", "value" : "Yep!", "template" : "survey", "_id" : "FveE8CTXFyNn8DCLF" }
+{ "exerciseId" : "solutionExercises-2", "exerciseType" : "belief", "value" : "rising temperatures can deter sharks ", "template" : "belief", "_id" : "Fyxga4oJvu4kHeTJy" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "connections2", "value" : "", "template" : "write", "_id" : "G7ddFywnLtdH8GyBM" }
+{ "exerciseId" : "angleExercises-1", "exerciseType" : "angle", "value" : "", "template" : "violation", "_id" : "GAfc3LmBehaewvA9g" }
+{ "exerciseId" : "failExercises-1", "exerciseType" : "belief", "value" : "quesarito is loved by food snobs", "template" : "belief", "_id" : "GbWmjrhH6o6czN87g" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "ideas", "value" : "PETA\nMonkey\nSelfie\nFiling Lawsuit\nCopyright law\nConservation efforts\nSelfie -> social media\nPETA -> ultra-radical organization\nMonkey -> simple creature\nFiling lawsuit -> frivolous lawsuit\n", "template" : "write", "_id" : "GebjREE3PPAnosxpg" }
+{ "exerciseId" : "aspectExercises-7", "exerciseType" : "aspect", "value" : "Denying condescension towards women", "template" : "understanding", "_id" : "GoAJJMsngTGNhP2vg" }
+{ "exerciseId" : "altReactionExercises-2", "exerciseType" : "association", "value" : "chipotle", "template" : "associations", "_id" : "GxRjuqcvB8vwfNgcL" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "connections2", "value" : "", "template" : "write", "_id" : "HAExsxpbkHYFponJw" }
+{ "exerciseId" : "ratingExercises-6", "exerciseType" : "response3", "value" : "yes", "template" : "rate", "_id" : "HAYoZaKwatnKivDW9" }
+{ "exerciseId" : "aspectExercises-4", "exerciseType" : "aspect", "value" : "Announced", "template" : "understanding", "_id" : "HG95Njnqh9QBz2HjY" }
+{ "exerciseId" : "reactionExercises-7", "exerciseType" : "reaction", "value" : "", "template" : "understanding", "_id" : "HZmNWCRo9pjJ6iWen" }
+{ "exerciseId" : "solutionExercises-2", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "HbA7SkuJYqTTh6E7G" }
+{ "exerciseId" : "reasonGoodExercises-1", "exerciseType" : "belief", "value" : "lip balm is typically not very fun", "template" : "belief", "_id" : "HgaKCQ4D6TcnorN8k" }
+{ "exerciseId" : "ratingExercises-6", "exerciseType" : "response1", "value" : "no", "template" : "rate", "_id" : "HtrKMCCjg7mwxCLtE" }
+{ "exerciseId" : "ratingExercises-1", "exerciseType" : "response2", "value" : "meh", "template" : "rate", "_id" : "Hw7ypwscs4bQthbL5" }
+{ "exerciseId" : "reactionExercises-4", "exerciseType" : "belief", "value" : "", "template" : "understanding", "_id" : "J2Gm65mqu5GTqqY7G" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "connections", "value" : "water/shower, conservation", "template" : "write", "_id" : "J5t3ru3nTxtAzFyhY" }
+{ "exerciseId" : "ratingExercises-1", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "JFL9gqrBv9NeLGMu4" }
+{ "exerciseId" : "angleExercises-2", "exerciseType" : "angle", "value" : "lip balm", "template" : "violation", "_id" : "JM46TjnSmiMEdAeKu" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "violation", "value" : "angle", "template" : "write", "_id" : "JRRGieQMtMoAToKiN" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "joke", "value" : "Does this mean I can start taking showers?", "template" : "write", "_id" : "Jfu83HmwcmLCcnwrp" }
+{ "exerciseId" : "reasonBadExercises-1", "exerciseType" : "belief", "value" : "it should be mindless to eat fast food", "template" : "belief", "_id" : "JnffsXLsqKkRSKH9g" }
+{ "exerciseId" : "reactionExercises-1", "exerciseType" : "reaction", "value" : "good", "template" : "understanding", "_id" : "Js3MBgaXe9cwyF6xo" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "connections", "value" : "365", "template" : "write", "_id" : "Jsxx9FZsDoaw3AKrJ" }
+{ "exerciseId" : "ratingExercises-2", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "Jx9aScJM8HREXi8ri" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "violation", "value" : "$68 is a fine price", "template" : "write", "_id" : "K7GBNisswpRThJuD5" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "violation2", "value" : "", "template" : "write", "_id" : "K7SPqhNxNXPTL2K45" }
+{ "exerciseId" : "angleExercises-2", "exerciseType" : "belief", "value" : "lip balm is harmless", "template" : "violation", "_id" : "KJ9mmXTCs8GvP6NB2" }
+{ "exerciseId" : "aspectExercises-5", "exerciseType" : "aspectType", "value" : "", "template" : "understanding", "_id" : "KL3LQb3bvTJQKooyD" }
+{ "exerciseId" : "ratingExercises-6", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "KWEq9gEmGGQRCWEKc" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "connections", "value" : "", "template" : "write", "_id" : "KWjNj2CYxKWfQrMMp" }
+{ "exerciseId" : "evaluationExercises-1", "exerciseType" : "belief", "value" : "", "template" : "evaluation", "_id" : "KX3NzPucNArdadqh9" }
+{ "exerciseId" : "ratingExercises-8", "exerciseType" : "response3", "value" : "meh", "template" : "rate", "_id" : "Kh4hhWBQtbKNvKS8z" }
+{ "exerciseId" : "aspectExercises-2", "exerciseType" : "aspect", "value" : "Female Fans", "template" : "understanding", "_id" : "Kidp3rZWLXKjJKhJe" }
+{ "exerciseId" : "reactionExercises-9", "exerciseType" : "belief", "value" : "teachers help kids", "template" : "understanding", "_id" : "Kj8jmJY7Ra22LDNeE" }
+{ "exerciseId" : "prewritingExercises-3", "exerciseType" : "jokes", "value" : "I don't want to work harder to spend my whole paycheck there.", "template" : "prewrite", "_id" : "KkZGo8rkJ2pkArD2C" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "ideas", "value" : "liquid water\nmars\nperchlorates\nlife on mars\ngood, possibility of life on mars\nbad, possibility of life on mars\nperchlorates -> table salt\nlife on mars -> hostile life on mars\nfail, the amount of water is irrelevant\ngood, now we have somewhere to go when the earth is ruined\nwater -> other beverages (beer)", "template" : "write", "_id" : "KnaQJA36JXk4REmnS" }
+{ "exerciseId" : "survey-6", "exerciseType" : "age", "value" : "21", "template" : "survey", "_id" : "KrgnXKNX8iLpuS28D" }
+{ "exerciseId" : "angleExercises-2", "exerciseType" : "angle", "value" : "fun", "template" : "violation", "_id" : "KtZCvQJfHPZyGZ2T4" }
+{ "exerciseId" : "effectOtherExercises-1", "exerciseType" : "belief", "value" : "people should not burn the flag or sympathize with ISIS", "template" : "belief", "_id" : "KwtsJX8KrjZtRp3wj" }
+{ "exerciseId" : "aspectExercises-2", "exerciseType" : "aspectType", "value" : "Action", "template" : "understanding", "_id" : "L4KLmH4kmiA8goc2m" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "violation", "value" : "sarcasm", "template" : "write", "_id" : "L4reM98APSHxLFiSc" }
+{ "exerciseId" : "reactionExercises-4", "exerciseType" : "belief", "value" : "you shouldn't waste food", "template" : "understanding", "_id" : "L9a7wWYZH6QLr5juX" }
+{ "exerciseId" : "sarcasmExercises-1", "exerciseType" : "belief", "value" : "customers are in trouble if they have options", "template" : "violation", "_id" : "LBBxqQw2T7GSWuaE4" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "violation2", "value" : "", "template" : "write", "_id" : "LFSceqQv3qN7uf5BL" }
+{ "exerciseId" : "altReactionExercises-1", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "LMNuJDqn56Zr97yuC" }
+{ "exerciseId" : "sarcasmExercises-1", "exerciseType" : "belieftype", "value" : "the old way was better", "template" : "violation", "_id" : "LSZRFtMuR8sdpNkMj" }
+{ "exerciseId" : "effectSpeakerExercises-1", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "Li3ENCM4KB8y7HJej" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "belief", "value" : "", "template" : "write", "_id" : "LpieMdwtxe5Bj4afT" }
+{ "exerciseId" : "detailsExercises-1", "exerciseType" : "association", "value" : "Indiana Jones", "template" : "associations", "_id" : "LyBHQvgGZDtY26pam" }
+{ "exerciseId" : "angleExercises-1", "exerciseType" : "belieftype", "value" : "solution", "template" : "violation", "_id" : "M2LBvHyrQ5GLeREtx" }
+{ "exerciseId" : "reactionExercises-1", "exerciseType" : "reaction", "value" : "good", "template" : "understanding", "_id" : "M4YcAX2DRSh37fYsz" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "connections2", "value" : "", "template" : "write", "_id" : "M99uJraDRBJqrLSC8" }
+{ "exerciseId" : "blameExercises-1", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "MDCS8cnZKWFNjwfoS" }
+{ "exerciseId" : "survey-6", "exerciseType" : "field", "value" : "HCI", "template" : "survey", "_id" : "MFCMBMLwxT2nSQWCn" }
+{ "exerciseId" : "reactionExercises-1", "exerciseType" : "belief", "value" : "Mountain Dew is unhealthy for kids", "template" : "understanding", "_id" : "MKFCHrh4b4eFNhsnf" }
+{ "exerciseId" : "evaluationExercises-2", "exerciseType" : "connections", "value" : "", "template" : "evaluation", "_id" : "MdFFW5ATT6egXXqXg" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "belief2", "value" : "", "template" : "write", "_id" : "MhB3rbzhuWtJoY532" }
+{ "exerciseId" : "sarcasmExercises-3", "exerciseType" : "belieftype", "value" : "This is good", "template" : "violation", "_id" : "MmzvYEfP4PR7jgsga" }
+{ "exerciseId" : "angleExercises-2", "exerciseType" : "belieftype", "value" : "reason good", "template" : "violation", "_id" : "Moj8eAbyJcQde2vm9" }
+{ "exerciseId" : "effectSpeakerExercises-1", "exerciseType" : "belief", "value" : "soccer is boring", "template" : "belief", "_id" : "MqWsT8iPohGP9hiYS" }
+{ "exerciseId" : "aspectExercises-1", "exerciseType" : "aspectType", "value" : "place", "template" : "understanding", "_id" : "MvJp7rwmAWhQR6BJM" }
+{ "exerciseId" : "ratingExercises-2", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "N7TPAS2dtdiGaLiuk" }
+{ "exerciseId" : "ratingExercises-3", "exerciseType" : "response2", "value" : "yes", "template" : "rate", "_id" : "NAZkQX69F2RMZP9K9" }
+{ "exerciseId" : "survey-2", "exerciseType" : "useTechniques", "value" : "Aspect: This was the easiest for me. Identifying potential subjects of the joke led into the other steps.\nI feel like I combined the associations, beliefs and violations steps together somewhat. At least the latter two were a filter on the type of associations that I came up with.", "template" : "survey", "_id" : "NB8E4fXEoC694aoBn" }
+{ "exerciseId" : "survey-4", "exerciseType" : "notuseful", "value" : "The beliefs (e.g., pos/neg) were not so useful because I couldn't remember them, or really understand how to use them. I didn't really get that part.", "template" : "survey", "_id" : "NDNQ2t2iGCDMcHYfC" }
+{ "exerciseId" : "consent-1", "exerciseType" : "email", "value" : "keslert@gmail.com", "template" : "consent", "_id" : "NDxdwkMMW8rhE94hB" }
+{ "exerciseId" : "ratingExercises-3", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "NNvkaRCgR6GDSw2MR" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "connections", "value" : "", "template" : "write", "_id" : "NYeQpBHeDpcY4msKH" }
+{ "exerciseId" : "survey-1", "exerciseType" : "process", "value" : "After using HumorTools I had a better understanding for how to break a joke down into pieces. That gave me solid tools to use rather than just trying to be creative.", "template" : "survey", "_id" : "Na82ZSguigGjnYfzx" }
+{ "exerciseId" : "consent-1", "exerciseType" : "email", "value" : "gusw1@stanford.edu", "template" : "consent", "_id" : "NeAKesvegrcC8XteL" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "belief", "value" : "We can generate a great amount of money for charity by giving webcams to animals.", "template" : "write", "_id" : "NnW6MGYHqmSWww2Zr" }
+{ "exerciseId" : "sarcasmExercises-1", "exerciseType" : "belief", "value" : "", "template" : "violation", "_id" : "NubcHc6fLh5LryhLq" }
+{ "exerciseId" : "blameExercises-2", "exerciseType" : "belief", "value" : "8 year olds know what they're getting into", "template" : "belief", "_id" : "NyrxiXMgt3XiDKENa" }
+{ "exerciseId" : "ratingExercises-1", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "P3suMYib8HqjxiQcp" }
+{ "exerciseId" : "reactionExercises-10", "exerciseType" : "reaction", "value" : "bad", "template" : "understanding", "_id" : "P4Rjb66HM3nNprFum" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "joke2", "value" : "", "template" : "write", "_id" : "PC5odxZcv6mLy4dZa" }
+{ "exerciseId" : "reactionExercises-5", "exerciseType" : "reaction", "value" : "", "template" : "understanding", "_id" : "PM3xGYo7suSaD9Cdh" }
+{ "exerciseId" : "survey-6", "exerciseType" : "age", "value" : "26", "template" : "survey", "_id" : "PMucBYyzKnEE9sWKX" }
+{ "exerciseId" : "evaluationExercises-3", "exerciseType" : "belief", "value" : "good, putting ice cream on a grave is a good way of showing respect", "template" : "evaluation", "_id" : "PQPdWqMjeDJgumvQA" }
+{ "exerciseId" : "evaluationExercises-1", "exerciseType" : "belief", "value" : "", "template" : "evaluation", "_id" : "PQeu9FYKh7Q5utcTb" }
+{ "exerciseId" : "reactionExercises-10", "exerciseType" : "reaction", "value" : "", "template" : "understanding", "_id" : "PT3qQ5rfLG7zwqmsG" }
+{ "exerciseId" : "reactionExercises-10", "exerciseType" : "reaction", "value" : "trivial", "template" : "understanding", "_id" : "Pa498ygo7SM5qNMyq" }
+{ "exerciseId" : "effectOtherExercises-1", "exerciseType" : "belief", "value" : "Ben & Jerry's is not supporting veterans", "template" : "belief", "_id" : "PdonssoCTZyF8qacq" }
+{ "exerciseId" : "reactionExercises-2", "exerciseType" : "reaction", "value" : "", "template" : "understanding", "_id" : "PrcSQ2GB5THMGE9r5" }
+{ "exerciseId" : "ratingExercises-2", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "Q4fBdHuPKYmvksfrF" }
+{ "exerciseId" : "prewritingExercises-3", "exerciseType" : "jokes", "value" : "How about starting by pulling the $6 bottles of asparagus water from the shelves?", "template" : "prewrite", "_id" : "QDZ7X6RerJPnMjpuv" }
+{ "exerciseId" : "altPersonExercises-1", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "QRXG4efxy6TRYmC9r" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "joke2", "value" : "", "template" : "write", "_id" : "QRqKyfsSunkEGHGAp" }
+{ "exerciseId" : "evaluationExercises-2", "exerciseType" : "violation", "value" : "", "template" : "evaluation", "_id" : "Qjx5ynka5PJ57mhJJ" }
+{ "exerciseId" : "ratingExercises-2", "exerciseType" : "response1", "value" : "meh", "template" : "rate", "_id" : "QmDpfwzLs6uKkBefC" }
+{ "exerciseId" : "ratingExercises-4", "exerciseType" : "response1", "value" : "yes", "template" : "rate", "_id" : "QnCja7W3xQG3Gndys" }
+{ "exerciseId" : "sympathizeExercises-1", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "QryyCM4siPi8rLJd9" }
+{ "exerciseId" : "angleExercises-2", "exerciseType" : "belieftype", "value" : "lip balm isn't bad", "template" : "violation", "_id" : "Qs46LjSy3PDA3h38Q" }
+{ "exerciseId" : "evaluationExercises-3", "exerciseType" : "connections", "value" : "", "template" : "evaluation", "_id" : "QxLEhSbktffJPSnie" }
+{ "exerciseId" : "sympathizeExercises-1", "exerciseType" : "belief", "value" : "privileged people are under attack", "template" : "belief", "_id" : "RFDynJnmPvQYD9gf8" }
+{ "exerciseId" : "failExercises-1", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "RG23EMofdz4biYWJQ" }
+{ "exerciseId" : "effectSpeakerExercises-2", "exerciseType" : "belief", "value" : "star wars is not so exciting", "template" : "belief", "_id" : "RLpeK2skQs2D4rex9" }
+{ "exerciseId" : "ratingExercises-8", "exerciseType" : "response2", "value" : "yes", "template" : "rate", "_id" : "RXf9GorxJBTdrAGmt" }
+{ "exerciseId" : "evaluationExercises-1", "exerciseType" : "connections", "value" : "Harrison Ford\nHarrison Ford's roles", "template" : "evaluation", "_id" : "RYQmNqGkTyT8Bog5A" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "joke", "value" : "I heard Food Lion is trying to compete by laying off 1,700 employees and opening stores called \"515.\"", "template" : "write", "_id" : "Rd8ikYrF3yhRajX6o" }
+{ "exerciseId" : null, "exerciseType" : "jokeSentiment", "value" : "bad", "template" : "sentiment", "_id" : "RfSyWCz23BtgzZoXR" }
+{ "exerciseId" : "evaluationExercises-2", "exerciseType" : "connections", "value" : "", "template" : "evaluation", "_id" : "RjQ8T8naG48MAedL2" }
+{ "exerciseId" : "ratingExercises-3", "exerciseType" : "response3", "value" : "meh", "template" : "rate", "_id" : "RmyjoZBa6PQDnDnJx" }
+{ "exerciseId" : "ratingExercises-1", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "RtPSiTK446DFn4Zc5" }
+{ "exerciseId" : "reactionExercises-3", "exerciseType" : "belief", "value" : "Mountain Dew is pretty gross, and relatively bad for you", "template" : "understanding", "_id" : "Ru59Ta8y5nZWFztDi" }
+{ "exerciseId" : "angleExercises-3", "exerciseType" : "belieftype", "value" : "reason good", "template" : "violation", "_id" : "S3Jeok23e7xhvvrTx" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "belief2", "value" : "", "template" : "write", "_id" : "S9WwcNcLHzXSaZwNi" }
+{ "exerciseId" : "ratingExercises-8", "exerciseType" : "response1", "value" : "no", "template" : "rate", "_id" : "SGWPH4m7vnsR5wnFy" }
+{ "exerciseId" : "solutionExercises-1", "exerciseType" : "belief", "value" : "A good hoard of Chinese ducks can make your pet happy", "template" : "belief", "_id" : "SJ7iymTNvqbxp4kZy" }
+{ "exerciseId" : "ratingExercises-6", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "SPT5RPd3ZNTFXFwpz" }
+{ "exerciseId" : "blameExercises-2", "exerciseType" : "belief", "value" : "My 8-year-old\nshould have been more careful", "template" : "belief", "_id" : "SPp6WvEaNBHGNapZk" }
+{ "exerciseId" : "ratingExercises-2", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "SQNbkun6nXDg3MJxD" }
+{ "exerciseId" : "insultExercises-2", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "SXosmtJvcPip98HHY" }
+{ "exerciseId" : "reactionExercises-9", "exerciseType" : "reaction", "value" : "good", "template" : "understanding", "_id" : "Sk8dBQK2aKY3wc7aM" }
+{ "exerciseId" : "altThingExercises-1", "exerciseType" : "association", "value" : "Nicolas Cage", "template" : "associations", "_id" : "SubQNfWfngrgrHPiJ" }
+{ "exerciseId" : "aspectExercises-6", "exerciseType" : "aspectType", "value" : "", "template" : "understanding", "_id" : "T6SH68cthNxj2PKN2" }
+{ "exerciseId" : "survey-4", "exerciseType" : "notuseful", "value" : "I didn't find much of a difference in explicitly stating the beliefs involved in a headline. ", "template" : "survey", "_id" : "TFeJfphkDs62ECk2s" }
+{ "exerciseId" : "ratingExercises-3", "exerciseType" : "response1", "value" : "meh", "template" : "rate", "_id" : "TRqXHsWHjmLvHQv8f" }
+{ "exerciseId" : "personalityFlawExercises-2", "exerciseType" : "association", "value" : "someone who commits tax fraud", "template" : "associations", "_id" : "TepPXuHpEm3QaomxF" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "joke2", "value" : "What a relief! I was worried there would be a future where I actually had to talk to store personnel.", "template" : "write", "_id" : "TgvQ8Qtr5i4XyGSLP" }
+{ "exerciseId" : "aspectExercises-5", "exerciseType" : "aspectType", "value" : "", "template" : "understanding", "_id" : "TmtA7GBepCypQDk9P" }
+{ "exerciseId" : "aspectExercises-4", "exerciseType" : "aspectType", "value" : "idea/belief", "template" : "understanding", "_id" : "TnordjYLpZQXqaafH" }
+{ "exerciseId" : "consent-1", "exerciseType" : "email", "value" : "vickilau@stanford.edu", "template" : "consent", "_id" : "TsEP8ewsch4G4EjXf" }
+{ "exerciseId" : "survey-5", "exerciseType" : "recomment", "value" : "I would. I can't say whether or not my competency in writing jokes has changed one way or another, but I have many friends who are interested in joke writing and would love to see a unique approach to the process. ", "template" : "survey", "_id" : "TwPZNWnoKXi8P7RwC" }
+{ "exerciseId" : "aspectExercises-1", "exerciseType" : "aspect", "value" : "UConn Huskies", "template" : "understanding", "_id" : "W2JbHEY5iKY4oAtcv" }
+{ "exerciseId" : "reactionExercises-8", "exerciseType" : "belief", "value" : "teachers should teach", "template" : "understanding", "_id" : "W4jkriMGqvp8yiLeF" }
+{ "exerciseId" : "reactionExercises-4", "exerciseType" : "reaction", "value" : "bad", "template" : "understanding", "_id" : "W7BJrPHR7gLb8WFYE" }
+{ "exerciseId" : "evaluationExercises-1", "exerciseType" : "violation", "value" : "angle", "template" : "evaluation", "_id" : "WC4cFrLRNDhyQn24S" }
+{ "exerciseId" : "angleExercises-3", "exerciseType" : "belieftype", "value" : "", "template" : "violation", "_id" : "WCRxuRj2S4oX3RvKg" }
+{ "exerciseId" : "reactionExercises-5", "exerciseType" : "reaction", "value" : "good", "template" : "understanding", "_id" : "WHDX8tgn272jwamzY" }
+{ "exerciseId" : "sarcasmExercises-3", "exerciseType" : "belieftype", "value" : "this is bad", "template" : "violation", "_id" : "WN5rzMtfqWKmLg2m6" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "belief2", "value" : "", "template" : "write", "_id" : "WN5vmYJRnLdczghAF" }
+{ "exerciseId" : "reactionExercises-10", "exerciseType" : "belief", "value" : "I don't know what a quesarito is", "template" : "understanding", "_id" : "WPebj4ESRoWzj9LP3" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "joke", "value" : "Maybe my wife can get copyright now too!", "template" : "write", "_id" : "WSBs7mLqo4Laaxhvy" }
+{ "exerciseId" : "ratingExercises-8", "exerciseType" : "response1", "value" : "yes", "template" : "rate", "_id" : "WSusdGYtaQDS2RGsj" }
+{ "exerciseId" : null, "exerciseType" : "jokeSentiment", "value" : "bad", "template" : "sentiment", "_id" : "WXPZmseEeRvZggot2" }
+{ "exerciseId" : "ratingExercises-5", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "WZmqMg6ufA3DSdpKH" }
+{ "exerciseId" : "aspectExercises-4", "exerciseType" : "aspectType", "value" : "Action", "template" : "understanding", "_id" : "WdDXrYyJdmX3wazeH" }
+{ "exerciseId" : "solutionExercises-3", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "Wdjr3XWqvMFihdej2" }
+{ "exerciseId" : "altReactionExercises-1", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "Wiwzwx9Kz4MN3kaBC" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "connections2", "value" : "", "template" : "write", "_id" : "WpTtw3DTFnv26xAqM" }
+{ "exerciseId" : "sarcasmExercises-2", "exerciseType" : "belief", "value" : "there is little happiness for the privileged", "template" : "violation", "_id" : "WugohsypBJuqoR5p5" }
+{ "exerciseId" : "survey-2", "exerciseType" : "useTechniques", "value" : "Yes! I used the associations a lot, I found them really helpful for finding a new angle or a way to be sarcastic because I could very quickly put the headline in a new context and contrast it with things that might make it seem ridiculous. I used the violations because I knew that I had two choices -- helped to narrow it down and make it feel manageable. I used the expected reactions and expected beliefs because they helped me to be sarcastic more intentionally - I could use them to make sure the jokes violated expectations.", "template" : "survey", "_id" : "Wwrwm5upBNTNygsgr" }
+{ "exerciseId" : null, "exerciseType" : "jokeSentiment", "value" : "normal", "template" : "sentiment", "_id" : "X2o43wjhcdyfojgCd" }
+{ "exerciseId" : "aspectExercises-4", "exerciseType" : "aspect", "value" : "Women and football", "template" : "understanding", "_id" : "X84dsqMsHEoWM34pi" }
+{ "exerciseId" : null, "exerciseType" : "jokeSnippet", "value" : "...no one will ask why...", "template" : "sentiment", "_id" : "XJE8BsZgoAHNZzpNu" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "belief", "value" : "Whole Foods is too expensive, home coked foods are cheaper than eating out", "template" : "write", "_id" : "XPawqjCBoBwo3CXmq" }
+{ "exerciseId" : "sarcasmExercises-3", "exerciseType" : "belieftype", "value" : "this is good", "template" : "violation", "_id" : "XQ9BxfYdEWeGt25Rg" }
+{ "exerciseId" : "aspectExercises-3", "exerciseType" : "aspectType", "value" : "thing", "template" : "understanding", "_id" : "XQXazBBcEYsbsbxkB" }
+{ "exerciseId" : "effectOtherExercises-1", "exerciseType" : "belief", "value" : "it's bad for Ben & Jerry's reputation", "template" : "belief", "_id" : "XX5Miqikfqe9oKJn4" }
+{ "exerciseId" : "reactionExercises-7", "exerciseType" : "belief", "value" : "Users have often criticized Facebook for its lack of privacy options", "template" : "understanding", "_id" : "XYiiNbfrS8y98RHMg" }
+{ "exerciseId" : "insultExercises-2", "exerciseType" : "association", "value" : "McDonalds burgers aren't even real meat", "template" : "associations", "_id" : "XYnqpHZcyF7omy2DY" }
+{ "exerciseId" : "reactionExercises-9", "exerciseType" : "reaction", "value" : "good", "template" : "understanding", "_id" : "XaMB5dWr3ix98z9JP" }
+{ "exerciseId" : "prewritingExercises-1", "exerciseType" : "jokes", "value" : "Liquid Water Found on Mars; Annual Mars Bake Sale Cancelled for Inclement Weather", "template" : "prewrite", "_id" : "XgaWRt57WCfGZfgbd" }
+{ "exerciseId" : "reactionExercises-2", "exerciseType" : "reaction", "value" : "bad", "template" : "understanding", "_id" : "XhicPjLmPHQ883oPp" }
+{ "exerciseId" : "sarcasmExercises-3", "exerciseType" : "belief", "value" : "", "template" : "violation", "_id" : "XoCWJoRnRNk9jgfR6" }
+{ "exerciseId" : "reactionExercises-6", "exerciseType" : "reaction", "value" : "bad", "template" : "understanding", "_id" : "XoYabLgzhHaJ82PL6" }
+{ "exerciseId" : "ratingExercises-8", "exerciseType" : "response3", "value" : "yes", "template" : "rate", "_id" : "XpF3A5Ze5kohSHnXF" }
+{ "exerciseId" : "aspectExercises-3", "exerciseType" : "aspect", "value" : "Football 101", "template" : "understanding", "_id" : "Xsh2jHy2dZXGs93C3" }
+{ "exerciseId" : "prewritingExercises-2", "exerciseType" : "jokes", "value" : "Hey, if macaque is now a person, I've been having threesomes my whole life.", "template" : "prewrite", "_id" : "XxEHYgqZMGnbdYJvi" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "connections2", "value" : "", "template" : "write", "_id" : "Xy7CTKEGN8jfMHYQ9" }
+{ "exerciseId" : "personalityFlawExercises-1", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "Xzr6GrmGFZ9gqPfPi" }
+{ "exerciseId" : "ratingExercises-8", "exerciseType" : "response1", "value" : "yes", "template" : "rate", "_id" : "YEafG8KRSEEsTpukh" }
+{ "exerciseId" : "reactionExercises-6", "exerciseType" : "reaction", "value" : "bad", "template" : "understanding", "_id" : "YFRoTXE8b2JTL92Ea" }
+{ "exerciseId" : "solutionExercises-3", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "YGRjpG4ayW3RNFdKc" }
+{ "exerciseId" : "reactionExercises-1", "exerciseType" : "reaction", "value" : "bad", "template" : "understanding", "_id" : "YLkLEtzyC47usAPq9" }
+{ "exerciseId" : "ratingExercises-3", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "YXWy4BXdQXJucSgcX" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "joke", "value" : "NASA has started shipping water to California from Mars", "template" : "write", "_id" : "Yh83FRuRgAzYa8yEo" }
+{ "exerciseId" : "ratingExercises-7", "exerciseType" : "response3", "value" : "yes", "template" : "rate", "_id" : "YhGmAb366TNewrkD5" }
+{ "exerciseId" : "reactionExercises-6", "exerciseType" : "belief", "value" : "Mick Jagger is an awesome rock icon", "template" : "understanding", "_id" : "YjnxokJHGH3Xq2RJA" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "belief", "value" : "I don't need to conserve water any more.", "template" : "write", "_id" : "Ymwxhyr8tZEpG7Jxc" }
+{ "exerciseId" : "altThingExercises-1", "exerciseType" : "association", "value" : "Never wins an oscar", "template" : "associations", "_id" : "YnqHHuDJWsMjDXBsK" }
+{ "exerciseId" : "evaluationExercises-3", "exerciseType" : "violation", "value" : "sarcasm", "template" : "evaluation", "_id" : "Z7gyRKYTr3kQDki6e" }
+{ "exerciseId" : "evaluationExercises-2", "exerciseType" : "violation", "value" : "angle", "template" : "evaluation", "_id" : "ZSJM2QbWmBhXXEgxF" }
+{ "exerciseId" : "ratingExercises-7", "exerciseType" : "response2", "value" : "yes", "template" : "rate", "_id" : "ZXKqv6BKwNtxq3kdp" }
+{ "exerciseId" : "aspectExercises-3", "exerciseType" : "aspect", "value" : "clinic", "template" : "understanding", "_id" : "ZgzDxW5fWexG4bBN4" }
+{ "exerciseId" : "aspectExercises-3", "exerciseType" : "aspect", "value" : "Football 101", "template" : "understanding", "_id" : "Zvn5T9JSQfEbbL6bJ" }
+{ "exerciseId" : "ratingExercises-8", "exerciseType" : "response3", "value" : "yes", "template" : "rate", "_id" : "ZxKzrgm79rycckeRa" }
+{ "exerciseId" : "ratingExercises-4", "exerciseType" : "response2", "value" : "meh", "template" : "rate", "_id" : "a3RNMoksWqSPyCMkb" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "violation2", "value" : "", "template" : "write", "_id" : "a3bwRTkxitGmn26Lh" }
+{ "exerciseId" : "reactionExercises-8", "exerciseType" : "belief", "value" : "", "template" : "understanding", "_id" : "a4XTbyf6K9tPbD4Xh" }
+{ "exerciseId" : "ratingExercises-7", "exerciseType" : "response1", "value" : "yes", "template" : "rate", "_id" : "a4ys5qgQKrmo7Mb6F" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "ideas", "value" : "PETA - good, protects animals\n\ncopyright - good, protects IP\n\nPrimate -- curious george, ", "template" : "write", "_id" : "a5xBgG8hd8QDurEGF" }
+{ "exerciseId" : "ratingExercises-6", "exerciseType" : "response3", "value" : "yes", "template" : "rate", "_id" : "a7dP43oDikPXtFr2E" }
+{ "exerciseId" : "evaluationExercises-3", "exerciseType" : "belief", "value" : "ice cream is suitable for expressing gratitude to the deceased heroes", "template" : "evaluation", "_id" : "aMyqdzxCuupxc4ars" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "connections", "value" : "monkey -> other animals\nselfie -> webcam", "template" : "write", "_id" : "aQTgwrWDh3kPS9uqi" }
+{ "exerciseId" : "reactionExercises-9", "exerciseType" : "reaction", "value" : "good", "template" : "understanding", "_id" : "afvyspY3T8TShjK4n" }
+{ "exerciseId" : "evaluationExercises-3", "exerciseType" : "violation", "value" : "", "template" : "evaluation", "_id" : "aj6W3rLZswjjsMoXC" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "violation2", "value" : "", "template" : "write", "_id" : "ayLDg9nAHEKjnqyto" }
+{ "exerciseId" : "ratingExercises-4", "exerciseType" : "response1", "value" : "meh", "template" : "rate", "_id" : "ayRcjr4eKxJZ2hfKB" }
+{ "exerciseId" : "evaluationExercises-1", "exerciseType" : "connections", "value" : "Harrison Ford, movies, nostalgia, child movies", "template" : "evaluation", "_id" : "b266C7ytzWvcHK575" }
+{ "exerciseId" : "aspectExercises-7", "exerciseType" : "aspectType", "value" : "", "template" : "understanding", "_id" : "b2TBcYZQhrzynfpwZ" }
+{ "exerciseId" : "prewritingExercises-3", "exerciseType" : "jokes", "value" : "Oh great! Now the salads will cost under $10!\nMaybe if they had with reasonable prices to begin with...", "template" : "prewrite", "_id" : "b7gfKL4cm5pxjJbBt" }
+{ "exerciseId" : "prewritingExercises-2", "exerciseType" : "jokes", "value" : "So I guess I can just steal money from the bank, buy things with that money, and say the things I bought are mine?", "template" : "prewrite", "_id" : "bDBoQj2ztMPpMq5SZ" }
+{ "exerciseId" : "aspectExercises-6", "exerciseType" : "aspect", "value" : "", "template" : "understanding", "_id" : "bSAYBqkzGFyGrkZYr" }
+{ "exerciseId" : "personalityFlawExercises-1", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "bner2AriJqxycrC3J" }
+{ "exerciseId" : "ratingExercises-4", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "bnzibEj4c8p7FZWEH" }
+{ "exerciseId" : null, "exerciseType" : "jokeSnippet", "value" : "", "template" : "sentiment", "_id" : "bpdEhWMvziWqknqn4" }
+{ "exerciseId" : "effectOtherExercises-2", "exerciseType" : "belief", "value" : "pop stars would enjoy being turned in holograms after death", "template" : "belief", "_id" : "buMivFvpjiMPgHq7C" }
+{ "exerciseId" : "angleExercises-2", "exerciseType" : "belieftype", "value" : "", "template" : "violation", "_id" : "bvfcL4o7aGivydJSz" }
+{ "exerciseId" : "aspectExercises-5", "exerciseType" : "aspect", "value" : "Attempt to teach basics of football", "template" : "understanding", "_id" : "bymDJM732LDmvaGQ3" }
+{ "exerciseId" : "sarcasmExercises-2", "exerciseType" : "belief", "value" : "", "template" : "violation", "_id" : "cAubwqBFZcsYTadMe" }
+{ "exerciseId" : "angleExercises-3", "exerciseType" : "angle", "value" : "bachelor", "template" : "violation", "_id" : "cQ5YbZPkJWdA5NAWa" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "connections2", "value" : "", "template" : "write", "_id" : "cRabS9k5G8gvKJmfa" }
+{ "exerciseId" : "ratingExercises-6", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "cYtQtArzhdwDwksxL" }
+{ "exerciseId" : "aspectExercises-6", "exerciseType" : "aspectType", "value" : "", "template" : "understanding", "_id" : "cZQTM4BunTzDLsdE4" }
+{ "exerciseId" : "sarcasmExercises-2", "exerciseType" : "belieftype", "value" : "this is bad for the privileged", "template" : "violation", "_id" : "cZw6wohzo4HvcXBPa" }
+{ "exerciseId" : "reactionExercises-2", "exerciseType" : "reaction", "value" : "bad", "template" : "understanding", "_id" : "caXfvfhDjRyn3FRck" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "connections", "value" : "California has no water, Mars also basically doesn't", "template" : "write", "_id" : "cgjqnH768S8HP4oAv" }
+{ "exerciseId" : "reasonGoodExercises-1", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "ctcwJMLSTqyQ4CjBG" }
+{ "exerciseId" : "effectSpeakerExercises-2", "exerciseType" : "belief", "value" : "nothing can change the image of Harrison Ford in my mind", "template" : "belief", "_id" : "cukXdN9jgKLhgTF7p" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "violation", "value" : "angle", "template" : "write", "_id" : "cv9qdMnHKty94J4ww" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "joke", "value" : "At least we know the branding department is still delivering value.", "template" : "write", "_id" : "cxrqrq4rBy9rzKK2j" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "connections", "value" : "primate, law/copyright", "template" : "write", "_id" : "cyG8tW5ALBWAjp9TE" }
+{ "exerciseId" : "ratingExercises-1", "exerciseType" : "response2", "value" : "meh", "template" : "rate", "_id" : "d8DhFMSws8FDLKmwA" }
+{ "exerciseId" : "ratingExercises-3", "exerciseType" : "response3", "value" : "yes", "template" : "rate", "_id" : "dJwhGoQgHNHSTybcF" }
+{ "exerciseId" : "survey-4", "exerciseType" : "notuseful", "value" : "I felt like maybe there were too much repetition and I didn't really get how some of the steps were different from each other. If there was a way to condense it into fewer, that might have helped me remember the purpose of each step.", "template" : "survey", "_id" : "dSKibzTggrFRBLwff" }
+{ "exerciseId" : "detailsExercises-2", "exerciseType" : "association", "value" : "Encore", "template" : "associations", "_id" : "dXcXhsNebCBR2GwsX" }
+{ "exerciseId" : "altThingExercises-1", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "dd7CroBrhAWkqvNhG" }
+{ "exerciseId" : "aspectExercises-5", "exerciseType" : "aspect", "value" : "Female fans", "template" : "understanding", "_id" : "dipNft45P4u3gqRza" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "violation2", "value" : "", "template" : "write", "_id" : "dmnTCC6QK2tkTms5Z" }
+{ "exerciseId" : "ratingExercises-7", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "dwJEmnjCZc55pznN9" }
+{ "exerciseId" : "ratingExercises-1", "exerciseType" : "response1", "value" : "yes", "template" : "rate", "_id" : "dxsJgXA7z2DqJpmMY" }
+{ "exerciseId" : "reasonGoodExercises-1", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "dz7cszPRpkPTuv8FS" }
+{ "exerciseId" : "ratingExercises-5", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "e3BC8STGwhL8472BF" }
+{ "exerciseId" : "ratingExercises-5", "exerciseType" : "response2", "value" : "yes", "template" : "rate", "_id" : "e5s2CZYMXxGDcnd6o" }
+{ "exerciseId" : "altReactionExercises-2", "exerciseType" : "association", "value" : "someone who thinks mcdonalds is bad because it's \"too fast\"", "template" : "associations", "_id" : "eAjCLuL2Gjbutbcc6" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "violation2", "value" : "Angle", "template" : "write", "_id" : "eFWzKeJYcTwDu5buK" }
+{ "exerciseId" : "aspectExercises-4", "exerciseType" : "aspect", "value" : "instruct basics of football", "template" : "understanding", "_id" : "eHTaawjEiGHFpajBt" }
+{ "exerciseId" : "ratingExercises-4", "exerciseType" : "response1", "value" : "no", "template" : "rate", "_id" : "ectj39WGNZtWrzzuX" }
+{ "exerciseId" : null, "exerciseType" : "jokeSnippet", "value" : "more power to them", "template" : "sentiment", "_id" : "eotEaMvkbnj7oEtqr" }
+{ "exerciseId" : "aspectExercises-3", "exerciseType" : "aspectType", "value" : "Thing/Action", "template" : "understanding", "_id" : "er9eakGtApbDfssrP" }
+{ "exerciseId" : "reactionExercises-5", "exerciseType" : "reaction", "value" : "good", "template" : "understanding", "_id" : "erEAMEco8DkMNGPyF" }
+{ "exerciseId" : "reactionExercises-1", "exerciseType" : "belief", "value" : "it's unhealthy", "template" : "understanding", "_id" : "eveMWo6t3AZN67Huj" }
+{ "exerciseId" : "sarcasmExercises-1", "exerciseType" : "belieftype", "value" : "", "template" : "violation", "_id" : "evyvcYKJGH8F48Z8X" }
+{ "exerciseId" : "reactionExercises-9", "exerciseType" : "belief", "value" : "", "template" : "understanding", "_id" : "fCBcy9mQnjeussnwP" }
+{ "exerciseId" : "effectOtherExercises-2", "exerciseType" : "belief", "value" : "gives them a glimpse of their immortality", "template" : "belief", "_id" : "fEnoMgHt7o9rKJM39" }
+{ "exerciseId" : "ratingExercises-4", "exerciseType" : "response1", "value" : "meh", "template" : "rate", "_id" : "fW5bGpD37fGm6GWyg" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "ideas", "value" : "monkey\nselfies\nmonkeys should have human rights\n", "template" : "write", "_id" : "fdg8R3eftQ964YFdj" }
+{ "exerciseId" : "ratingExercises-1", "exerciseType" : "response3", "value" : "meh", "template" : "rate", "_id" : "ffw5t36TT8SFMoov3" }
+{ "exerciseId" : "reactionExercises-5", "exerciseType" : "belief", "value" : "", "template" : "understanding", "_id" : "fhyfkY4a2RSRHSPu6" }
+{ "exerciseId" : "reactionExercises-3", "exerciseType" : "reaction", "value" : "", "template" : "understanding", "_id" : "ft7httfKpkoapjgYM" }
+{ "exerciseId" : "reactionExercises-6", "exerciseType" : "belief", "value" : "", "template" : "understanding", "_id" : "fxT37wKABz746HtXt" }
+{ "exerciseId" : "altPersonExercises-2", "exerciseType" : "association", "value" : "burger flipper", "template" : "associations", "_id" : "g4QPniyXvNND3Ggvv" }
+{ "exerciseId" : "reactionExercises-2", "exerciseType" : "belief", "value" : "tests suck! stressful and rote", "template" : "understanding", "_id" : "gKay6AuL5ktCzDYW7" }
+{ "exerciseId" : "evaluationExercises-1", "exerciseType" : "connections", "value" : "", "template" : "evaluation", "_id" : "gLG4nkZBkWeaqE3tt" }
+{ "exerciseId" : "angleExercises-2", "exerciseType" : "belief", "value" : "It would be nice to have a way to make lip balm fun", "template" : "violation", "_id" : "gSS3d7qc8KM4ehszF" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "ideas", "value" : "", "template" : "write", "_id" : "gSgosL5ufNCWqTwkQ" }
+{ "exerciseId" : "sarcasmExercises-3", "exerciseType" : "belieftype", "value" : "", "template" : "violation", "_id" : "ghLq8ozSZuGCCJWfM" }
+{ "exerciseId" : "reactionExercises-8", "exerciseType" : "reaction", "value" : "bad", "template" : "understanding", "_id" : "gkDitcoijAvjBiFdY" }
+{ "exerciseId" : "effectOtherExercises-1", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "gt3eyYArKxrqCFAXL" }
+{ "exerciseId" : "evaluationExercises-3", "exerciseType" : "connections", "value" : "fallen/veterans, honoring/gesture", "template" : "evaluation", "_id" : "gyGdp3sBdakZDA8Y9" }
+{ "exerciseId" : "reactionExercises-7", "exerciseType" : "reaction", "value" : "good", "template" : "understanding", "_id" : "hBnDxTdHo9mfAPJJd" }
+{ "exerciseId" : "angleExercises-3", "exerciseType" : "belief", "value" : "With George Clooney out of the way, there is less competition", "template" : "violation", "_id" : "hS4PwiaPsjfkYuTuS" }
+{ "exerciseId" : "reactionExercises-5", "exerciseType" : "belief", "value" : "Healthy living can make a difference in one's life", "template" : "understanding", "_id" : "hiXpTCTEnFAD3gXNK" }
+{ "exerciseId" : "angleExercises-3", "exerciseType" : "angle", "value" : "", "template" : "violation", "_id" : "hiwXmXHwAAXD3jCnt" }
+{ "exerciseId" : "ratingExercises-7", "exerciseType" : "response2", "value" : "yes", "template" : "rate", "_id" : "hqrau6vJih87QrRDZ" }
+{ "exerciseId" : "detailsExercises-1", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "htmdpFK4fQyGJeERR" }
+{ "exerciseId" : "ratingExercises-5", "exerciseType" : "response1", "value" : "no", "template" : "rate", "_id" : "hwDuwDtahAdN29Qs9" }
+{ "exerciseId" : "reasonGoodExercises-1", "exerciseType" : "belief", "value" : "it's good for teens to have fun", "template" : "belief", "_id" : "i4bGKkFLtNA9W28rs" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "violation2", "value" : "", "template" : "write", "_id" : "iQmvDZixkFhoiyfNa" }
+{ "exerciseId" : "aspectExercises-2", "exerciseType" : "aspectType", "value" : "person", "template" : "understanding", "_id" : "iSZt6RBA2esYF6Hsu" }
+{ "exerciseId" : "angleExercises-3", "exerciseType" : "belieftype", "value" : "solution", "template" : "violation", "_id" : "igJSwwQkAC8AQqk46" }
+{ "exerciseId" : "altReactionExercises-2", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "iinTECkDxucDFjoW5" }
+{ "exerciseId" : "reactionExercises-9", "exerciseType" : "belief", "value" : "Teachers are vital to society and are often underappreciated workers", "template" : "understanding", "_id" : "ijYPKoTHPRtqbxYyZ" }
+{ "exerciseId" : "survey-3", "exerciseType" : "useful", "value" : "This process helps me to search the possible space of relevant material before making a joke. This is useful if after a reading the headline, a joke is not immediately apparent. ", "template" : "survey", "_id" : "iqp6xMwcmL6bTfZAf" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "violation", "value" : "sarcasm", "template" : "write", "_id" : "iuZWAxyGDh5Leu8Xs" }
+{ "exerciseId" : "evaluationExercises-1", "exerciseType" : "belief", "value" : "fail, nothing can change my perception of Harrison Ford", "template" : "evaluation", "_id" : "iwmgEhQaNT6HThoLF" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "ideas", "value" : "NASA\nwater\nlife on the red planet", "template" : "write", "_id" : "izQc8ZPWDNadNk6FT" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "belief2", "value" : "", "template" : "write", "_id" : "j9nNMhSyucpNDXm7J" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "belief2", "value" : "", "template" : "write", "_id" : "jGGLPj6kaHTATQMrz" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "ideas", "value" : "whole foods - bad, too expensive, organic\nsafeway, 7-eleven\n\nlays off - bad, unemployment\n\n1500 - amount I spend there\n\nemployees -- good, needed for service and excellence, hippees", "template" : "write", "_id" : "jGgvFYiZj8u3iWnLQ" }
+{ "exerciseId" : "blameExercises-1", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "jLEYwiBCd6eAKXyEL" }
+{ "exerciseId" : "ratingExercises-4", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "jMscuvPQsyPYmgry8" }
+{ "exerciseId" : "angleExercises-1", "exerciseType" : "belief", "value" : "good time to be a shark", "template" : "violation", "_id" : "jNjNcWTn6CoWBbFek" }
+{ "exerciseId" : "reactionExercises-10", "exerciseType" : "belief", "value" : "", "template" : "understanding", "_id" : "jXZCtPqFDxvDMiPrq" }
+{ "exerciseId" : "ratingExercises-3", "exerciseType" : "response1", "value" : "yes", "template" : "rate", "_id" : "jbdRicYNka9JX7i4k" }
+{ "exerciseId" : "detailsExercises-2", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "jftAfBuJDdXXE5ksY" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "belief2", "value" : "", "template" : "write", "_id" : "jhSZgTwMWPtunHE6w" }
+{ "exerciseId" : "aspectExercises-2", "exerciseType" : "aspect", "value" : "Female fans", "template" : "understanding", "_id" : "jmbqWqRhLLbu2K7St" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "connections", "value" : "Whole Foods -> Food Lion", "template" : "write", "_id" : "jsaaxGruX4MZKrZQ2" }
+{ "exerciseId" : "angleExercises-1", "exerciseType" : "belief", "value" : "warm temps will kill only sharks", "template" : "violation", "_id" : "k6dn4ezWxyWSF9LAi" }
+{ "exerciseId" : "altThingExercises-2", "exerciseType" : "association", "value" : "Too many flavors", "template" : "associations", "_id" : "kBFhDcg3dymRmzTvj" }
+{ "exerciseId" : "ratingExercises-8", "exerciseType" : "response2", "value" : "yes", "template" : "rate", "_id" : "kDMEmo588RkHXsJht" }
+{ "exerciseId" : "evaluationExercises-1", "exerciseType" : "belief", "value" : "", "template" : "evaluation", "_id" : "kFLSc8mGCxms3EbzP" }
+{ "exerciseId" : "aspectExercises-7", "exerciseType" : "aspectType", "value" : "", "template" : "understanding", "_id" : "kH8MqGx7BgXCCN3XG" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "belief2", "value" : "", "template" : "write", "_id" : "kLJPXxowBw9vdjTTM" }
+{ "exerciseId" : "effectSpeakerExercises-1", "exerciseType" : "belief", "value" : "it will be annoying to have to keep watching soccer", "template" : "belief", "_id" : "kWTRA2KkeWx9snCBG" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "belief", "value" : "If we have found water, perhaps we can find other liquids as well", "template" : "write", "_id" : "keResp5FZRL28sbEc" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "violation", "value" : "", "template" : "write", "_id" : "ki6uNovxCjxavuLy6" }
+{ "exerciseId" : "survey-5", "exerciseType" : "recomment", "value" : "Yes, I think it's fun! In the end, it felt cool to be able to write a joke. I'd like to show a friend and then compare jokes, that would be cool. It's a neat form of self-expression. I used to think being funny was just some talent some people had, but it's neat that you can work at it.", "template" : "survey", "_id" : "kq73e9J3hAGvMZ39z" }
+{ "exerciseId" : "evaluationExercises-2", "exerciseType" : "violation", "value" : "angle", "template" : "evaluation", "_id" : "kwiFSRK8wR8dJgACc" }
+{ "exerciseId" : "ratingExercises-1", "exerciseType" : "response1", "value" : "yes", "template" : "rate", "_id" : "kya7S2MkTpq2Tqxno" }
+{ "exerciseId" : "aspectExercises-7", "exerciseType" : "aspect", "value" : "", "template" : "understanding", "_id" : "m6MMoPYWMpgTq9nKN" }
+{ "exerciseId" : "sarcasmExercises-2", "exerciseType" : "belieftype", "value" : "", "template" : "violation", "_id" : "mBsCTjFHzQAxdRfa9" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "belief2", "value" : "", "template" : "write", "_id" : "mCS78SkBPGtgF5zEA" }
+{ "exerciseId" : "reactionExercises-4", "exerciseType" : "reaction", "value" : "bad", "template" : "understanding", "_id" : "mFgYqr7sKAzLqGirs" }
+{ "exerciseId" : "ratingExercises-4", "exerciseType" : "response3", "value" : "meh", "template" : "rate", "_id" : "mWzZ5YjgtkcLnL4Fs" }
+{ "exerciseId" : "insultExercises-2", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "miSpiAjnnFFchFKgS" }
+{ "exerciseId" : "blameExercises-2", "exerciseType" : "belief", "value" : "kid's fault", "template" : "belief", "_id" : "mkFCLykoq4dQyudEe" }
+{ "exerciseId" : "aspectExercises-3", "exerciseType" : "aspectType", "value" : "Thing", "template" : "understanding", "_id" : "mnSqxepCCtoxoDDFm" }
+{ "exerciseId" : "aspectExercises-3", "exerciseType" : "aspectType", "value" : "thing", "template" : "understanding", "_id" : "modjyjTDXJZQDYbFG" }
+{ "exerciseId" : "ratingExercises-7", "exerciseType" : "response1", "value" : "meh", "template" : "rate", "_id" : "mzFAYXa8fCmQHzkvR" }
+{ "exerciseId" : "evaluationExercises-3", "exerciseType" : "belief", "value" : "", "template" : "evaluation", "_id" : "n6Laiqt4GbPocf38Y" }
+{ "exerciseId" : "prewritingExercises-1", "exerciseType" : "jokes", "value" : "Something about California and the drought\n", "template" : "prewrite", "_id" : "n98mEeXW8jtm7hTt8" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "ideas", "value" : "Whole Foods\nLaying off employees\nNew store model\nWhole Foods -> food snobs\nLaying off employees -> bad\nCompetition -> one-upsmanship\n1,500 -> other numbers", "template" : "write", "_id" : "nAawYfujeMDBxBSTb" }
+{ "exerciseId" : "effectSpeakerExercises-2", "exerciseType" : "belief", "value" : "Remembers Harrison's old movies", "template" : "belief", "_id" : "nDgBqs8kdaynWk88L" }
+{ "exerciseId" : "aspectExercises-5", "exerciseType" : "aspectType", "value" : "Person", "template" : "understanding", "_id" : "nETaYcqmCMpsFCNty" }
+{ "exerciseId" : "reactionExercises-7", "exerciseType" : "reaction", "value" : "solution", "template" : "understanding", "_id" : "nHMffnEDWTR4m5gRA" }
+{ "exerciseId" : "ratingExercises-1", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "nL9gweRhYTMzGdWF7" }
+{ "exerciseId" : "failExercises-1", "exerciseType" : "belief", "value" : "Only food snobs care about the Quesarito", "template" : "belief", "_id" : "npxq35RuJipveKBxP" }
+{ "exerciseId" : "angleExercises-1", "exerciseType" : "belieftype", "value" : "", "template" : "violation", "_id" : "npzqL5d2ZGQx7Foti" }
+{ "exerciseId" : "altThingExercises-2", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "nqr977F2TAhBhpRPJ" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "connections2", "value" : "", "template" : "write", "_id" : "nsDbQPqgkMhxitZqq" }
+{ "exerciseId" : "evaluationExercises-1", "exerciseType" : "violation", "value" : "angle", "template" : "evaluation", "_id" : "nt7M5stMnjexkknug" }
+{ "exerciseId" : "solutionExercises-1", "exerciseType" : "belief", "value" : "it would totally suck to be out of Petco's China-made treats", "template" : "belief", "_id" : "nyTrBiuDFgJoLvDnv" }
+{ "exerciseId" : "sarcasmExercises-2", "exerciseType" : "belieftype", "value" : "", "template" : "violation", "_id" : "nyekxmx8CLYoC2Fhk" }
+{ "exerciseId" : "blameExercises-1", "exerciseType" : "belief", "value" : "kids shouldn't have to resort to lip balm ", "template" : "belief", "_id" : "o3yyLFmEgBW9PxCQi" }
+{ "exerciseId" : "reactionExercises-6", "exerciseType" : "belief", "value" : "", "template" : "understanding", "_id" : "o6FXFmzNSYmNcAJZt" }
+{ "exerciseId" : "reactionExercises-2", "exerciseType" : "reaction", "value" : "bad", "template" : "understanding", "_id" : "o8kPLZLB5StsZveNc" }
+{ "exerciseId" : "aspectExercises-2", "exerciseType" : "aspectType", "value" : "Person", "template" : "understanding", "_id" : "oHouWf4zvHtMrgB9Q" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "joke2", "value" : "", "template" : "write", "_id" : "oLusMuALHX5QbNYXw" }
+{ "exerciseId" : "aspectExercises-7", "exerciseType" : "aspectType", "value" : "", "template" : "understanding", "_id" : "oSenowQkMCCC3jNyX" }
+{ "exerciseId" : "aspectExercises-2", "exerciseType" : "aspect", "value" : "Female Fans", "template" : "understanding", "_id" : "of8xkQcsvARA8zaPa" }
+{ "exerciseId" : "evaluationExercises-1", "exerciseType" : "violation", "value" : "", "template" : "evaluation", "_id" : "ofyv87cmCD6MXkify" }
+{ "exerciseId" : "reactionExercises-3", "exerciseType" : "reaction", "value" : "bad", "template" : "understanding", "_id" : "ooGSWJHFnNvEP3eR2" }
+{ "exerciseId" : "ratingExercises-7", "exerciseType" : "response1", "value" : "meh", "template" : "rate", "_id" : "ootvonigniKohLW5E" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "joke2", "value" : "", "template" : "write", "_id" : "opZHSLhSzXapaM9QJ" }
+{ "exerciseId" : "reactionExercises-7", "exerciseType" : "belief", "value" : "people like their privacy", "template" : "understanding", "_id" : "oucsidFBofoGSKvyx" }
+{ "exerciseId" : "ratingExercises-5", "exerciseType" : "response1", "value" : "no", "template" : "rate", "_id" : "p53ocN3BrtBeJJ5Pi" }
+{ "exerciseId" : "evaluationExercises-1", "exerciseType" : "violation", "value" : "", "template" : "evaluation", "_id" : "pCAn7Mi45Weu2j2gJ" }
+{ "exerciseId" : "reactionExercises-6", "exerciseType" : "reaction", "value" : "blame", "template" : "understanding", "_id" : "pCLf32oJqpsLTSbXt" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "belief", "value" : "Monkey selfies is a new market", "template" : "write", "_id" : "pGBcCEggHWNLZnCdk" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "belief2", "value" : "", "template" : "write", "_id" : "pNKejch3JYXBCDG3W" }
+{ "exerciseId" : "insultExercises-1", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "pQoBqzK7KW85kDouo" }
+{ "exerciseId" : "reactionExercises-8", "exerciseType" : "belief", "value" : "Students are usually the ones absent, not the teachers", "template" : "understanding", "_id" : "pZAXkYXsnCscXsENs" }
+{ "exerciseId" : "solutionExercises-2", "exerciseType" : "belief", "value" : "Global warming will help control shark populations", "template" : "belief", "_id" : "peJETekxiAKo2aTKT" }
+{ "exerciseId" : "ratingExercises-7", "exerciseType" : "response1", "value" : "meh", "template" : "rate", "_id" : "pfW8KWqaMW53g8dSh" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "joke", "value" : "Sounds like Mars is doing better than California.", "template" : "write", "_id" : "pg86MXTrfL5qfeqWJ" }
+{ "exerciseId" : "angleExercises-1", "exerciseType" : "angle", "value" : "global warming", "template" : "violation", "_id" : "pnGLjn2gagfx8Qa7P" }
+{ "exerciseId" : "altThingExercises-2", "exerciseType" : "association", "value" : "Hagen Daz", "template" : "associations", "_id" : "prMFEQYbT7dpuTT7r" }
+{ "exerciseId" : "survey-6", "exerciseType" : "field", "value" : "student", "template" : "survey", "_id" : "pwfRJMJZFggX7dhPN" }
+{ "exerciseId" : "sarcasmExercises-2", "exerciseType" : "belief", "value" : "", "template" : "violation", "_id" : "q5eExq8Wc7RqENcmN" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "joke2", "value" : "", "template" : "write", "_id" : "q9knqY83cvt484njP" }
+{ "exerciseId" : "reactionExercises-3", "exerciseType" : "reaction", "value" : "bad", "template" : "understanding", "_id" : "qDdSknk4WkYBaQiDG" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "connections", "value" : "Copyright", "template" : "write", "_id" : "qEwQCa9t36cmMarZ4" }
+{ "exerciseId" : "sarcasmExercises-3", "exerciseType" : "belief", "value" : "", "template" : "violation", "_id" : "qPrNKniBjbLHu3ADq" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "joke", "value" : "They're finally catching up to safeway in their approach to clientelle labor.", "template" : "write", "_id" : "qXuTwyPXnkcpkkPgs" }
+{ "exerciseId" : "altReactionExercises-1", "exerciseType" : "association", "value" : "someone who wants to \"pack light\" to a party", "template" : "associations", "_id" : "qaCbTH34cmEBGp6yB" }
+{ "exerciseId" : "ratingExercises-1", "exerciseType" : "response1", "value" : "meh", "template" : "rate", "_id" : "qauMyx4ykLaBFSsYv" }
+{ "exerciseId" : "survey-1", "exerciseType" : "process", "value" : "It was way easier, I actually had some techniques for figuring out a funny angle on the titles. It felt cool to try to put those into action rather than just think \"hm maybe I'm not funny.\" ", "template" : "survey", "_id" : "qboKA2H9bTDZBGuWX" }
+{ "exerciseId" : null, "exerciseType" : "jokeSnippet", "value" : "", "template" : "sentiment", "_id" : "qdhEBpJLz876DCxPe" }
+{ "exerciseId" : "reactionExercises-8", "exerciseType" : "reaction", "value" : "", "template" : "understanding", "_id" : "qg6wgeL2SxfK6fYNJ" }
+{ "exerciseId" : null, "exerciseType" : "jokeSentiment", "value" : "bad", "template" : "sentiment", "_id" : "qn3bNtrmGn6fKkeM2" }
+{ "exerciseId" : "evaluationExercises-1", "exerciseType" : "connections", "value" : "", "template" : "evaluation", "_id" : "qosWZF95pWmg3npHs" }
+{ "exerciseId" : "sarcasmExercises-1", "exerciseType" : "belief", "value" : "things were good when you had no control over your fast food experience", "template" : "violation", "_id" : "rH83CdXdo6kGDfWtR" }
+{ "exerciseId" : "ratingExercises-2", "exerciseType" : "response1", "value" : "meh", "template" : "rate", "_id" : "rLsR9wE8cZgqCxhMb" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "connections2", "value" : "", "template" : "write", "_id" : "rRRo2i69pALj86pif" }
+{ "exerciseId" : "survey-2", "exerciseType" : "useTechniques", "value" : "I used the violations a lot, those were very helpful", "template" : "survey", "_id" : "ramacomFca36GCQdA" }
+{ "exerciseId" : "angleExercises-3", "exerciseType" : "belief", "value" : "my chances are better without him on the market", "template" : "violation", "_id" : "rapNLY4gmijiG2RbB" }
+{ "exerciseId" : "angleExercises-3", "exerciseType" : "belief", "value" : "", "template" : "violation", "_id" : "rghSEfgzW3kYJnoqD" }
+{ "exerciseId" : "reasonBadExercises-1", "exerciseType" : "belief", "value" : "times were simpler without customizable orders", "template" : "belief", "_id" : "rqDEexosDxN87JeXw" }
+{ "exerciseId" : "solutionExercises-2", "exerciseType" : "belief", "value" : "rising ocean temp", "template" : "belief", "_id" : "ryfMZMtkDXCTWcbbT" }
+{ "exerciseId" : "solutionExercises-1", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "sCRMkXKcF69cY78Bk" }
+{ "exerciseId" : "reactionExercises-5", "exerciseType" : "belief", "value" : "good to be healthy", "template" : "understanding", "_id" : "sEAyHq8DdcFZbqs93" }
+{ "exerciseId" : "solutionExercises-1", "exerciseType" : "belief", "value" : "Has a solution for this problem", "template" : "belief", "_id" : "sG96YH4KTbEEK533o" }
+{ "exerciseId" : "angleExercises-2", "exerciseType" : "angle", "value" : "", "template" : "violation", "_id" : "sJij9v3Aki8vLkZNX" }
+{ "exerciseId" : "aspectExercises-1", "exerciseType" : "aspectType", "value" : "Thing", "template" : "understanding", "_id" : "sKfP5wJy4eMwP4fKg" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "connections2", "value" : "", "template" : "write", "_id" : "sZqjdjpbc6ij34m8M" }
+{ "exerciseId" : "ratingExercises-7", "exerciseType" : "response2", "value" : "yes", "template" : "rate", "_id" : "scFAAJ8me5KvkWqC7" }
+{ "exerciseId" : null, "exerciseType" : "jokeSentiment", "value" : "good", "template" : "sentiment", "_id" : "sdKaonCTzXpiMNLhT" }
+{ "exerciseId" : "altPersonExercises-1", "exerciseType" : "association", "value" : "middle child", "template" : "associations", "_id" : "suABbSDjLKLWWALpJ" }
+{ "exerciseId" : "ratingExercises-4", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "sxW4WPGQvta2dQG5v" }
+{ "exerciseId" : "ratingExercises-6", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "t3vQSN7MpbPSZ44cZ" }
+{ "exerciseId" : "reactionExercises-4", "exerciseType" : "reaction", "value" : "problem", "template" : "understanding", "_id" : "t5RBvtpkMciCG7PQz" }
+{ "exerciseId" : "reasonBadExercises-1", "exerciseType" : "belief", "value" : "people are lazy", "template" : "belief", "_id" : "tDAZiDMwB7MkSxN32" }
+{ "exerciseId" : "altPersonExercises-2", "exerciseType" : "association", "value" : "dropout", "template" : "associations", "_id" : "tHmXZwGm7K2yi3uQT" }
+{ "exerciseId" : "solutionExercises-3", "exerciseType" : "belief", "value" : "buying enough products from SkyMall can help keep them in business", "template" : "belief", "_id" : "tJ2W3xroTGu5zyxAs" }
+{ "exerciseId" : "sarcasmExercises-2", "exerciseType" : "belief", "value" : "Privileged people deserve to be happier than everyone else", "template" : "violation", "_id" : "tLEx987xurSCexe4R" }
+{ "exerciseId" : "ratingExercises-6", "exerciseType" : "response2", "value" : "no", "template" : "rate", "_id" : "tPTaGZ3SWqQo4tGrA" }
+{ "exerciseId" : "reactionExercises-2", "exerciseType" : "belief", "value" : "Tests are stressful and hard", "template" : "understanding", "_id" : "tR8dQh9waH7N9hPLY" }
+{ "exerciseId" : "aspectExercises-3", "exerciseType" : "aspect", "value" : "\"Football 101\" Clinic", "template" : "understanding", "_id" : "tY4wTSnRCptWxbnfF" }
+{ "exerciseId" : "survey-4", "exerciseType" : "notuseful", "value" : "Some of the expected beliefs/reactions things were really intuitive", "template" : "survey", "_id" : "taY4C2vxG2xNFXouG" }
+{ "exerciseId" : null, "exerciseType" : "jokeSentiment", "value" : "good", "template" : "sentiment", "_id" : "thTsNDGHDuTGJYPFQ" }
+{ "exerciseId" : "ratingExercises-4", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "thiXWhnNAe57QX4aB" }
+{ "exerciseId" : "survey-2", "exerciseType" : "useTechniques", "value" : "I tried to use all of the techniques taught to some degree, but by far the most useful technique was \"Associations\" and \"Violations.\"", "template" : "survey", "_id" : "ts4HcW8DEiZMWdGzY" }
+{ "exerciseId" : "reactionExercises-2", "exerciseType" : "belief", "value" : "", "template" : "understanding", "_id" : "u5rH7CxvkQAgziX6f" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "violation", "value" : "angle, sarcasm", "template" : "write", "_id" : "u8BZbKQCGszfC862k" }
+{ "exerciseId" : "ratingExercises-3", "exerciseType" : "response1", "value" : "yes", "template" : "rate", "_id" : "uAcDwggd7dFbALHEW" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "belief", "value" : "My wife is unattractive", "template" : "write", "_id" : "uECycve7PEJiekeBm" }
+{ "exerciseId" : "insultExercises-1", "exerciseType" : "association", "value" : "Soccer is 2 hours of watching people run around without scoring", "template" : "associations", "_id" : "uFhvFPBnwgp5EynMq" }
+{ "exerciseId" : "angleExercises-1", "exerciseType" : "belieftype", "value" : "sharks are happy", "template" : "violation", "_id" : "uRP8KgcBoSSEaLaYq" }
+{ "exerciseId" : "prewritingExercises-2", "exerciseType" : "jokes", "value" : "All I can say is, It's about time monkeys started earning their keep.\nSomething about the monkey choosing to use the funds to buy his freedom, or a small piece of land in the jungle.", "template" : "prewrite", "_id" : "ua959zZ6o5JWCfxMK" }
+{ "exerciseId" : "aspectExercises-1", "exerciseType" : "aspect", "value" : "UConn Huskies", "template" : "understanding", "_id" : "ug6ZYDGWH99xHt8SQ" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "belief", "value" : "Food Lion will want to compete for higher numbers.", "template" : "write", "_id" : "uhvpfyCwyBnAdY5Bu" }
+{ "exerciseId" : "personalityFlawExercises-2", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "uk5F9oqHTb4pZF3u5" }
+{ "exerciseId" : "ratingExercises-3", "exerciseType" : "response3", "value" : "yes", "template" : "rate", "_id" : "upayjJGASLKhb4rwz" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "violation", "value" : "aspect", "template" : "write", "_id" : "vGHjTmSfo5NJjzNFP" }
+{ "exerciseId" : null, "exerciseType" : "jokeSnippet", "value" : "as long as you", "template" : "sentiment", "_id" : "vKjctwCjTkG9aDvGR" }
+{ "exerciseId" : "aspectExercises-2", "exerciseType" : "aspectType", "value" : "person", "template" : "understanding", "_id" : "vLNrXbxNXge5SWs2X" }
+{ "exerciseId" : "evaluationExercises-3", "exerciseType" : "connections", "value" : "these (First Class Camouflage Ice Cream)\ngraves of veterans", "template" : "evaluation", "_id" : "vQ62P3Ag5aYgELAcg" }
+{ "exerciseId" : null, "exerciseType" : "jokeSnippet", "value" : "fun.../more power to them...", "template" : "sentiment", "_id" : "vaB3ur66x94n25xS7" }
+{ "exerciseId" : "prewritingExercises-3", "exerciseType" : "jokes", "value" : "With a name like 365, maybe they should have cut the brand specialists first.\n", "template" : "prewrite", "_id" : "vaxbEXqrcXW6G8gMF" }
+{ "exerciseId" : "aspectExercises-7", "exerciseType" : "aspect", "value" : "", "template" : "understanding", "_id" : "vcfNPN4D4L6YoockQ" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "connections", "value" : "whole foods' prices", "template" : "write", "_id" : "vgRy7Z842kQniYweQ" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "joke", "value" : "Oh shit, Curious George needs a lawyer.", "template" : "write", "_id" : "vh4dNcDD8jeFafds5" }
+{ "exerciseId" : "altPersonExercises-2", "exerciseType" : "association", "value" : "online university graduate", "template" : "associations", "_id" : "viiAagojfbvevbEEn" }
+{ "exerciseId" : "altReactionExercises-2", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "vycarXQQFkJTAW5Ge" }
+{ "exerciseId" : "survey-6", "exerciseType" : "gender", "value" : "male", "template" : "survey", "_id" : "w3A5hJ9xaZtTLeSSw" }
+{ "exerciseId" : "survey-6", "exerciseType" : "gender", "value" : "male", "template" : "survey", "_id" : "w4RoTGkuLt3GSXgLi" }
+{ "exerciseId" : "sarcasmExercises-1", "exerciseType" : "belieftype", "value" : "", "template" : "violation", "_id" : "w4hyaMmKAEFg7JKPs" }
+{ "exerciseId" : "ratingExercises-1", "exerciseType" : "response3", "value" : "no", "template" : "rate", "_id" : "w6QjbynEwYSFaZTYS" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "joke2", "value" : "", "template" : "write", "_id" : "w6hBz4KntnKPRxYyH" }
+{ "exerciseId" : null, "exerciseType" : "jokeSentiment", "value" : "", "template" : "sentiment", "_id" : "w8a4nkjBtpW9vgsdY" }
+{ "exerciseId" : "ratingExercises-7", "exerciseType" : "response3", "value" : "yes", "template" : "rate", "_id" : "wKbcP5nbDgTtRBLzS" }
+{ "exerciseId" : "reactionExercises-9", "exerciseType" : "belief", "value" : "teachers help our children get an education", "template" : "understanding", "_id" : "wRoGoNyPrzhLNhNf3" }
+{ "exerciseId" : "evaluationExercises-2", "exerciseType" : "belief", "value" : "good effect on someone, Sharks will benefit from this", "template" : "evaluation", "_id" : "wW4k59Wxxs7wCAeLS" }
+{ "exerciseId" : "effectSpeakerExercises-2", "exerciseType" : "belief", "value" : "", "template" : "belief", "_id" : "wXarwxHSoJsNiaYdJ" }
+{ "exerciseId" : null, "exerciseType" : "jokeSentiment", "value" : "bad", "template" : "sentiment", "_id" : "weogFE467EAGMixos" }
+{ "exerciseId" : "altThingExercises-2", "exerciseType" : "association", "value" : "Lactose", "template" : "associations", "_id" : "wqnuHbTXjjdWpgv3A" }
+{ "exerciseId" : "sarcasmExercises-1", "exerciseType" : "belief", "value" : "", "template" : "violation", "_id" : "xGKKLKBLxDMFjsArK" }
+{ "exerciseId" : "aspectExercises-7", "exerciseType" : "aspect", "value" : "", "template" : "understanding", "_id" : "xQywM3wnRseAJZMAY" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "belief", "value" : "", "template" : "write", "_id" : "xWcbdEft7sZ5WrHP9" }
+{ "exerciseId" : "ratingExercises-7", "exerciseType" : "response2", "value" : "yes", "template" : "rate", "_id" : "xkdK8ge9u3nbD8Rf7" }
+{ "exerciseId" : "angleExercises-3", "exerciseType" : "belief", "value" : "", "template" : "violation", "_id" : "xsem9WtMti6q9XNcb" }
+{ "exerciseId" : "altPersonExercises-1", "exerciseType" : "association", "value" : "middle children", "template" : "associations", "_id" : "y7YAswSTaToFNzGYM" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "connections2", "value" : "Self-service -> social interaction", "template" : "write", "_id" : "yBpS7La7uNZoDPLcb" }
+{ "exerciseId" : "angleExercises-2", "exerciseType" : "belieftype", "value" : "lip balm is bad (not fun)", "template" : "violation", "_id" : "yNG2AS9HJZ8eJSxvR" }
+{ "exerciseId" : "ratingExercises-8", "exerciseType" : "response1", "value" : "no", "template" : "rate", "_id" : "yQryRNftZiMt2HCTz" }
+{ "exerciseId" : "survey-3", "exerciseType" : "useful", "value" : "Before, I was trying to think, I know there is something funny here...especially about the primate. But I was at a loss. Maybe if I had a few hours to mull it over I would have arrived at something. But the tutorial made it so that I could fire off a bunch of possibilities and hone in on what I felt was funny about it. I felt that I could express my own sense of humor better, even though I was using general techniques.", "template" : "survey", "_id" : "yTyayehSmMxDorjhS" }
+{ "exerciseId" : "survey-5", "exerciseType" : "recomment", "value" : "Definitely.", "template" : "survey", "_id" : "yWeM63Tp9qkZjJq7k" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "belief", "value" : "", "template" : "write", "_id" : "yXvsxP6jK3TKR5fHB" }
+{ "exerciseId" : null, "exerciseType" : "jokeSnippet", "value" : "Whatever happened to...", "template" : "sentiment", "_id" : "yYs8DYzxu2uZCukoP" }
+{ "exerciseId" : "consent-1", "exerciseType" : "email", "value" : "keslert@gmail.com", "template" : "consent", "_id" : "yZSF3kvFvvvTMBffo" }
+{ "exerciseId" : "reactionExercises-3", "exerciseType" : "belief", "value" : "", "template" : "understanding", "_id" : "yc2uoNwnRryrnuush" }
+{ "exerciseId" : null, "exerciseType" : "jokeSentiment", "value" : "", "template" : "sentiment", "_id" : "yf629cu7xAfaGQ98J" }
+{ "exerciseId" : "writingExercises-2", "exerciseType" : "joke", "value" : "It's good to hear that they've found new ways of fundraising. Why don't we give some webcams to a few koalas?", "template" : "write", "_id" : "yoriS49KuFocrJ2Gc" }
+{ "exerciseId" : "altPersonExercises-2", "exerciseType" : "association", "value" : "", "template" : "associations", "_id" : "ywR4C9YK8aWpZcnk8" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "ideas", "value" : "", "template" : "write", "_id" : "z3XZhGTYTKpESNPb2" }
+{ "exerciseId" : "writingExercises-3", "exerciseType" : "violation2", "value" : "", "template" : "write", "_id" : "z6DiYjoPE2SavLavH" }
+{ "exerciseId" : "writingExercises-1", "exerciseType" : "violation2", "value" : "", "template" : "write", "_id" : "z9MWoecCRsxAw6vgC" }
+{ "exerciseId" : "aspectExercises-4", "exerciseType" : "aspect", "value" : "Clinic", "template" : "understanding", "_id" : "zBFbDcB6d3rBFANM5" }
+{ "exerciseId" : "aspectExercises-2", "exerciseType" : "aspect", "value" : "Holding", "template" : "understanding", "_id" : "zFeNXyvmSMCeJ5Wnz" }
+{ "exerciseId" : "altPersonExercises-1", "exerciseType" : "association", "value" : "mature, doted upon", "template" : "associations", "_id" : "zR2cvsXY9akJCGfuL" }
+{ "exerciseId" : null, "exerciseType" : "jokeSentiment", "value" : "bad", "template" : "sentiment", "_id" : "zcc8R2XZ2JT58SnLZ" }
+{ "exerciseId" : "aspectExercises-6", "exerciseType" : "aspectType", "value" : "Belief", "template" : "understanding", "_id" : "zdnPc9Z86Y8cPHsXy" }
+{ "exerciseId" : "reactionExercises-6", "exerciseType" : "belief", "value" : "Mick Jagger is pretty easy to blame, to be fair", "template" : "understanding", "_id" : "zfzrDY64Pdz47LFC8" }
+{ "exerciseId" : "reactionExercises-8", "exerciseType" : "reaction", "value" : "weird", "template" : "understanding", "_id" : "zhReZS82dyzNTjjx9" }
+{ "exerciseId" : "angleExercises-3", "exerciseType" : "belieftype", "value" : "", "template" : "violation", "_id" : "zhfkaFeNJ26hzyDZ2" }
+{ "exerciseId" : "reactionExercises-1", "exerciseType" : "belief", "value" : "Too much caffeine is bad for kids", "template" : "understanding", "_id" : "zq8YiiSowwYBjFp7g" }
+{ "exerciseId" : "reactionExercises-10", "exerciseType" : "belief", "value" : "quesaritos is a bizarre made up name for something gross", "template" : "understanding", "_id" : "zufi6aQL6Hn3Krkej" }

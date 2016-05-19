@@ -85,6 +85,27 @@ Router.map(function(){
     }     
   }) 
 
+  this.route('screenshots', { 
+    path: '/screenshots',
+    layoutTemplate: 'standardLayout',
+    yieldTemplates: {
+      'header': {to: 'header'}
+    },
+    waitOn: function(){  
+            
+      return []
+    },
+    data: function(){
+      var type = "screenshots"  
+      return screenshots
+    },
+    action: function(){
+      if(this.ready()){
+        this.render()
+      }
+    }     
+  })
+
   this.route('introduction', { 
     path: '/:type',
     layoutTemplate: 'standardLayout',
@@ -106,32 +127,9 @@ Router.map(function(){
       }
     }     
   })  
-  /*
-  this.route('template2', { 
-    path: '/template2/:exampleSet/:type/',
-    layoutTemplate: 'standardLayout',
-    yieldTemplates: {
-      'header': {to: 'header'}
-    },
-    waitOn: function(){  
-            
-      return []
-    },
-    data: function(){
-      var type = this.params.type  
-      var exampleSet = this.params.exampleSet
-       
-      var d = dataX[type]
-      var e = dataX[exampleSet]
-      return {d: d, e: e}
-    },
-    action: function(){
-      if(this.ready()){
-        this.render()
-      }
-    }     
-  })
-  */
+  
+
+  
 
 
 })
